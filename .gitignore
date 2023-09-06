@@ -6,3 +6,5 @@ yarn-error.log
 yarn-warn.log
 yarn.lock
 .yarn/*
+.nuxt
+.output

@@ -1,7 +1,6 @@
 <template>
     <footer id="footer-3" class="pt-100 footer">
         <div class="container">
-            <!-- FOOTER CONTENT -->
             <div class="row">
                 <!-- FOOTER LOGO -->
                 <div class="col-xl-3">
@@ -106,10 +105,9 @@
                 </div>
                 <!-- END FOOTER LINKS -->
             </div>
-            <!-- END FOOTER CONTENT -->
+
             <hr />
-            <!-- FOOTER DIVIDER LINE -->
-            <!-- BOTTOM FOOTER -->
+
             <div class="bottom-footer">
                 <div class="row row-cols-1 row-cols-md-2 d-flex align-items-center">
                     <!-- FOOTER COPYRIGHT -->
@@ -126,9 +124,9 @@
                             </p>
                         </div>
                     </div>
+                </div>
                 <!-- End row -->
             </div>
-            <!-- END BOTTOM FOOTER -->
         </div>
     </footer>
     <FooterGoToTop />
