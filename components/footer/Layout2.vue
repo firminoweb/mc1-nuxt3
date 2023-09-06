@@ -5,7 +5,7 @@
                 <!-- FOOTER LOGO -->
                 <div class="col-xl-3">
                     <div class="footer-info">
-                        <img class="footer-logo" src="" alt="footer-logo" />
+                        <img class="footer-logo" loading="lazy" src="/assets/images/logo.png" alt="footer-logo" />
                     </div>
                 </div>
                 <!-- FOOTER LINKS -->

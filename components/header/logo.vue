@@ -1,6 +1,6 @@
 <template>
     <div class="wsmobileheader clearfix">
-        <span class="smllogo"><img src="" alt="mobile-logo" /></span>
+        <span class="smllogo"><img loading="lazy" src="/assets/images/logo.png" alt="mobile-logo" /></span>
         <a id="wsnavtoggle" class="wsanimated-arrow" @click="toggleMobileMenu">
             <span></span>
         </a>
