@@ -8,7 +8,9 @@
                             <h2 class="s-32 w-700">IRE Key Differentials</h2>
                         </div>
 
-                        <div class="row d-flex align-items-center justify-content-center">
+                        <SlidersBrandLogos />
+
+                        <!-- <div class="row d-flex align-items-center justify-content-center">
                             <div class="col-md-4 wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
                                 <img src="/assets/images/unlimited-ico.png"  class="mx-auto d-block mb-3" alt="Unlimited">
 
@@ -44,10 +46,16 @@
                                 complete engagement, fostering a stronger connection between
                                 the store and the industry.</p>
                             </div>
-                        </div>
+                        </div> -->
 
                         <div class="bottom-nav">
-                            <h2 class="s-32 w-700">&lt; ></h2>
+                            <a href="javascript:void(0)" title="Esquerda" class="d-inline-block mr-30">
+                                <img src="/assets/images/seta-esquerda.png"  class="mx-auto d-block" alt="Seta esquerda">
+                            </a>
+
+                            <a href="javascript:void(0)" title="Direita" class="d-inline-block">
+                                <img src="/assets/images/seta-direita.png"  class="mx-auto d-block" alt="Seta direita">
+                            </a>
                         </div>
                     </div>
                 </div>

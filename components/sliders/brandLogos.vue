@@ -1,23 +1,17 @@
 <template>
-<div class="row d-flex align-items-center justify-content-center">
+    <div class="brands-carousel-5">
         <Swiper
-            :modules="[SwiperAutoplay, SwiperEffectCreative, SwiperNavigation]"
+            :modules="[SwiperNavigation, SwiperAutoplay, SwiperEffectCreative]"
             :slides-per-view="3"
             :loop="true"
-            navigation
             :autoplay="{
-                delay: 8000,
-                disableOnInteraction: true
+                delay: 6000,
+                disableOnInteraction: false
             }"
-            :breakpoints="{
-                400:{ slidesPerView:2 },
-                600:{ slidesPerView:3 },
-                900:{ slidesPerView:4, },
-                1024:{ slidesPerView:5, },
-            }"
+            navigation
         >
             <SwiperSlide>
-                <div class="col-md-4 wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
+                <div class="brand-logo wow fadeInRight" data-wow-duration="1s">
                     <img src="/assets/images/unlimited-ico.png"  class="mx-auto d-block mb-3" alt="Unlimited">
 
                     <h3 class="s-20 w-700 text-center mb-4">
@@ -31,7 +25,7 @@
             </SwiperSlide>
 
             <SwiperSlide>
-                <div class="col-md-4 wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="1s">
+                <div class="brand-logo wow fadeInRight" data-wow-duration="1s">
                                 <img src="/assets/images/offline-ico.png"  class="mx-auto d-block mb-4" alt="Offline">
 
                                 <h3 class="s-20 w-700 text-center mb-3">
@@ -45,11 +39,53 @@
             </SwiperSlide>
 
             <SwiperSlide>
-                <div class="col-md-4 wow fadeInRight" data-wow-duration="2s" data-wow-delay="1s">
+                <div class="brand-logo wow fadeInRight" data-wow-duration="1s">
                                 <img src="/assets/images/machine-ico.png"  class="mx-auto d-block mb-4" alt="Machine">
 
                                 <h3 class="s-20 w-700 text-center mb-3">
                                     On-device <br> Machine Learn:
+                                </h3>
+
+                                <p>Participation in a loyalty program with incentives ensures
+                                complete engagement, fostering a stronger connection between
+                                the store and the industry.</p>
+                            </div>
+            </SwiperSlide>
+
+            <SwiperSlide>
+                <div class="brand-logo wow fadeInRight" data-wow-duration="1s">
+                    <img src="/assets/images/unlimited-ico.png"  class="mx-auto d-block mb-3" alt="Unlimited">
+
+                    <h3 class="s-20 w-700 text-center mb-4">
+                        Unlimited Test 2:
+                    </h3>
+
+                    <p>Participation in a loyalty program with incentives ensures
+                    complete engagement, fostering a stronger connection between
+                    the store and the industry.</p>
+                </div>
+            </SwiperSlide>
+
+            <SwiperSlide>
+                <div class="brand-logo wow fadeInRight" data-wow-duration="1s">
+                                <img src="/assets/images/offline-ico.png"  class="mx-auto d-block mb-4" alt="Offline">
+
+                                <h3 class="s-20 w-700 text-center mb-3">
+                                    100% Online test:
+                                </h3>
+
+                                <p>Participation in a loyalty program with incentives ensures
+                                complete engagement, fostering a stronger connection between
+                                the store and the industry.</p>
+                            </div>
+            </SwiperSlide>
+
+            <SwiperSlide>
+                <div class="brand-logo wow fadeInRight" data-wow-duration="1s">
+                                <img src="/assets/images/machine-ico.png"  class="mx-auto d-block mb-4" alt="Machine">
+
+                                <h3 class="s-20 w-700 text-center mb-3">
+                                    Off-device <br> Machine Learn 2:
                                 </h3>
 
                                 <p>Participation in a loyalty program with incentives ensures

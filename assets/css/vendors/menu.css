@@ -511,7 +511,7 @@
 
 .wsmenu > .wsmenu-list > li > .wsmegamenu {
   width: 100%;
-  left: 0px;
+  right: 6%;
   position: absolute;
   top: 70px;
   color: #000;
