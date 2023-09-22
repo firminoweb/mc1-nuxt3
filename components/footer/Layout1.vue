@@ -10,19 +10,19 @@
 
                             <ul class="foo-links clearfix">
                                 <li>
-                                    <p class="s-13"><NuxtLink to="https://mc1global.com/why-mc1/" class="link-light">About</NuxtLink></p>
+                                    <p class="s-13"><NuxtLink to="https://mc1global.com/why-mc1/" target="_blank" class="link-light">About</NuxtLink></p>
                                 </li>
                                 <li>
-                                    <p class="s-13"><NuxtLink to="https://mc1global.com/br/values-mc1-en/" class="link-light">Our values</NuxtLink></p>
+                                    <p class="s-13"><NuxtLink to="https://mc1global.com/br/values-mc1-en/" target="_blank" class="link-light">Our values</NuxtLink></p>
                                 </li>
                                 <li>
-                                    <p class="s-13"><NuxtLink to="https://mc1global.com/#our-clients" class="link-light">Our customers</NuxtLink></p>
+                                    <p class="s-13"><NuxtLink to="https://mc1global.com/#our-clients" target="_blank" class="link-light">Our customers</NuxtLink></p>
                                 </li>
                                 <li>
-                                    <p class="s-13"><NuxtLink to="https://mc1global.com/contact/#locations" class="link-light">Office Locations</NuxtLink></p>
+                                    <p class="s-13"><NuxtLink to="https://mc1global.com/contact/#locations" target="_blank" class="link-light">Office Locations</NuxtLink></p>
                                 </li>
                                 <li>
-                                    <p class="s-13"><NuxtLink to="https://mc1global.com/privacy-policy/" class="link-light">GDPR</NuxtLink></p>
+                                    <p class="s-13"><NuxtLink to="https://mc1global.com/privacy-policy/" target="_blank" class="link-light">GDPR</NuxtLink></p>
                                 </li>
                             </ul>
                         </div>
@@ -34,22 +34,22 @@
 
                             <ul class="foo-links clearfix">
                                 <li>
-                                    <p class="s-13"><NuxtLink to="https://mc1global.com/solutions/platform-wtm" class="link-light">Platform WTM</NuxtLink></p>
+                                    <p class="s-13"><NuxtLink to="https://mc1global.com/solutions/platform-wtm" target="_blank" class="link-light">Platform WTM</NuxtLink></p>
                                 </li>
                                 <li>
-                                    <p class="s-13"><NuxtLink to="https://mc1global.com/instant-image-recognition/en/" class="link-light">WTM Offline Image Recognition</NuxtLink></p>
+                                    <p class="s-13"><NuxtLink to="https://mc1global.com/instant-image-recognition/en/" target="_blank" class="link-light">WTM Offline Image Recognition</NuxtLink></p>
                                 </li>
                                 <li>
-                                    <p class="s-13"><NuxtLink to="https://mc1global.com/solutions/wtm-pre-sales/" class="link-light">WTM Pre Sales</NuxtLink></p>
+                                    <p class="s-13"><NuxtLink to="https://mc1global.com/solutions/wtm-pre-sales/" target="_blank" class="link-light">WTM Pre Sales</NuxtLink></p>
                                 </li>
                                 <li>
-                                    <p class="s-13"><NuxtLink to="https://mc1global.com/solutions/wtm-van-sales/" class="link-light">WTM Van Sales</NuxtLink></p>
+                                    <p class="s-13"><NuxtLink to="https://mc1global.com/solutions/wtm-van-sales/" target="_blank" class="link-light">WTM Van Sales</NuxtLink></p>
                                 </li>
                                 <li>
-                                    <p class="s-13"><NuxtLink to="https://mc1global.com/solutions/wtm-delivery/" class="link-light">WTM Delivery</NuxtLink></p>
+                                    <p class="s-13"><NuxtLink to="https://mc1global.com/solutions/wtm-delivery/" target="_blank" class="link-light">WTM Delivery</NuxtLink></p>
                                 </li>
                                 <li>
-                                    <p class="s-13"><NuxtLink to="https://mc1global.com/solutions/wtm-trade-marketing/" class="link-light">WTM Trade Marketing</NuxtLink></p>
+                                    <p class="s-13"><NuxtLink to="https://mc1global.com/solutions/wtm-trade-marketing/" target="_blank" class="link-light">WTM Trade Marketing</NuxtLink></p>
                                 </li>
                             </ul>
                         </div>
@@ -61,16 +61,16 @@
 
                             <ul class="foo-links clearfix">
                                 <li>
-                                    <p class="s-13"><NuxtLink to="https://mc1global.com/category/apps/" class="link-light">Apps</NuxtLink></p>
+                                    <p class="s-13"><NuxtLink to="https://mc1global.com/category/apps/" target="_blank" class="link-light">Apps</NuxtLink></p>
                                 </li>
                                 <li>
-                                    <p class="s-13"><NuxtLink to="https://mc1global.com/category/mobility/" class="link-light">Mobility</NuxtLink></p>
+                                    <p class="s-13"><NuxtLink to="https://mc1global.com/category/mobility/" target="_blank" class="link-light">Mobility</NuxtLink></p>
                                 </li>
                                 <li>
-                                    <p class="s-13"><NuxtLink to="https://mc1global.com/category/sales/" class="link-light">Sales</NuxtLink></p>
+                                    <p class="s-13"><NuxtLink to="https://mc1global.com/category/sales/" target="_blank" class="link-light">Sales</NuxtLink></p>
                                 </li>
                                 <li>
-                                    <p class="s-13"><NuxtLink to="https://mc1global.com/category/technology/" class="link-light">Technology</NuxtLink></p>
+                                    <p class="s-13"><NuxtLink to="https://mc1global.com/category/technology/" target="_blank" class="link-light">Technology</NuxtLink></p>
                                 </li>
                             </ul>
                         </div>
@@ -82,10 +82,10 @@
 
                             <ul class="foo-links clearfix">
                                 <li>
-                                    <p class="s-13"><NuxtLink to="https://mc1global.com/cases/" class="link-light">Cases</NuxtLink></p>
+                                    <p class="s-13"><NuxtLink to="https://mc1global.com/cases/" target="_blank" class="link-light">Cases</NuxtLink></p>
                                 </li>
                                 <li>
-                                    <p class="s-13"><NuxtLink to="https://jobs.quickin.io/mc1global/pages/carreiras-ing" class="link-light">Careers</NuxtLink></p>
+                                    <p class="s-13"><NuxtLink to="https://jobs.quickin.io/mc1global/pages/carreiras-ing" target="_blank" class="link-light">Careers</NuxtLink></p>
                                 </li>
                             </ul>
                         </div>
@@ -97,7 +97,7 @@
 
                             <ul class="foo-links clearfix mb-4">
                                 <li>
-                                    <p class="s-13"><NuxtLink to="https://mc1global.com/contact/" class="link-light">Get in touch</NuxtLink></p>
+                                    <p class="s-13"><NuxtLink to="https://mc1global.com/contact/" target="_blank" class="link-light">Get in touch</NuxtLink></p>
                                 </li>
                             </ul>
 
@@ -114,40 +114,9 @@
                             </ul>
                         </div>
                     </div>
-                    <!-- END FOOTER NEWSLETTER FORM -->
+
                 </div>
 
-
-
-                <!-- <div class="bottom-footer">
-                    <div class="row row-cols-1 row-cols-md-2 d-flex align-items-center">
-                    
-                        <div class="col">
-                            <div class="footer-copyright">
-                                <p class="p-sm">&copy; 2023 MC1. <span>All Rights Reserved</span></p>
-                            </div>
-                        </div>
-                 
-                        <div class="col">
-                            <ul class="bottom-footer-socials ico-20 text-end">
-                                <li>
-                                    <a href="#"><span class="flaticon-facebook"></span></a>
-                                </li>
-                                <li>
-                                    <a href="#"><span class="flaticon-twitter"></span></a>
-                                </li>
-                                <li>
-                                    <a href="#"><span class="flaticon-instagram"></span></a>
-                                </li>
-                                <li>
-                                    <a href="#"><span class="flaticon-youtube"></span></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-               
-                </div> -->
-               
             </div>
         </div>
 

@@ -38,7 +38,7 @@
 
                 <div class="col-md-12">
                     <p class="s-18 text-end">
-                        <a href="#" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" title="Learn More">
+                        <a href="javascript:void(0)" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" title="Learn More">
                             Learn more
                         </a>
                     </p>
