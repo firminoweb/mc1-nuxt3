@@ -1,124 +1,59 @@
 <template>
-    <section id="features-13" class="shape--bg shape--white-500 pt-100 features-section division">
+    <section id="features-13" class="bg--black-50 pt-100 pb-100 features-section mobile-showcase">
         <div class="container">
-            <div class="row d-flex align-items-center">
-                <!-- FEATURES-13 WRAPPER -->
-                <div class="col-md-7 order-last order-md-2">
-                    <div class="fbox-13-wrapper wow fadeInRight">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <!-- FEATURE BOX #1 -->
-                                <div id="fb-12-1" class="fbox-12 bg--white-100 block-shadow r-12 mb-30">
-                                    <!-- Icon -->
-                                    <div class="fbox-ico ico-50">
-                                        <div class="shape-ico color--theme">
-                                            <!-- Vector Icon -->
-                                            <span class="flaticon-click"></span>
-                                            <!-- Shape -->
-                                            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z" transform="translate(100 100)" />
-                                            </svg>
-                                        </div>
-                                    </div>
-                                    <!-- End Icon -->
-                                    <!-- Text -->
-                                    <div class="fbox-txt">
-                                        <h5 class="s-19 w-700">Quick Access</h5>
-                                        <p>Porta semper lacus and cursus feugiat at primis ultrice a ligula auctor</p>
-                                    </div>
-                                </div>
-                                <!-- FEATURE BOX #2 -->
-                                <div id="fb-12-2" class="fbox-12 bg--white-100 block-shadow r-12">
-                                    <!-- Icon -->
-                                    <div class="fbox-ico ico-50">
-                                        <div class="shape-ico color--theme">
-                                            <!-- Vector Icon -->
-                                            <span class="flaticon-rotate"></span>
-                                            <!-- Shape -->
-                                            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z" transform="translate(100 100)" />
-                                            </svg>
-                                        </div>
-                                    </div>
-                                    <!-- End Icon -->
-                                    <!-- Text -->
-                                    <div class="fbox-txt">
-                                        <h5 class="s-19 w-700">Convert Media Files</h5>
-                                        <p>Porta semper lacus and cursus feugiat at primis ultrice a ligula auctor</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <!-- FEATURE BOX #3 -->
-                                <div id="fb-12-3" class="fbox-12 bg--white-100 block-shadow r-12 mb-30">
-                                    <!-- Icon -->
-                                    <div class="fbox-ico ico-50">
-                                        <div class="shape-ico color--theme">
-                                            <!-- Vector Icon -->
-                                            <span class="flaticon-search-engine-1"></span>
-                                            <!-- Shape -->
-                                            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z" transform="translate(100 100)" />
-                                            </svg>
-                                        </div>
-                                    </div>
-                                    <!-- End Icon -->
-                                    <!-- Text -->
-                                    <div class="fbox-txt">
-                                        <h5 class="s-19 w-700">Friendly Interface</h5>
-                                        <p>Porta semper lacus and cursus feugiat at primis ultrice a ligula auctor</p>
-                                    </div>
-                                </div>
-                                <!-- FEATURE BOX #4 -->
-                                <div id="fb-12-4" class="fbox-12 bg--white-100 block-shadow r-12">
-                                    <!-- Icon -->
-                                    <div class="fbox-ico ico-50">
-                                        <div class="shape-ico color--theme">
-                                            <!-- Vector Icon -->
-                                            <span class="flaticon-hosting"></span>
-                                            <!-- Shape -->
-                                            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z" transform="translate(100 100)" />
-                                            </svg>
-                                        </div>
-                                    </div>
-                                    <!-- End Icon -->
-                                    <!-- Text -->
-                                    <div class="fbox-txt">
-                                        <h5 class="s-19 w-700">Storage & Backup</h5>
-                                        <p>Porta semper lacus and cursus feugiat at primis ultrice a ligula auctor</p>
-                                    </div>
-                                </div>
-                            </div>
+            <div class="row text-center">
+                <h2 class="text-primary w-700 s-46 mb-5">
+                    Mobile App Showcase
+                </h2>
+            </div>
+
+            <div class="row d-flex">
+
+                <div class="col-md-6 order-last order-md-2">
+                    <div class="fbox-12 bg--white-100 block-shadow-heavy r-36 border-opb big-float-card wow fadeInLeft">
+                        <img class="img-fluid image" src="/assets/images/persona_1.png" alt="persona 1">
+
+                        <h2 class="text-primary w-700 s-32 mb-2">
+                            User Persona 1:
+                        </h2>
+
+                        <h2 class="w-700 s-24 mb-4 pb-4 bb-primary d-inline-flex">
+                            Store Execution <br> Auditor or Promoter
+                        </h2>
+
+                        <p class="mb-4">This persona plays a pivotal role in capturing photographs of designated spaces for market analysis. The objective is to obtain real-time key performance indicators and insights about the store's execution...</p>
+
+                        <div class="text-end">
+                            <a href="#" title="Learn more" class="link-primary link-underline-primary">Learn more</a>
                         </div>
                     </div>
-                    <!-- End row -->
                 </div>
-                <!-- END FEATURES-13 WRAPPER -->
-                <!-- TEXT BLOCK -->
-                <div class="col-md-5 order-first order-md-2">
-                    <div class="txt-block left-column wow fadeInLeft">
-                        <!-- Section ID -->
-                        <span class="section-id">Powerful Features</span>
-                        <!-- Title -->
-                        <h2 class="s-46 w-700">Show your love with elegance</h2>
-                        <!-- Text -->
-                        <p>Sodales tempor sapien quaerat ipsum and congue undo laoreet turpis neque auctor turpis vitae dolor luctus placerat magna ligula and cursus vitae</p>
-                        <!-- List -->
-                        <ul class="simple-list">
-                            <li class="list-item">
-                                <p>Tempor sapien quaerat undo ipsum laoreet diam purus sapien a dolor ociis ultrice ipsum aliquam congue a dolor cursus congue varius magnis</p>
-                            </li>
-                            <li class="list-item">
-                                <p class="mb-0">Cursus purus suscipit vitae cubilia magnis diam volute egestas sapien ultrice auctor</p>
-                            </li>
-                        </ul>
-                    </div>
+
+                <div class="col-md-6 order-first order-md-2">
+
+                        <div class="fbox-12 bg--white-100 block-shadow-heavy r-36 border-opb big-float-card wow fadeInRight">
+                            <img class="img-fluid image" src="/assets/images/persona_2.png" alt="persona 1">
+
+                            <h2 class="text-primary w-700 s-32 mb-2">
+                                User Persona 2:
+                            </h2>
+
+                            <h2 class="w-700 s-24 mb-4 pb-4 bb-primary d-inline-flex">
+                                Mom & Pop's Operator
+                            </h2>
+
+                            <p class="mb-4">The Mom & Pop's Operator seeks an app experience that is straightforward and hassle-free. They desire an app that requires minimal interactions - just a few clicks. Rather than being overwhelmed with a plethora of information, this user primarily...</p>
+
+                            <div class="text-end">
+                                <a href="#" title="Learn more" class="link-primary link-underline-primary">Learn more</a>
+                            </div>
+                        </div>
+
                 </div>
-                <!-- END TEXT BLOCK -->
+
             </div>
-            <!-- End row -->
+
         </div>
-        <!-- End container -->
+
     </section>
 </template>

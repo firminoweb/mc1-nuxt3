@@ -1,80 +1,31 @@
 <template>
-    <div id="statistic-5" class="pt-100 statistic-section division">
+    <div id="statistic-5" class="bg--scroll statis-section border-bottom-dark">
         <div class="container">
-            <!-- STATISTIC-1 WRAPPER -->
-            <div class="statistic-5-wrapper">
-                <div class="row row-cols-1 row-cols-md-3">
-                    <!-- STATISTIC BLOCK #1 -->
-                    <div class="col">
-                        <div id="sb-5-1" class="wow fadeInUp">
-                            <div class="statistic-block">
-                                <!-- Digit -->
-                                <div class="statistic-digit">
-                                    <h2 class="s-44 w-700">
-                                        <span class="count-element d-flex">
-                                            <ElementsCounterUp :start="0" :end="26" :duration="2000" />
-                                            k
-                                        </span>
-                                    </h2>
-                                </div>
-                                <!-- Text -->
-                                <div class="statistic-txt">
-                                    <h5 class="s-19 w-700">Happy Customers</h5>
-                                    <p>Porta justo integer and velna vitae auctor and magna quaerat ligula</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- END STATISTIC BLOCK #1 -->
-                    <!-- STATISTIC BLOCK #2 -->
-                    <div class="col">
-                        <div id="sb-5-2" class="wow fadeInUp">
-                            <div class="statistic-block">
-                                <!-- Digit -->
-                                <div class="statistic-digit">
-                                    <h2 class="s-44 w-700">
-                                        <span class="count-element d-flex">
-                                            <ElementsCounterUp :start="0" :end="13" :duration="2000" />
-                                            k
-                                        </span>
-                                    </h2>
-                                </div>
-                                <!-- Text -->
-                                <div class="statistic-txt">
-                                    <h5 class="s-19 w-700">Positive Ratings</h5>
-                                    <p>Porta justo integer and velna vitae auctor and magna quaerat ligula</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- END STATISTIC BLOCK #2 -->
-                    <!-- STATISTIC BLOCK #3 -->
-                    <div class="col">
-                        <div id="sb-5-3" class="wow fadeInUp">
-                            <div class="statistic-block">
-                                <!-- Digit -->
-                                <div class="statistic-digit">
-                                    <h2 class="s-44 w-700">
-                                        <span class="count-element d-flex">
-                                            <ElementsCounterUp :start="0" :end="4" :duration="2000" />
-                                            .5/5
-                                        </span>
-                                    </h2>
-                                </div>
-                                <!-- Text -->
-                                <div class="statistic-txt">
-                                    <h5 class="s-19 w-700">Rating</h5>
-                                    <p>Porta justo integer and velna vitae auctor and magna quaerat ligula</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- END STATISTIC BLOCK #3 -->
+            <div class="row d-flex align-items-center">
+                <div class="col-md-6 wow fadeInLeft">
+                    <h1 class="w-700 s-36 mb-4">
+                        The Full <br> Process Behind <br> the Technology
+                    </h1>
                 </div>
-                <!-- End row -->
+
+                <div class="col-md-6 wow fadeInRight">
+                    <div id="fb-12-1" class="fbox-12 bg--white-100 block-shadow r-36 mb-30 border-opb">
+                        <div class="fbox-txt">
+                            <h1 class="w-700 s-24 mb-4 text-primary">
+                                Data Analysis
+                            </h1>
+                            <p class="text-gray s-16">
+                                Instead of transmitting every captured image to the
+                                cloud, smartphones send only the processing results.
+                                This not only delivers enhanced performance to the
+                                process but also significantly reduces the lead-time for
+                                near-real-time decision-making.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <!-- END STATISTIC-5 WRAPPER -->
+
         </div>
-        <!-- End container -->
     </div>
 </template>

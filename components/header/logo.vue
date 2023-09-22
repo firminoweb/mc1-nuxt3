@@ -11,7 +11,6 @@
 export default {
     methods: {
         toggleMobileMenu() {
-            // toggle body class "dark-mode"
             document.body.classList.toggle("wsactive");
         }
     }

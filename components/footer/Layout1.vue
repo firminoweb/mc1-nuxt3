@@ -1,140 +1,164 @@
 <template>
-    <footer id="footer-3" class="pt-100 footer ft-3-ntr">
-        <div class="container">
-            <!-- FOOTER CONTENT -->
-            <div class="row">
-                <!-- FOOTER LOGO -->
-                <div class="col-xl-3">
-                    <div class="footer-info">
-                        <img class="footer-logo" loading="lazy" src="/assets/images/logo.png" alt="footer-logo" />
-                    </div>
-                </div>
-                <!-- FOOTER LINKS -->
-                <div class="col-sm-4 col-lg-3 col-xl-2">
-                    <div class="footer-links fl-1">
-                        <!-- Title -->
-                        <h6 class="s-17 w-700">Company</h6>
-                        <!-- Links -->
-                        <ul class="foo-links clearfix">
-                            <li>
-                                <p><NuxtLink to="#">About Us</NuxtLink></p>
-                            </li>
-                            <li>
-                                <p><NuxtLink to="#">About Us</NuxtLink></p>
-                            </li>
-                            <li>
-                                <p><NuxtLink to="#">Customers</NuxtLink></p>
-                            </li>
-                            <li>
-                                <p><a href="#">Community</a></p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- END FOOTER LINKS -->
-                <!-- FOOTER LINKS -->
-                <div class="col-sm-4 col-lg-2">
-                    <div class="footer-links fl-2">
-                        <!-- Title -->
-                        <h6 class="s-17 w-700">Product</h6>
-                        <!-- Links -->
-                        <ul class="foo-links clearfix">
-                            <li>
-                                <p><NuxtLink to="#">Integration</NuxtLink></p>
-                            </li>
-                            <li>
-                                <p><NuxtLink to="#">What's New</NuxtLink></p>
-                            </li>
-                            <li>
-                                <p><NuxtLink to="#">Pricing</NuxtLink></p>
-                            </li>
-                            <li>
-                                <p><NuxtLink to="#">Help Center</NuxtLink></p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- END FOOTER LINKS -->
-                <!-- FOOTER LINKS -->
-                <div class="col-sm-4 col-lg-3 col-xl-2">
-                    <div class="footer-links fl-3">
-                        <!-- Title -->
-                        <h6 class="s-17 w-700">Legal</h6>
-                        <!-- Links -->
-                        <ul class="foo-links clearfix">
-                            <li>
-                                <p><NuxtLink to="#">Terms of Use</NuxtLink></p>
-                            </li>
-                            <li>
-                                <p><NuxtLink to="#">Privacy Policy</NuxtLink></p>
-                            </li>
-                            <li>
-                                <p><NuxtLink to="#">Cookie Policy</NuxtLink></p>
-                            </li>
-                            <li>
-                                <p><NuxtLink to="#">Site Map</NuxtLink></p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- END FOOTER LINKS -->
-                <!-- FOOTER NEWSLETTER FORM -->
-                <div class="col-sm-10 col-md-8 col-lg-4 col-xl-3">
-                    <div class="footer-form">
-                        <!-- Title -->
-                        <h6 class="s-17 w-700">Follow the Best</h6>
-                        <!-- Newsletter Form Input -->
-                        <form class="newsletter-form">
-                            <div class="input-group r-06">
-                                <input type="email" class="form-control" placeholder="Email Address" required id="s-email" />
-                                <span class="input-group-btn ico-15">
-                                    <button type="submit" class="btn color--theme">
-                                        <span class="flaticon-right-arrow-1"></span>
-                                    </button>
-                                </span>
-                            </div>
-                            <!-- Newsletter Form Notification -->
-                            <label for="s-email" class="form-notification"></label>
-                        </form>
-                    </div>
-                </div>
-                <!-- END FOOTER NEWSLETTER FORM -->
-            </div>
-            <!-- END FOOTER CONTENT -->
-            <hr />
-            <!-- FOOTER DIVIDER LINE -->
-            <!-- BOTTOM FOOTER -->
-            <div class="bottom-footer">
-                <div class="row row-cols-1 row-cols-md-2 d-flex align-items-center">
-                    <!-- FOOTER COPYRIGHT -->
-                    <div class="col">
-                        <div class="footer-copyright">
-                            <p class="p-sm">&copy; 2023 MC1. <span>All Rights Reserved</span></p>
+    <footer id="footer-3" >
+        <div class="pt-60 pb-60 bg--blue-800 footer ft-3-ntr">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-sm-4 col-lg-2">
+                        <div class="footer-links fl-1">
+                            <h6 class="s-17 w-700 text-white">MC1</h6>
+
+                            <ul class="foo-links clearfix">
+                                <li>
+                                    <p class="s-13"><NuxtLink to="https://mc1global.com/why-mc1/" class="link-light">About</NuxtLink></p>
+                                </li>
+                                <li>
+                                    <p class="s-13"><NuxtLink to="https://mc1global.com/br/values-mc1-en/" class="link-light">Our values</NuxtLink></p>
+                                </li>
+                                <li>
+                                    <p class="s-13"><NuxtLink to="https://mc1global.com/#our-clients" class="link-light">Our customers</NuxtLink></p>
+                                </li>
+                                <li>
+                                    <p class="s-13"><NuxtLink to="https://mc1global.com/contact/#locations" class="link-light">Office Locations</NuxtLink></p>
+                                </li>
+                                <li>
+                                    <p class="s-13"><NuxtLink to="https://mc1global.com/privacy-policy/" class="link-light">GDPR</NuxtLink></p>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                    <!-- FOOTER SOCIALS -->
-                    <div class="col">
-                        <ul class="bottom-footer-socials ico-20 text-end">
-                            <li>
-                                <a href="#"><span class="flaticon-facebook"></span></a>
-                            </li>
-                            <li>
-                                <a href="#"><span class="flaticon-twitter"></span></a>
-                            </li>
-                            <li>
-                                <a href="#"><span class="flaticon-instagram"></span></a>
-                            </li>
-                            <li>
-                                <a href="#"><span class="flaticon-youtube"></span></a>
-                            </li>
-                        </ul>
+
+                    <div class="col-sm-4 col-lg-3">
+                        <div class="footer-links fl-2">
+                            <h6 class="s-17 w-700 text-white">SOLUTIONS</h6>
+
+                            <ul class="foo-links clearfix">
+                                <li>
+                                    <p class="s-13"><NuxtLink to="https://mc1global.com/solutions/platform-wtm" class="link-light">Platform WTM</NuxtLink></p>
+                                </li>
+                                <li>
+                                    <p class="s-13"><NuxtLink to="https://mc1global.com/instant-image-recognition/en/" class="link-light">WTM Offline Image Recognition</NuxtLink></p>
+                                </li>
+                                <li>
+                                    <p class="s-13"><NuxtLink to="https://mc1global.com/solutions/wtm-pre-sales/" class="link-light">WTM Pre Sales</NuxtLink></p>
+                                </li>
+                                <li>
+                                    <p class="s-13"><NuxtLink to="https://mc1global.com/solutions/wtm-van-sales/" class="link-light">WTM Van Sales</NuxtLink></p>
+                                </li>
+                                <li>
+                                    <p class="s-13"><NuxtLink to="https://mc1global.com/solutions/wtm-delivery/" class="link-light">WTM Delivery</NuxtLink></p>
+                                </li>
+                                <li>
+                                    <p class="s-13"><NuxtLink to="https://mc1global.com/solutions/wtm-trade-marketing/" class="link-light">WTM Trade Marketing</NuxtLink></p>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
+
+                    <div class="col-sm-4 col-lg-2">
+                        <div class="footer-links fl-3">
+                            <h6 class="s-17 w-700 text-white">BLOG</h6>
+
+                            <ul class="foo-links clearfix">
+                                <li>
+                                    <p class="s-13"><NuxtLink to="https://mc1global.com/category/apps/" class="link-light">Apps</NuxtLink></p>
+                                </li>
+                                <li>
+                                    <p class="s-13"><NuxtLink to="https://mc1global.com/category/mobility/" class="link-light">Mobility</NuxtLink></p>
+                                </li>
+                                <li>
+                                    <p class="s-13"><NuxtLink to="https://mc1global.com/category/sales/" class="link-light">Sales</NuxtLink></p>
+                                </li>
+                                <li>
+                                    <p class="s-13"><NuxtLink to="https://mc1global.com/category/technology/" class="link-light">Technology</NuxtLink></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-lg-3">
+                        <div class="footer-links fl-4">
+                            <h6 class="s-17 w-700 text-white">+MC1</h6>
+
+                            <ul class="foo-links clearfix">
+                                <li>
+                                    <p class="s-13"><NuxtLink to="https://mc1global.com/cases/" class="link-light">Cases</NuxtLink></p>
+                                </li>
+                                <li>
+                                    <p class="s-13"><NuxtLink to="https://jobs.quickin.io/mc1global/pages/carreiras-ing" class="link-light">Careers</NuxtLink></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-lg-2">
+                        <div class="footer-info">
+                            <h6 class="s-17 w-700 text-white">CONTACT</h6>
+
+                            <ul class="foo-links clearfix mb-4">
+                                <li>
+                                    <p class="s-13"><NuxtLink to="https://mc1global.com/contact/" class="link-light">Get in touch</NuxtLink></p>
+                                </li>
+                            </ul>
+
+                            <img class="footer-logo mb-2" loading="lazy" src="/assets/images/logo-white.png" alt="footer-logo" />
+
+                            <ul class="bottom-footer-socials ico-20">
+                                <li class="ml-0">
+                                    <a href="https://www.linkedin.com/company/mc1?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A44683%2Cidx%3A2-1-2%2CtarId%3A1447732434915%2Ctas%3Amc1"><span class="flaticon-linkedin-logo text-white"></span></a>
+                                </li>
+
+                                <li>
+                                    <a href="https://www.youtube.com/channel/UC0a6PP_vwM0m3s81iUopOag"><span class="flaticon-youtube text-white"></span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- END FOOTER NEWSLETTER FORM -->
                 </div>
-                <!-- End row -->
+
+
+
+                <!-- <div class="bottom-footer">
+                    <div class="row row-cols-1 row-cols-md-2 d-flex align-items-center">
+                    
+                        <div class="col">
+                            <div class="footer-copyright">
+                                <p class="p-sm">&copy; 2023 MC1. <span>All Rights Reserved</span></p>
+                            </div>
+                        </div>
+                 
+                        <div class="col">
+                            <ul class="bottom-footer-socials ico-20 text-end">
+                                <li>
+                                    <a href="#"><span class="flaticon-facebook"></span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><span class="flaticon-twitter"></span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><span class="flaticon-instagram"></span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><span class="flaticon-youtube"></span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+               
+                </div> -->
+               
             </div>
-            <!-- END BOTTOM FOOTER -->
         </div>
-        <!-- End container -->
+
+        <div class="bg--blue-500 ft-3-ntr">
+            <div class="py-2 px-4">
+                <span class="s-12 text-white mb-0">
+                    © MC1 Win the Market. All rights reserved. | <a href="https://mc1global.com/br/aviso-de-privacidade" target="_blank" class="link-light">privacy policy</a>
+                </span>
+            </div>
+        </div>
+
         <FooterGoToTop />
     </footer>
 </template>

@@ -1,48 +1,58 @@
 <template>
-    <section class="pt-100 ct-02 content-section division">
+    <section class="pt-100 pb-100 ct-02 content-section division">
         <div class="container">
-            <!-- SECTION CONTENT (ROW) -->
-            <div class="row d-flex align-items-center">
-                <!-- IMAGE BLOCK -->
-                <div class="col-md-6">
-                    <div class="img-block left-column wow fadeInRight">
-                        <img class="img-fluid" src="/assets/images/img-05.png" alt="content-image" />
+            <div class="row">
+                <div class="col-12 wow bounceInDown">
+                    <div class="fbox-12 bg--white-100 r-32 big-card extra-tb border-opb wow fadeInLeft">
+                        <div class="top-title">
+                            <h2 class="s-32 w-700">IRE Key Differentials</h2>
+                        </div>
+
+                        <div class="row d-flex align-items-center justify-content-center">
+                            <div class="col-md-4 wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
+                                <img src="/assets/images/unlimited-ico.png"  class="mx-auto d-block mb-3" alt="Unlimited">
+
+                                <h3 class="s-20 w-700 text-center mb-4">
+                                    Unlimited Categories:
+                                </h3>
+
+                                <p>Participation in a loyalty program with incentives ensures
+                                complete engagement, fostering a stronger connection between
+                                the store and the industry.</p>
+                            </div>
+
+                            <div class="col-md-4 wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="1s">
+                                <img src="/assets/images/offline-ico.png"  class="mx-auto d-block mb-4" alt="Offline">
+
+                                <h3 class="s-20 w-700 text-center mb-3">
+                                    100% Offline:
+                                </h3>
+
+                                <p>Participation in a loyalty program with incentives ensures
+                                complete engagement, fostering a stronger connection between
+                                the store and the industry.</p>
+                            </div>
+
+                            <div class="col-md-4 wow fadeInRight" data-wow-duration="2s" data-wow-delay="1s">
+                                <img src="/assets/images/machine-ico.png"  class="mx-auto d-block mb-4" alt="Machine">
+
+                                <h3 class="s-20 w-700 text-center mb-3">
+                                    On-device <br> Machine Learn:
+                                </h3>
+
+                                <p>Participation in a loyalty program with incentives ensures
+                                complete engagement, fostering a stronger connection between
+                                the store and the industry.</p>
+                            </div>
+                        </div>
+
+                        <div class="bottom-nav">
+                            <h2 class="s-32 w-700">&lt; ></h2>
+                        </div>
                     </div>
                 </div>
-                <!-- TEXT BLOCK -->
-                <div class="col-md-6">
-                    <div class="txt-block right-column wow fadeInLeft">
-                        <!-- TEXT BOX -->
-                        <div class="txt-box">
-                            <!-- Title -->
-                            <h5 class="s-24 w-700">Creative alternative solutions</h5>
-                            <!-- Text -->
-                            <p>Sodales tempor sapien quaerat ipsum undo congue laoreet turpis neque auctor turpis vitae dolor luctus placerat magna and ligula cursus purus vitae purus an ipsum suscipit</p>
-                        </div>
-                        <!-- END TEXT BOX -->
-                        <!-- TEXT BOX -->
-                        <div class="txt-box mb-0">
-                            <!-- Title -->
-                            <h5 class="s-24 w-700">Advanced performance made easy</h5>
-                            <!-- Text -->
-                            <p>Tempor sapien sodales quaerat ipsum undo congue laoreet turpis neque auctor turpis vitae dolor luctus placerat magna and ligula cursus purus an ipsum vitae suscipit purus</p>
-                            <!-- List -->
-                            <ul class="simple-list">
-                                <li class="list-item">
-                                    <p>Tempor sapien quaerat an ipsum laoreet purus and sapien dolor an ultrice ipsum aliquam undo congue dolor cursus</p>
-                                </li>
-                                <li class="list-item">
-                                    <p class="mb-0">Cursus purus suscipit vitae cubilia magnis volute egestas vitae sapien turpis ultrice auctor congue magna placerat</p>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- END TEXT BOX -->
-                    </div>
-                </div>
-                <!-- END TEXT BLOCK -->
             </div>
-            <!-- END SECTION CONTENT (ROW) -->
+            <!-- End row -->
         </div>
-        <!-- End container -->
     </section>
 </template>

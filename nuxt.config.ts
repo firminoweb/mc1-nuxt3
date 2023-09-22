@@ -40,8 +40,12 @@ export default defineNuxtConfig({
                 }
             }
         ],
-        "nuxt-swiper"
+        "nuxt-swiper",
+        "@nuxtjs/i18n"
     ],
+    i18n: {
+        vueI18n: './i18n.config.ts'
+    },
     nitro: {
         storage: {
           data: { driver: 'vercelKV' }

@@ -1,36 +1,38 @@
 <template>
     <div id="main-menu" class="wsmainfull menu clearfix">
         <div class="wsmainwp clearfix">
-            <!-- HEADER BLACK LOGO -->
+
             <div class="desktoplogo">
                 <NuxtLink to="/" class="logo-black"><img loading="lazy" src="/assets/images/logo.png" alt="logo" /></NuxtLink>
             </div>
-            <!-- HEADER WHITE LOGO -->
+
             <div class="desktoplogo">
                 <NuxtLink to="/" class="logo-white"><img loading="lazy" src="/assets/images/logo-white.png" alt="logo" /></NuxtLink>
             </div>
-            <!-- MAIN MENU -->
+
             <nav class="wsmenu clearfix">
                 <ul class="wsmenu-list nav-theme">
-                    <!-- DROPDOWN SUB MENU -->
+
                     <li aria-haspopup="true" class="mg_link">
-                        <NuxtLink to="#hero-26" class="h-link">Home</NuxtLink>
+                        <NuxtLink to="#hero-26" class="h-link">App Showcase</NuxtLink>
 
                     </li>
-                    <!-- SIMPLE NAVIGATION LINK -->
-                    <li class="nl-simple" aria-haspopup="true"><NuxtLink to="#features-13" class="h-link">Link 1</NuxtLink></li>
 
-                    <li class="nl-simple" aria-haspopup="true"><NuxtLink to="#lnk-1" class="h-link">Link 2</NuxtLink></li>
-                    <li class="nl-simple" aria-haspopup="true"><NuxtLink to="#features-2" class="h-link">Link 3</NuxtLink></li>
-                    <li class="nl-simple" aria-haspopup="true"><NuxtLink to="#features-7" class="h-link">Link 4</NuxtLink></li>
-                    <li class="nl-simple" aria-haspopup="true"><NuxtLink to="#projects-1" class="h-link">Link 5</NuxtLink></li>
-                    <!-- SIGN IN LINK -->
+                    <li class="nl-simple" aria-haspopup="true"><NuxtLink to="#features-13" class="h-link">Full Process</NuxtLink></li>
+
+                    <li class="nl-simple" aria-haspopup="true"><NuxtLink to="#lnk-1" class="h-link">Operator Perspective</NuxtLink></li>
+                    <li class="nl-simple" aria-haspopup="true"><NuxtLink to="#features-2" class="h-link">Differentials</NuxtLink></li>
+                    <li class="nl-simple" aria-haspopup="true"><NuxtLink to="#features-7" class="h-link">TPM/RGM</NuxtLink></li>
+
                     <li class="nl-simple reg-fst-link mobile-last-link" aria-haspopup="true">
-                        <NuxtLink to="#banner-3" class="h-link">Sign in</NuxtLink>
+                        
+                        <NuxtLink to="#newsletter-1" class="btn r-12 btn--tra-white last-link fix-button">
+                            <span class="fix-icon right flaticon-global mr-2"></span> EN
+                            <span class="fix-icon left flaticon-down-arrow mr-2"></span> </NuxtLink>
                     </li>
-                    <!-- SIGN UP BUTTON -->
+
                     <li class="nl-simple" aria-haspopup="true">
-                        <NuxtLink to="#newsletter-1" class="btn r-04 btn--theme hover--tra-white last-link">Sign up</NuxtLink>
+                        <NuxtLink to="#newsletter-1" class="btn r-12 btn--white last-link">Login</NuxtLink>
                     </li>
                 </ul>
             </nav>

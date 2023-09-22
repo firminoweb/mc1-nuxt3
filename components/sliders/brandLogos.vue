@@ -1,9 +1,10 @@
 <template>
-    <div class="brands-carousel-5">
+<div class="row d-flex align-items-center justify-content-center">
         <Swiper
-            :modules="[SwiperAutoplay, SwiperEffectCreative]"
-            :slides-per-view="2"
+            :modules="[SwiperAutoplay, SwiperEffectCreative, SwiperNavigation]"
+            :slides-per-view="3"
             :loop="true"
+            navigation
             :autoplay="{
                 delay: 8000,
                 disableOnInteraction: true
@@ -16,66 +17,45 @@
             }"
         >
             <SwiperSlide>
-                <div class="brand-logo">
-                    <img class="img-fluid theme-light" src="/assets/images/brand-1.png" alt="brand-logo" />
-                    <img class="img-fluid theme-dark" src="/assets/images/brand-1-white.png" alt="brand-logo" />
+                <div class="col-md-4 wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
+                    <img src="/assets/images/unlimited-ico.png"  class="mx-auto d-block mb-3" alt="Unlimited">
+
+                    <h3 class="s-20 w-700 text-center mb-4">
+                        Unlimited Categories:
+                    </h3>
+
+                    <p>Participation in a loyalty program with incentives ensures
+                    complete engagement, fostering a stronger connection between
+                    the store and the industry.</p>
                 </div>
             </SwiperSlide>
 
             <SwiperSlide>
-                <div class="brand-logo">
-                    <img class="img-fluid theme-light" src="/assets/images/brand-2.png" alt="brand-logo" />
-                    <img class="img-fluid theme-dark" src="/assets/images/brand-2-white.png" alt="brand-logo" />
-                </div>
+                <div class="col-md-4 wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="1s">
+                                <img src="/assets/images/offline-ico.png"  class="mx-auto d-block mb-4" alt="Offline">
+
+                                <h3 class="s-20 w-700 text-center mb-3">
+                                    100% Offline:
+                                </h3>
+
+                                <p>Participation in a loyalty program with incentives ensures
+                                complete engagement, fostering a stronger connection between
+                                the store and the industry.</p>
+                            </div>
             </SwiperSlide>
 
             <SwiperSlide>
-                <div class="brand-logo">
-                    <img class="img-fluid theme-light" src="/assets/images/brand-3.png" alt="brand-logo" />
-                    <img class="img-fluid theme-dark" src="/assets/images/brand-3-white.png" alt="brand-logo" />
-                </div>
-            </SwiperSlide>
+                <div class="col-md-4 wow fadeInRight" data-wow-duration="2s" data-wow-delay="1s">
+                                <img src="/assets/images/machine-ico.png"  class="mx-auto d-block mb-4" alt="Machine">
 
-            <SwiperSlide>
-                <div class="brand-logo">
-                    <img class="img-fluid theme-light" src="/assets/images/brand-4.png" alt="brand-logo" />
-                    <img class="img-fluid theme-dark" src="/assets/images/brand-4-white.png" alt="brand-logo" />
-                </div>
-            </SwiperSlide>
+                                <h3 class="s-20 w-700 text-center mb-3">
+                                    On-device <br> Machine Learn:
+                                </h3>
 
-            <SwiperSlide>
-                <div class="brand-logo">
-                    <img class="img-fluid theme-light" src="/assets/images/brand-5.png" alt="brand-logo" />
-                    <img class="img-fluid theme-dark" src="/assets/images/brand-5-white.png" alt="brand-logo" />
-                </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-                <div class="brand-logo">
-                    <img class="img-fluid theme-light" src="/assets/images/brand-6.png" alt="brand-logo" />
-                    <img class="img-fluid theme-dark" src="/assets/images/brand-6-white.png" alt="brand-logo" />
-                </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-                <div class="brand-logo">
-                    <img class="img-fluid theme-light" src="/assets/images/brand-7.png" alt="brand-logo" />
-                    <img class="img-fluid theme-dark" src="/assets/images/brand-7-white.png" alt="brand-logo" />
-                </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-                <div class="brand-logo">
-                    <img class="img-fluid theme-light" src="/assets/images/brand-8.png" alt="brand-logo" />
-                    <img class="img-fluid theme-dark" src="/assets/images/brand-8-white.png" alt="brand-logo" />
-                </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-                <div class="brand-logo">
-                    <img class="img-fluid theme-light" src="/assets/images/brand-9.png" alt="brand-logo" />
-                    <img class="img-fluid theme-dark" src="/assets/images/brand-9-white.png" alt="brand-logo" />
-                </div>
+                                <p>Participation in a loyalty program with incentives ensures
+                                complete engagement, fostering a stronger connection between
+                                the store and the industry.</p>
+                            </div>
             </SwiperSlide>
         </Swiper>
     </div>
