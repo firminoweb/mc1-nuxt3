@@ -41,7 +41,8 @@ export default defineNuxtConfig({
             }
         ],
         "nuxt-swiper",
-        "@nuxtjs/i18n"
+        "@nuxtjs/i18n",
+        "@nuxt/ui"
     ],
     i18n: {
         vueI18n: './i18n.config.ts'

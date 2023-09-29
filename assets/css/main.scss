@@ -7,6 +7,12 @@ html {
     -webkit-font-smoothing: antialiased;
     font-size: 16px;
 }
+
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
 body {
     font-family: "Rubik", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #6c757d;
@@ -3299,7 +3305,7 @@ p.video-txt-sm {
     letter-spacing: 0;
     text-decoration: none;
     margin: 0 10px;
-    padding: 20px 0 5px;
+    padding: 10px 0 5px;
     opacity: .9;
     border: solid 3px transparent;
     &:hover {
@@ -3332,7 +3338,7 @@ p.video-txt-sm {
     width: 0;
 }
 .wsmenu > .wsmenu-list > li.reg-fst-link > a {
-    margin-left: 30px;
+    margin-left: 15px;
 }
 /*------------------------------------------*/
 /*  HEADER LINK INFO
@@ -3424,7 +3430,7 @@ span.sm-info {
     font-weight: 600;
     text-transform: none;
     letter-spacing: 0;
-    margin-top: 14px;
+    margin-top: 2px;
     padding: 4px 28px;
 }
 .wsmenu > .wsmenu-list > li a.btn.reg-btn {
@@ -3507,6 +3513,11 @@ span.sm-info {
 /*------------------------------------------*/
 /*  HALFMENU
 /*------------------------------------------*/
+.flag-h {
+    height: 20px;
+    margin-right: 8px;
+}
+
 .wsmenu > .wsmenu-list > li > .wsmegamenu {
     top: 58px;
 }
@@ -3514,12 +3525,37 @@ span.sm-info {
     width: 35%;
     padding: 12px 0;
     right: 1%;
+    top: 45px;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     -o-border-radius: 6px;
     -webkit-box-shadow: 0 2px 3px rgba(96, 96, 96, 0.1);
     -moz-box-shadow: 0 2px 3px rgba(96, 96, 96, 0.1);
     box-shadow: 0 2px 3px rgba(96, 96, 96, 0.1);
+    &.arrow-up {
+        &::before {
+            content: "";
+            width: 0;
+            height: 0;
+            border-left: 15px solid transparent;
+            border-right: 15px solid transparent;
+            border-bottom: 15px solid #00A0C4;
+            position: absolute;
+            top: -15px;
+            right: 20px;
+        }
+        &::after {
+            content: "";
+            width: 0;
+            height: 0;
+            border-left: 17px solid transparent;
+            border-right: 17px solid transparent;
+            border-bottom: 18px solid #fff;
+            position: absolute;
+            top: -13px;
+            right: 18px;
+        }
+    }
 }
 
 
@@ -3532,6 +3568,7 @@ span.sm-info {
     -webkit-box-shadow: 0 2px 3px rgba(96, 96, 96, 0.1);
     -moz-box-shadow: 0 2px 3px rgba(96, 96, 96, 0.1);
     box-shadow: 0 2px 3px rgba(96, 96, 96, 0.1);
+    top: 46px;
 }
 .wsmenu > .wsmenu-list > li > .wsmegamenu.halfmenu.icons-menu {
     right: 2%;
@@ -3806,6 +3843,7 @@ span.sm-info {
     -webkit-box-shadow: 0 2px 3px rgba(96, 96, 96, 0.1);
     -moz-box-shadow: 0 2px 3px rgba(96, 96, 96, 0.1);
     box-shadow: 0 2px 3px rgba(96, 96, 96, 0.1);
+    padding: 6px 0;
 }
 .navbar-dark .tra-menu.white-scroll .scroll .wsmenu > .wsmenu-list > li > a.h-link,
 .navbar-light .tra-menu.white-scroll .scroll .wsmenu > .wsmenu-list > li > a.h-link {
@@ -4064,6 +4102,17 @@ span.sm-info {
         right: 0;
         background: linear-gradient(0deg, rgba(255,255,255,1) 40%, rgba(0,212,255,0) 100%);
     }
+    // &::after {
+    //     content: "";
+    //     position: absolute;
+    //     z-index: 4;
+    //     top: 0;
+    //     bottom: 0;
+    //     left: 0;
+    //     right: 0;
+    //     background-image: url(../images/line-bg.png);
+    //     background-repeat: no-repeat;
+    // }
 }
 /*------------------------------------------*/
 /*  HERO LOGO
@@ -5336,6 +5385,12 @@ span.sm-info {
 .fbox-13-wrapper {
     padding-right: 45px;
 }
+
+.fbox-modal {
+    padding: 12px 35px;
+    position: relative;
+}
+
 .fbox-12,
 .fbox-13 {
     padding: 32px 35px;
@@ -10915,6 +10970,10 @@ body.theme--dark {
 .go-to-top {
     cursor: pointer;
     transition-duration: 0.2s;
+    img {
+        margin-top: 14px;
+        margin-left: 18px;
+    }
 }
 
 .tab-list {

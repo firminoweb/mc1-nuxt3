@@ -38,13 +38,31 @@
 
                 <div class="col-md-12">
                     <p class="s-18 text-end">
-                        <a href="javascript:void(0)" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" title="Learn More">
+                        <a href="javascript:void(0)" @click="isOpenValueProposition = true" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" title="Learn More">
                             Learn more
                         </a>
                     </p>
                 </div>
 
+                <UModal v-model="isOpenValueProposition">
+                    <UCard class="fbox-modal">
+                        <h2 class="w-700 s-24 mb-4 pb-4 bb-primary d-inline-flex">
+                            Value Proposition
+                        </h2>
+
+                        <p class="mb-4">Our technology is proven to drive significant ROI for businesses in all markets, delivering measurable results in a matter of weeks.</p>
+
+                        <p class="mb-4">Our technology streamlines processes, reduces costs, and improves efficiency for businesses, freeing up resources for more strategic use.</p>
+
+                        <p>Our breakthroughs in on-device processing and image recognition have fundamentally transformed the scalability paradigm in the CPG industry.</p>
+                    </UCard>
+                </UModal>
+
             </div>
         </div>
     </section>
 </template>
+
+<script setup>
+    const isOpenValueProposition = ref(false);
+</script>

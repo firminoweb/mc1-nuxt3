@@ -74,6 +74,12 @@
       ],
       "#i18n": [
         "../node_modules/@nuxtjs/i18n/dist/runtime/composables"
+      ],
+      "#color-mode-options": [
+        "./color-mode-options"
+      ],
+      "#tailwind-config": [
+        "./tailwind"
       ]
     }
   },

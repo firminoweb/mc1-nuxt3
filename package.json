@@ -19,6 +19,7 @@
     "postcss": "^8.4.25"
   },
   "dependencies": {
+    "@nuxt/ui": "^2.8.1",
     "@nuxtjs/google-fonts": "^3.0.1",
     "animate.css": "^4.1.1",
     "i": "^0.3.7",

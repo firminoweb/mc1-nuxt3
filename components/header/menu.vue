@@ -25,18 +25,30 @@
 
                     <li class="nl-simple reg-fst-link mobile-last-link" :class="{ open: isOpen[0] }" aria-haspopup="true">
                         <span class="wsmenu-click 123" @click="toggle(0)"><i class="wsmenu-arrow"></i></span>
-                        <NuxtLink to="#newsletter-1" class="btn r-12 btn--tra-white last-link fix-button">
-                            <span class="fix-icon right flaticon-global mr-2"></span> EN
+                        <NuxtLink to="javascript:void(0)" class="btn r-12 btn--tra-white last-link fix-button">
+                            <span class="fix-icon right flaticon-global mr-2"></span> {{ lang }}
                             <span class="fix-icon left flaticon-down-arrow mr-2"></span>
                         </NuxtLink>
                         <div class="wsmegamenu dropdown clearfix">
                             <div class="container">
                                 <div class="row">
-                                    <!-- MEGAMENU LINKS -->
+
                                     <ul class="w-100 link-list">
-                                        <li><NuxtLink to="#">English</NuxtLink></li>
-                                        <li><NuxtLink to="#">Español</NuxtLink></li>
-                                        <li><NuxtLink to="#">Português</NuxtLink></li>
+                                        <li>
+                                            <NuxtLink to="javascript:void(0)" @click="changeLang('EN')" class="d-block">
+                                                <img loading="lazy" class="flag-h mr-2 d-inline-block" src="/assets/images/united-states_ico.png" alt="English" />  English
+                                            </NuxtLink>
+                                        </li>
+                                        <li>
+                                            <NuxtLink to="javascript:void(0)" @click="changeLang('ES')" class="d-block">
+                                                <img loading="lazy" class="flag-h mr-2 d-inline-block" src="/assets/images/spain_ico.png" alt="Spanish" />  Español
+                                            </NuxtLink>
+                                        </li>
+                                        <li>
+                                            <NuxtLink to="javascript:void(0)" @click="changeLang('PT')" class="d-block">
+                                                <img loading="lazy" class="flag-h mr-2 d-inline-block" src="/assets/images/brasil_ico.png" alt="Portuguese" />  Português
+                                            </NuxtLink>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -47,9 +59,11 @@
                         <span class="wsmenu-click 123" @click="toggle(1)"><i class="wsmenu-arrow"></i></span>
                         <NuxtLink to="#newsletter-1" class="btn r-12 btn--white last-link">Login</NuxtLink>
 
-                        <div class="wsmegamenu halfmenu border-blue-thumb clearfix r-20">
+                        <div class="wsmegamenu halfmenu arrow-up border-blue-thumb clearfix r-20">
                             <div class="p-3 px-4">
-                                <h2 class="w-700 s-21 mb-4 text-center mt-5">
+                                <img loading="lazy" class="img-fluid mx-auto" src="/assets/images/wtmire-logo.png" alt="wtmire" />
+
+                                <h2 class="w-700 s-21 mb-4 text-center mt-2">
                                     Image Recognition Studio
                                 </h2>
 
@@ -88,12 +102,19 @@ export default {
         const state = reactive({
         isOpen: [false, false]
         });
+
         const toggle = (index) => {
         state.isOpen[index] = !state.isOpen[index];
         };
+
         return {
-        toggle,
-        isOpen: state.isOpen
+            toggle,
+            isOpen: state.isOpen
+        };
+    },
+    data() {
+        return {
+            lang: 'EN'
         };
     },
     mounted() {
@@ -113,6 +134,10 @@ export default {
                 menu.classList.remove("scroll");
                 header.classList.remove("scroll");
             }
+        },
+
+        changeLang(str) {
+            this.lang = str;
         }
     }
 };
