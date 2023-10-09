@@ -35,17 +35,17 @@
 
                                     <ul class="w-100 link-list">
                                         <li>
-                                            <NuxtLink to="javascript:void(0)" @click="changeLang('EN')" class="d-block">
+                                            <NuxtLink to="/" @click="changeLang('EN')" class="d-block">
                                                 <img loading="lazy" class="flag-h mr-2 d-inline-block" src="/assets/images/united-states_ico.png" alt="English" />  English
                                             </NuxtLink>
                                         </li>
                                         <li>
-                                            <NuxtLink to="javascript:void(0)" @click="changeLang('ES')" class="d-block">
+                                            <NuxtLink to="/es" @click="changeLang('ES')" class="d-block">
                                                 <img loading="lazy" class="flag-h mr-2 d-inline-block" src="/assets/images/spain_ico.png" alt="Spanish" />  Español
                                             </NuxtLink>
                                         </li>
                                         <li>
-                                            <NuxtLink to="javascript:void(0)" @click="changeLang('PT')" class="d-block">
+                                            <NuxtLink to="/pt" @click="changeLang('PT')" class="d-block">
                                                 <img loading="lazy" class="flag-h mr-2 d-inline-block" src="/assets/images/brasil_ico.png" alt="Portuguese" />  Português
                                             </NuxtLink>
                                         </li>
@@ -95,8 +95,10 @@
         </div>
     </div>
 </template>
+
 <script>
 import { reactive } from 'vue';
+
 export default {
     setup() {
         const state = reactive({
@@ -114,7 +116,7 @@ export default {
     },
     data() {
         return {
-            lang: 'EN'
+            lang: this.$route.path === '/' ? 'EN' : (this.$route.path === '/es' ? 'ES' : 'PT')
         };
     },
     mounted() {

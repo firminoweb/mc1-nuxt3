@@ -3,6 +3,7 @@ import { updateAppConfig } from '#app'
 import { defuFn } from '/home/firmino/Projects/@Clients/MC1/app/node_modules/defu/dist/defu.mjs'
 
 const inlineConfig = {
+  "nuxt": {},
   "ui": {
     "primary": "green",
     "gray": "cool",
@@ -25,7 +26,8 @@ const inlineConfig = {
       "pink",
       "rose",
       "primary"
-    ]
+    ],
+    "strategy": "merge"
   }
 }
 
@@ -36,6 +38,6 @@ if (import.meta.hot) {
   })
 }
 
-import cfg0 from "/home/firmino/Projects/@Clients/MC1/app/node_modules/@nuxt/ui/dist/runtime/app.config.mjs"
 
-export default /* #__PURE__ */ defuFn(cfg0, inlineConfig)
+
+export default /* #__PURE__ */ defuFn(inlineConfig)

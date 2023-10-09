@@ -12,11 +12,18 @@
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@nuxtjs/i18n": "^8.0.0-rc.4",
+    "@pinia/nuxt": "^0.4.11",
+    "@types/js-yaml": "^4.0.6",
     "@types/node": "^18",
     "@vercel/kv": "^0.2.2",
     "autoprefixer": "^10.4.14",
+    "axios": "^1.5.1",
+    "js-yaml": "^4.1.0",
     "nuxt": "^3.6.2",
-    "postcss": "^8.4.25"
+    "pinia": "^2.1.6",
+    "postcss": "^8.4.25",
+    "scrollmagic": "^2.0.8",
+    "yaml-loader": "^0.8.0"
   },
   "dependencies": {
     "@nuxt/ui": "^2.8.1",

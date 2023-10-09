@@ -3,6 +3,7 @@
   "compilerOptions": {
     "forceConsistentCasingInFileNames": true,
     "jsx": "preserve",
+    "jsxImportSource": "vue",
     "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "Node",
@@ -10,6 +11,8 @@
     "isolatedModules": true,
     "useDefineForClassFields": true,
     "strict": true,
+    "noImplicitThis": true,
+    "esModuleInterop": true,
     "allowJs": true,
     "noEmit": true,
     "resolveJsonModule": true,
@@ -60,6 +63,9 @@
       "vue-demi": [
         "../node_modules/nuxt/dist/app/compat/vue-demi"
       ],
+      "pinia": [
+        "../node_modules/pinia/dist/pinia"
+      ],
       "vue-i18n": [
         "../node_modules/vue-i18n/dist/vue-i18n"
       ],
@@ -69,11 +75,14 @@
       "@intlify/message-compiler": [
         "../node_modules/@intlify/message-compiler/dist/message-compiler"
       ],
+      "@intlify/core-base": [
+        "../node_modules/@intlify/core-base/dist/core-base"
+      ],
       "@intlify/vue-router-bridge": [
         "../node_modules/@nuxtjs/i18n/node_modules/@intlify/vue-router-bridge/lib/index"
       ],
       "@intlify/vue-i18n-bridge": [
-        "../node_modules/@nuxtjs/i18n/node_modules/vue-i18n-routing/node_modules/@intlify/vue-i18n-bridge/lib/index"
+        "../node_modules/@nuxtjs/i18n/node_modules/@intlify/vue-i18n-bridge/lib/index"
       ],
       "vue-i18n-routing": [
         "../node_modules/@nuxtjs/i18n/node_modules/vue-i18n-routing/dist/vue-i18n-routing"
@@ -81,11 +90,26 @@
       "#i18n": [
         "../node_modules/@nuxtjs/i18n/dist/runtime/composables"
       ],
+      "#ui": [
+        "../node_modules/@nuxt/ui/dist/runtime"
+      ],
+      "#ui/*": [
+        "../node_modules/@nuxt/ui/dist/runtime/*"
+      ],
+      "#ui-colors": [
+        "."
+      ],
+      "#ui-colors/*": [
+        "./*"
+      ],
       "#color-mode-options": [
         "./color-mode-options.mjs"
       ],
       "#tailwind-config": [
         "./tailwind.config"
+      ],
+      "#tailwind-config/*": [
+        "./tailwind.config/*"
       ],
       "#vue-router": [
         "./vue-router"
@@ -110,12 +134,28 @@
   "include": [
     "./nuxt.d.ts",
     "../**/*",
+    "../node_modules/@pinia/nuxt/runtime",
+    "../node_modules/@nuxtjs/google-fonts/runtime",
+    "../node_modules/nuxt-swiper/runtime",
+    "../node_modules/@nuxtjs/i18n/runtime",
+    "../node_modules/@nuxtjs/color-mode/runtime",
+    "../node_modules/@nuxtjs/tailwindcss/runtime",
+    "../node_modules/@nuxt/ui/runtime",
+    "../node_modules/@nuxt/telemetry/runtime",
     "..",
     "../../../../../../../"
   ],
   "exclude": [
     "../node_modules",
     "../node_modules/nuxt/node_modules",
+    "../node_modules/@pinia/nuxt/runtime/server",
+    "../node_modules/@nuxtjs/google-fonts/runtime/server",
+    "../node_modules/nuxt-swiper/runtime/server",
+    "../node_modules/@nuxtjs/i18n/runtime/server",
+    "../node_modules/@nuxtjs/color-mode/runtime/server",
+    "../node_modules/@nuxtjs/tailwindcss/runtime/server",
+    "../node_modules/@nuxt/ui/runtime/server",
+    "../node_modules/@nuxt/telemetry/runtime/server",
     "../dist",
     "../.output"
   ]

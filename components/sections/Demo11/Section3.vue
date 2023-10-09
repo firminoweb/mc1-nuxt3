@@ -10,7 +10,7 @@
             <div class="row">
 
                 <div class="col-md-6 order-last order-md-2 d-flex align-items-stretch">
-                    <div class="fbox-12 bg--white-100 block-shadow-heavy r-36 border-opb big-float-card wow fadeInLeft">
+                    <div class="fbox-12 bg--white-100 block-shadow-heavy r-36 border-opb big-float-card wow animated" data-animation="fadeInLeft">
                         <img class="img-fluid image" src="/assets/images/persona_1.png" alt="persona 1">
 
                         <h2 class="text-primary w-700 s-32 mb-2">
@@ -43,7 +43,7 @@
 
                 <div class="col-md-6 order-first order-md-2 d-flex align-items-stretch">
 
-                        <div class="fbox-12 bg--white-100 block-shadow-heavy r-36 border-opb big-float-card wow fadeInRight">
+                        <div class="fbox-12 bg--white-100 block-shadow-heavy r-36 border-opb big-float-card wow animated" data-animation="fadeInRight">
                             <img class="img-fluid image" src="/assets/images/persona_2.png" alt="persona 1">
 
                             <h2 class="text-primary w-700 s-32 mb-2">

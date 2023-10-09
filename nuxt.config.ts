@@ -4,6 +4,9 @@ export default defineNuxtConfig({
     alias: {
         "@": resolve(__dirname, "/")
     },
+    imports: {
+        dirs: ['store'],
+    },
     app: {
         head: {
             meta: [{ name: "viewport", content: "width=device-width, initial-scale=1" }],
@@ -22,6 +25,12 @@ export default defineNuxtConfig({
       "~/assets/css/responsive.scss"
     ],
     modules: [
+        [
+            '@pinia/nuxt',
+            {
+              autoImports: ['defineStore', 'acceptHMRUpdate'],
+            },
+        ],
         [
             "@nuxtjs/google-fonts",
             {
@@ -42,10 +51,21 @@ export default defineNuxtConfig({
         ],
         "nuxt-swiper",
         "@nuxtjs/i18n",
-        "@nuxt/ui"
+        "@nuxt/ui",
+    ],
+    plugins: [
+        '~/plugins/load-i18n.js',
+        //'~/plugins/scrollmagic.js'
     ],
     i18n: {
-        vueI18n: './i18n.config.ts'
+        locales: [
+            'en',
+            'es',
+            'pt'
+        ],
+        defaultLocale: 'en',
+        vueI18n: './i18n.config.ts',
+        detectBrowserLanguage: false
     },
     nitro: {
         storage: {

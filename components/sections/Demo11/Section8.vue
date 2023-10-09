@@ -2,7 +2,7 @@
     <section id="features-2" class="mt-100 pt-200 pb-100 value-proposition division">
         <div class="container">
             <div class="row">
-                <div class="row float-big-title wow bounceInUp">
+                <div class="row float-big-title wow animated" data-animation="fadeInUp">
                     <div class="col-md-6">
                         <h2 class="s-38 w-700">Value Proposition</h2>
                     </div>
@@ -12,7 +12,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 pt-100 force-pr wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
+                <div class="col-md-4 pt-100 force-pr wow animated" data-animation="fadeInRight">
                     <img src="/assets/images/thumb-roi.jpg"  class="mb-4 d-block img-fluid border-blue-thumb r-28" alt="ROI">
 
                     <h2 class="s-28 w-700 text-center mb-4">ROI</h2>
@@ -20,7 +20,7 @@
                     <p class="s-18 text-justify">Our technology is proven to drive significant ROI for businesses in all markets, delivering measurable results in a matter of weeks.</p>
                 </div>
 
-                <div class="col-md-4 pt-100 force-pr wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="1s">
+                <div class="col-md-4 pt-100 force-pr wow animated" data-animation="fadeInRight">
                     <img src="/assets/images/thumb-efficiency.jpg"  class="mb-4 d-block img-fluid border-blue-thumb r-28" alt="ROI">
 
                     <h2 class="s-28 w-700 text-center mb-4">Efficiency</h2>
@@ -28,7 +28,7 @@
                     <p class="s-18 text-justify">Our technology streamlines processes, reduces costs, and improves efficiency for businesses, freeing up resources for more strategic use.</p>
                 </div>
 
-                <div class="col-md-4 pt-100 wow fadeInRight" data-wow-duration="2s" data-wow-delay="1s">
+                <div class="col-md-4 pt-100 wow animated" data-animation="fadeInRight">
                     <img src="/assets/images/thumb-scalability.jpg"  class="mb-4 d-block img-fluid border-blue-thumb r-28" alt="ROI">
 
                     <h2 class="s-28 w-700 text-center mb-4">More Scalability</h2>
