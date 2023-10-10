@@ -2,7 +2,7 @@
     <section id="features-13" class="bg--black-50 pt-100 pb-100 features-section mobile-showcase">
         <div class="container">
             <div class="row text-center">
-                <h2 class="text-primary w-700 s-46 mb-5">
+                <h2 class="text-primary w-700 s-46 mb-5 wow animated" data-animation="fadeInDown">
                     Mobile App Showcase
                 </h2>
             </div>

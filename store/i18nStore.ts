@@ -1,6 +1,8 @@
 import axios from 'axios';
 import yaml from 'js-yaml';
 
+const baseUrl = process.env.VUE_APP_API_BASE_URL;
+
 export const useI18nStore = defineStore({
   id: 'i18n',
   state: () => ({
@@ -11,7 +13,7 @@ export const useI18nStore = defineStore({
   actions: {
     async fetchEnData() {
       try {
-        const response = await axios.get('http://localhost:3000/lang/enUS.yaml');
+        const response = await axios.get(`${baseUrl}/lang/enUS.yaml`);
         const parsedData = yaml.load(response.data);
 
         this.enData = parsedData;
@@ -21,7 +23,7 @@ export const useI18nStore = defineStore({
     },
     async fetchPtData() {
       try {
-        const response = await axios.get('http://localhost:3000/lang/ptBR.yaml');
+        const response = await axios.get(`${baseUrl}/lang/ptBR.yaml`);
         const parsedData = yaml.load(response.data);
 
         this.ptData = parsedData;
@@ -31,7 +33,7 @@ export const useI18nStore = defineStore({
     },
     async fetchEsData() {
       try {
-        const response = await axios.get('http://localhost:3000/lang/es.yaml');
+        const response = await axios.get(`${baseUrl}/lang/es.yaml`);
         const parsedData = yaml.load(response.data);
 
         this.esData = parsedData;

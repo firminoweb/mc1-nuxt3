@@ -24,6 +24,9 @@ export default defineNuxtConfig({
       "~/assets/css/main.scss",
       "~/assets/css/responsive.scss"
     ],
+    build: {
+        transpile: ['gsap'],
+    },
     modules: [
         [
             '@pinia/nuxt',

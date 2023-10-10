@@ -91,13 +91,25 @@ export default {
   data() {
     return {
       isActive: 1,
-      isScrollLocked: false
+      isScrollLocked: false,
+      cameFromBottom: false,  // Novo estado para identificar de onde veio o scroll
     };
   },
   methods: {
     toggle(num) {
       this.isActive = num;
     },
+    debounce(func, wait) {
+  let timeout;
+  return function executedFunction(...args) {
+    const later = () => {
+      clearTimeout(timeout);
+      func(...args);
+    };
+    clearTimeout(timeout);
+    timeout = setTimeout(later, wait);
+  };
+},
     handleScroll(event) {
     console.log("Handle Scroll chamado");
     if (!this.isScrollLocked) return;
@@ -120,51 +132,38 @@ export default {
       this.isScrollLocked = false;
     }
   },
+
   },
   mounted() {
-  const statistic5Element = this.$refs.statistic5;
-  let lastScrollTop = 0;
-  const headerHeight = 63;
-  let activateFromBottom = false; // Flag para ativação ao rolar de baixo para cima
+    const statistic5Element = this.$refs.statistic5;
+    let lastScrollTop = 0;
+    const headerHeight = 63;
 
-  window.addEventListener('scroll', () => {
-    const rect = statistic5Element.getBoundingClientRect();
-    let st = window.pageYOffset || document.documentElement.scrollTop;
+    window.addEventListener('scroll', this.debounce(() => {
+      const rect = statistic5Element.getBoundingClientRect();
+      let st = window.pageYOffset || document.documentElement.scrollTop;
 
-    // Ativação ao rolar para baixo
-    if (rect.top <= headerHeight && rect.bottom >= 0) {
-      this.isScrollLocked = true;
-      activateFromBottom = false; // Reset da flag
-
-      if (st > lastScrollTop && (rect.top + headerHeight) <= 0) {
+      // Quando o usuário rola para baixo e o componente entra no viewport
+      if (st > lastScrollTop && rect.top <= headerHeight && rect.bottom >= 0) {
+        this.isScrollLocked = true;
         this.isActive = 1;
-
-        if (this.isActive === 4) {
-          this.isScrollLocked = false;
-        }
-      }
-    }
-    // Ativação ao rolar para cima
-    else if (st < lastScrollTop && rect.bottom >= (window.innerHeight) && activateFromBottom) {
-      this.isScrollLocked = true;
-      this.isActive = 4;  // Setando para 4
-
-      if (this.isActive === 1) {
+      } 
+      // Quando o usuário rola para cima e o componente entra no viewport
+      else if (st < lastScrollTop && rect.bottom > headerHeight && rect.top < window.innerHeight) {
+        this.isScrollLocked = true;
+        this.isActive = 4;
+      } 
+      // Quando o usuário rola para fora do componente
+      else {
         this.isScrollLocked = false;
       }
-    }
-    // Fora do viewport
-    else {
-      this.isScrollLocked = false;
-      if (rect.bottom < 0) {
-        activateFromBottom = true; // Ativa a flag quando o componente sai do viewport rolando para cima
-        this.isActive = 4;  // Setando para 4
-      }
-    }
 
-    lastScrollTop = st <= 0 ? 0 : st;
-  });
-}
+      lastScrollTop = st <= 0 ? 0 : st;
+  }, 250));
+
+  },
 
 };
+
+
 </script>

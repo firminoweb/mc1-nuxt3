@@ -8,7 +8,12 @@
                     </h2>
 
                     <div class="fbox-12 bg--black-300 r-28 nav-cards wow animated" data-animation="fadeInLeft">
+                        
+                        <div class="pagCircle">
+                                1
+                            </div>
                         <div class="exbox active">
+
                             <h4 class="s-16 w-700 text-white mb-2">Optimized Promotions:</h4>
 
                             <p class="s-14 text-white">

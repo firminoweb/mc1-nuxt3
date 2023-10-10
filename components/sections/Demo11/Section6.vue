@@ -2,7 +2,7 @@
     <section class="pt-100 pb-100 ct-02 content-section division">
         <div class="container">
             <div class="row">
-                <div class="col-12 wow animated" data-animation="fadeInDown">
+                <div class="col-12 wow animated" data-animation="fadeInLeft">
                     <div class="fbox-12 bg--white-100 r-32 big-card extra-tb border-opb wow animated" data-animation="fadeInLeft">
                         <div class="top-title">
                             <h2 class="s-32 w-700">IRE Key Differentials</h2>

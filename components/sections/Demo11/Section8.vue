@@ -12,24 +12,24 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 pt-100 force-pr wow animated" data-animation="fadeInRight">
-                    <img src="/assets/images/thumb-roi.jpg"  class="mb-4 d-block img-fluid border-blue-thumb r-28" alt="ROI">
+                <div class="col-md-4 pt-150 force-pr wow animated" data-animation="fadeInRight">
+                    <img src="/assets/images/roi-ico.png" class="mb-4 d-block mx-auto" alt="ROI">
 
                     <h2 class="s-28 w-700 text-center mb-4">ROI</h2>
 
                     <p class="s-18 text-justify">Our technology is proven to drive significant ROI for businesses in all markets, delivering measurable results in a matter of weeks.</p>
                 </div>
 
-                <div class="col-md-4 pt-100 force-pr wow animated" data-animation="fadeInRight">
-                    <img src="/assets/images/thumb-efficiency.jpg"  class="mb-4 d-block img-fluid border-blue-thumb r-28" alt="ROI">
+                <div class="col-md-4 pt-150 force-pr wow animated" data-animation="fadeInRight">
+                    <img src="/assets/images/efficiency-ico.png" class="mb-4 d-block mx-auto" alt="Efficiency">
 
                     <h2 class="s-28 w-700 text-center mb-4">Efficiency</h2>
 
                     <p class="s-18 text-justify">Our technology streamlines processes, reduces costs, and improves efficiency for businesses, freeing up resources for more strategic use.</p>
                 </div>
 
-                <div class="col-md-4 pt-100 wow animated" data-animation="fadeInRight">
-                    <img src="/assets/images/thumb-scalability.jpg"  class="mb-4 d-block img-fluid border-blue-thumb r-28" alt="ROI">
+                <div class="col-md-4 pt-150 wow animated" data-animation="fadeInRight">
+                    <img src="/assets/images/scalability-ico.png" class="mb-4 d-block mx-auto" alt="Scalability">
 
                     <h2 class="s-28 w-700 text-center mb-4">More Scalability</h2>
 

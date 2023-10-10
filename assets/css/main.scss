@@ -68,6 +68,23 @@ section,
 
 .nav-cards {
     padding-bottom: 0 !important;
+    position: relative;
+
+    .pagCircle {
+        width: 64px;
+        height: 64px;
+        line-height: 64px;
+        text-align: center;
+        vertical-align: middle;
+        border: 1px solid #00A0C4;
+        position: absolute;
+        border-radius: 50%;
+        top: -295px;
+        left: 50%;
+        background: #fff;
+        font-size: 54px;
+    font-weight: 500;
+    }
 
     .exbox {
         width: 33%;
@@ -80,6 +97,9 @@ section,
         top: -60px;
         position: relative;
         margin-bottom: -90px;
+        position: relative;
+
+
 
         &:hover,
         &.active {
@@ -239,6 +259,10 @@ section,
 
 .border-bottom-w2 {
     border-bottom: 2px solid #fff;
+}
+
+.border-right-w5 {
+    border-right: 5px solid #fff;
 }
 /*------------------------------------------*/
 /*  BORDER RADIUS SETTING
@@ -477,6 +501,24 @@ section,
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
+.pr-30 {
+    padding-right: 30px;
+}
+.pr-40 {
+    padding-right: 40px;
+}
+
+.pl-10 {
+    padding-left: 10px;
+}
+.pl-30 {
+    padding-left: 30px;
+}
+.pl-40 {
+    padding-left: 40px;
+}
+
 .pt-30 {
     padding-top: 30px;
 }
@@ -500,6 +542,9 @@ section,
 }
 .pt-100 {
     padding-top: 100px;
+}
+.pt-150 {
+    padding-top: 150px;
 }
 .pt-200 {
     padding-top: 200px;
@@ -4085,6 +4130,9 @@ span.sm-info {
     opacity: 0.2;
 }
 
+.lock-scroll {
+    overflow: hidden;
+}
 
 .statis-section {
     height: 100vh;
