@@ -1,7 +1,9 @@
 import axios from 'axios';
 import yaml from 'js-yaml';
 
-const baseUrl = process.env.VUE_APP_API_BASE_URL;
+const baseUrl = process.env.VITE_BASE_URL;
+
+console.log('BASE_URL:', import.meta.env.VITE_BASE_URL);
 
 export const useI18nStore = defineStore({
   id: 'i18n',
