@@ -4,6 +4,7 @@ import yaml from 'js-yaml';
 const baseUrl = import.meta.env.VITE_BASE_URL;
 
 console.log('BASE_URL:', import.meta.env.VITE_BASE_URL);
+console.log('MODE:', import.meta.env.MODE);
 
 export const useI18nStore = defineStore({
   id: 'i18n',

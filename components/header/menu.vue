@@ -140,7 +140,7 @@ export default {
         },
 
         changeLang(str) {
-            this.lang = str;
+            this.lang = str === 'en' ? '' : str;
 
             reloadNuxtApp({
                 path: `/${this.lang}`,
