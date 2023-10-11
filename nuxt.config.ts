@@ -25,7 +25,8 @@ export default defineNuxtConfig({
       "~/assets/css/responsive.scss"
     ],
     build: {
-        transpile: ['gsap'],
+        transpile: ['gsap', 'swiper'],
+        
     },
     modules: [
         [
@@ -58,7 +59,7 @@ export default defineNuxtConfig({
     ],
     plugins: [
         '~/plugins/load-i18n.js',
-        //'~/plugins/scrollmagic.js'
+        //'~/plugins/text-limiter.js'
     ],
     i18n: {
         locales: [

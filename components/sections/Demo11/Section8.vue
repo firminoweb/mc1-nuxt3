@@ -1,10 +1,12 @@
 <template>
-    <section id="features-2" class="mt-100 pt-200 pb-100 value-proposition division">
+    <section id="value_proposition" class="mt-100 pt-200 pb-100 value-proposition division">
         <div class="container">
             <div class="row">
                 <div class="row float-big-title wow animated" data-animation="fadeInUp">
                     <div class="col-md-6">
-                        <h2 class="s-38 w-700">Value Proposition</h2>
+                        <h2 class="s-38 w-700">
+                            {{ $t('section7_title') }}
+                        </h2>
                     </div>
 
                     <div class="col-md-6">
@@ -15,25 +17,37 @@
                 <div class="col-md-4 pt-150 force-pr wow animated" data-animation="fadeInRight">
                     <img src="/assets/images/roi-ico.png" class="mb-4 d-block mx-auto" alt="ROI">
 
-                    <h2 class="s-28 w-700 text-center mb-4">ROI</h2>
+                    <h2 class="s-28 w-700 text-center mb-4">
+                        {{ $t('section7_col1_title') }}
+                    </h2>
 
-                    <p class="s-18 text-justify">Our technology is proven to drive significant ROI for businesses in all markets, delivering measurable results in a matter of weeks.</p>
+                    <p class="s-18 text-justify">
+                        {{ $t('section7_col1_text') }}
+                    </p>
                 </div>
 
                 <div class="col-md-4 pt-150 force-pr wow animated" data-animation="fadeInRight">
                     <img src="/assets/images/efficiency-ico.png" class="mb-4 d-block mx-auto" alt="Efficiency">
 
-                    <h2 class="s-28 w-700 text-center mb-4">Efficiency</h2>
+                    <h2 class="s-28 w-700 text-center mb-4">
+                        {{ $t('section7_col2_title') }}
+                    </h2>
 
-                    <p class="s-18 text-justify">Our technology streamlines processes, reduces costs, and improves efficiency for businesses, freeing up resources for more strategic use.</p>
+                    <p class="s-18 text-justify">
+                        {{ $t('section7_col2_text') }}
+                    </p>
                 </div>
 
                 <div class="col-md-4 pt-150 wow animated" data-animation="fadeInRight">
                     <img src="/assets/images/scalability-ico.png" class="mb-4 d-block mx-auto" alt="Scalability">
 
-                    <h2 class="s-28 w-700 text-center mb-4">More Scalability</h2>
+                    <h2 class="s-28 w-700 text-center mb-4">
+                        {{ $t('section7_col2_title') }}
+                    </h2>
 
-                    <p class="s-18 text-justify">Our breakthroughs in on-device processing and image recognition have fundamentally transformed the scalability paradigm in the CPG industry...</p>
+                    <p class="s-18 text-justify">
+                        {{ limitText($t('section7_col3_text'), 160) }}
+                    </p>
                 </div>
 
                 <div class="col-md-12">
@@ -47,14 +61,12 @@
                 <UModal v-model="isOpenValueProposition">
                     <UCard class="fbox-modal">
                         <h2 class="w-700 s-24 mb-4 pb-4 bb-primary d-inline-flex">
-                            Value Proposition
+                            {{ $t('section7_col2_title') }}
                         </h2>
 
-                        <p class="mb-4">Our technology is proven to drive significant ROI for businesses in all markets, delivering measurable results in a matter of weeks.</p>
-
-                        <p class="mb-4">Our technology streamlines processes, reduces costs, and improves efficiency for businesses, freeing up resources for more strategic use.</p>
-
-                        <p>Our breakthroughs in on-device processing and image recognition have fundamentally transformed the scalability paradigm in the CPG industry.</p>
+                        <p>
+                            {{ $t('section7_col3_text') }}
+                        </p>
                     </UCard>
                 </UModal>
 
@@ -65,4 +77,8 @@
 
 <script setup>
     const isOpenValueProposition = ref(false);
+
+    function limitText(text, limit = 100) {
+        return text.length > limit ? text.slice(0, limit) + '...' : text;
+    }
 </script>

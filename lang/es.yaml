@@ -1,4 +1,113 @@
-section1_title: Desbloquee el poder del reconocimiento de imágenes
 
-section1_text: Descubra cómo nuestra tecnología de reconocimiento de imágenes puede transformar su negocio, impulsar el crecimiento de los ingresos y mejorar el retorno de la inversión. Únase a nosotros para una exploración en profundidad de IRE, TPM y RGM.
-        
+section1_title: Desbloquea el Poder del Reconocimiento de Imágenes
+
+section1_text: Descubre cómo nuestra tecnología de reconocimiento de imágenes puede transformar tu negocio, impulsar el crecimiento de los ingresos y mejorar el ROI. Únete a nosotros para una exploración en profundidad de IRE, TPM y RGM.
+
+section2_title: Escaparate de Aplicación Móvil
+
+section2_col1_title: Persona de Usuario 1
+
+section2_col1_subtitle: Auditor o Promotor de Ejecución de Tienda
+
+section2_col1_text: Esta persona juega un papel crucial en la captura de fotografías de espacios designados para el análisis de mercado. El objetivo es obtener indicadores clave de rendimiento e información sobre la ejecución de la tienda en tiempo real. A través de la aplicación móvil, el auditor o promotor puede capturar, analizar e informar rápidamente y de manera eficiente sobre la ubicación de productos en la tienda, exhibiciones promocionales y merchandising visual en general.
+
+section2_col2_title: Persona de Usuario 2
+
+section2_col2_subtitle: Operador de Tienda Pequeña
+
+section2_col2_text: El Operador de Tienda Pequeña busca una experiencia de aplicación que sea sencilla y sin complicaciones. Desean una aplicación que requiera interacciones mínimas - solo unos pocos clics. En lugar de sentirse abrumados con una gran cantidad de información, este usuario valora principalmente la retroalimentación directa sobre su rendimiento.
+
+
+section3_title: El Proceso Completo Detrás de la Tecnología
+
+section3_slide1_title: Aprendizaje Automático y Computación en el Borde
+
+section3_slide1_text: Hemos reducido el "costo de servir" al eliminar el procesamiento en la nube para la identificación de productos en imágenes. En su lugar, este procesamiento ocurre directamente en los teléfonos inteligentes.
+
+section3_slide2_title: Análisis de Datos
+
+section3_slide2_text: En lugar de transmitir cada imagen capturada a la nube, los teléfonos inteligentes envían solo los resultados del procesamiento. Esto no solo mejora el rendimiento del proceso, sino que también reduce significativamente el tiempo de respuesta para la toma de decisiones en casi tiempo real.
+
+section3_slide3_title: Información Accionable
+
+section3_slide3_text: Los usuarios reciben información y orientación en tiempo real directamente en sus teléfonos inteligentes, sin necesidad de una conexión a Internet.
+
+section4_title: La Perspectiva del Operador de Mom & Pop
+
+section4_col1_title: Casos de Uso
+
+section4_col1_text: Nuestro producto presenta una funcionalidad de programa de lealtad que otorga puntos a los usuarios de manera gamificada según sus interacciones y resultados de cumplimiento. Estos puntos se pueden canjear por varios beneficios.
+
+section4_col2_title: Los Beneficios
+
+section4_col2_text: La participación en un programa de lealtad con incentivos garantiza un compromiso completo, fomentando una conexión más fuerte entre la tienda y la industria.
+
+section5_title: Diferenciales Clave de IRE
+
+section5_col1_title: Categorías Ilimitadas
+
+section5_col1_text: Sin restricciones en el número de categorías de productos a ser planeadas en planogramas para identificación.
+
+section5_col2_title: 100% Sin Conexión
+
+section5_col2_text: Diseñado para un rendimiento máximo, garantizando el tiempo de respuesta más rápido para los usuarios que no requieren conexión a Internet.
+
+section5_col3_title: Aprendizaje Automático en el Dispositivo
+
+section5_col3_text: El proceso de aprendizaje automático se ejecuta directamente en el teléfono inteligente. Esto reduce los costos operativos y permite un uso minorista más amplio.
+
+section5_col4_title: Integración Nativa
+
+section5_col4_text: Integración perfecta con la plataforma MC1 de ventanilla única, alimentando continuamente nuestra IA con sugerencias de surtido y recomendaciones de precio.
+
+section5_col5_title: Facilidad de Integración con Otras Aplicaciones y Sistemas
+
+section5_col5_text: A través de deep-linking y REST API, nuestra solución se puede integrar a nivel de smartphone para operaciones locales. Para operaciones basadas en la nube, nuestra API REST facilita el intercambio de datos tanto entrante como saliente.
+
+section6_title: El papel del reconocimiento de imágenes en TPM y RGM
+
+section6_col1_title: TPM
+
+section6_col1_subtitle: Al proporcionar datos del mayor número de Puntos de Venta (PDV) en tiempo cercano al real, nuestra solución basada en IA, PromoOptimizer, asegura
+
+section6_col1_pos1_title: Promociones Optimizadas
+
+section6_col1_pos1_text: Mejorando la efectividad y el alcance de los esfuerzos promocionales.
+
+section6_col1_pos2_title: Asignación Estratégica
+
+section6_col1_pos2_text: Dirigiendo dólares promocionales hacia minoristas, tiendas y SKUs que exhiben una mayor elasticidad.
+
+section6_col1_pos3_title: Enfoque Personalizado
+
+section6_col1_pos3_text: Utilizando un algoritmo único para cada SKU por tienda, adaptando la estrategia promocional a necesidades específicas.
+
+section6_col2_title: RGM
+
+section6_col2_subtitle: Aprovechando nuestra capacidad para extraer precios de productos directamente de las fotos, y armados con datos históricos sobre la presencia y frecuencia de productos en tiendas, actualizamos constantemente nuestros conjuntos de datos de PriceOptimizer.
+
+section7_title: Propuesta de Valor
+
+section7_col1_title: ROI
+
+section7_col1_text: Nuestra tecnología ha demostrado generar un ROI significativo para las empresas en todos los mercados, entregando resultados medibles en cuestión de semanas.
+
+section7_col2_title: Eficiencia
+
+section7_col2_text: Nuestra tecnología agiliza los procesos, reduce los costos y mejora la eficiencia para las empresas, liberando recursos para un uso más estratégico.
+
+section7_col3_title: Más Escalabilidad
+
+section7_col3_text: Nuestros avances en procesamiento en el dispositivo e identificación de imágenes han transformado fundamentalmente el paradigma de escalabilidad en la industria de bienes de consumo envasados. Con el poder para extraer datos de mercado vitales directamente de teléfonos inteligentes, hemos reducido drásticamente los costos operativos.
+
+header_menu1: Aplicaciones
+
+header_menu2: Proceso Completo
+
+header_menu3: Perspectiva
+
+header_menu4: Diferenciales
+
+header_menu5: TPM/RGM
+
+header_menu6: Propuesta de Valor

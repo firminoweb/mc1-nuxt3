@@ -1,15 +1,96 @@
 <template>
-    <section class="pt-100 pb-100 ct-02 content-section division">
+    <section id="differentials" class="pt-100 pb-200 ct-02 content-section division">
         <div class="container">
             <div class="row">
                 <div class="col-12 wow animated" data-animation="fadeInLeft">
                     <div class="fbox-12 bg--white-100 r-32 big-card extra-tb border-opb wow animated" data-animation="fadeInLeft">
                         <div class="top-title">
-                            <h2 class="s-32 w-700">IRE Key Differentials</h2>
+                            <h2 class="s-32 w-700">
+                                {{ $t('section5_title') }} 
+                            </h2>
                         </div>
 
-                        <SlidersBrandLogos />
+                        <div class="brands-carousel-5">
+                            <Swiper
+                                :modules="[SwiperNavigation, SwiperAutoplay, SwiperEffectCreative]"
+                                :slides-per-view="3"
+                                :autoplay="{
+                                    delay: 6000,
+                                    disableOnInteraction: false
+                                }"
+                                navigation
+                            >
+                                <SwiperSlide>
+                                    <div class="brand-logo wow fadeInRight" data-wow-duration=".5s">
+                                        <img src="/assets/images/unlimited-ico.png"  class="mx-auto d-block mb-3" alt="Unlimited">
 
+                                        <h3 class="s-20 w-700 text-center mb-4">
+                                            {{ $t('section5_col1_title') }}:
+                                        </h3>
+
+                                        <p>
+                                            {{ $t('section5_col1_text') }}
+                                        </p>
+                                    </div>
+                                </SwiperSlide>
+
+                                <SwiperSlide>
+                                    <div class="brand-logo wow fadeInRight" data-wow-duration=".5s">
+                                        <img src="/assets/images/offline-ico.png"  class="mx-auto d-block mb-4" alt="Offline">
+
+                                        <h3 class="s-20 w-700 text-center mb-3">
+                                            {{ $t('section5_col2_title') }}:
+                                        </h3>
+
+                                        <p>
+                                            {{ $t('section5_col2_text') }}
+                                        </p>
+                                    </div>
+                                </SwiperSlide>
+
+                                <SwiperSlide>
+                                    <div class="brand-logo wow fadeInRight" data-wow-duration=".5s">
+                                        <img src="/assets/images/machine-ico.png"  class="mx-auto d-block mb-4" alt="Machine">
+
+                                        <h3 class="s-20 w-700 text-center mb-3">
+                                            {{ $t('section5_col3_title') }}
+                                        </h3>
+
+                                        <p>
+                                            {{ $t('section5_col3_text') }}
+                                        </p>
+                                    </div>
+                                </SwiperSlide>
+
+                                <SwiperSlide>
+                                    <div class="brand-logo wow fadeInRight" data-wow-duration=".5s">
+                                        <img src="/assets/images/integration-ico.png"  class="mx-auto d-block mb-3" alt="Unlimited">
+
+                                        <h3 class="s-20 w-700 text-center mb-4">
+                                            {{ $t('section5_col4_title') }}
+                                        </h3>
+
+                                        <p>
+                                            {{ $t('section5_col4_text') }}
+                                        </p>
+                                    </div>
+                                </SwiperSlide>
+
+                                <SwiperSlide>
+                                    <div class="brand-logo wow fadeInRight" data-wow-duration=".5s">
+                                        <img src="/assets/images/ease_integration-ico.png"  class="mx-auto d-block mb-4" alt="Offline">
+
+                                        <h3 class="s-20 w-700 text-center mb-3">
+                                            {{ $t('section5_col5_title') }}
+                                        </h3>
+
+                                        <p>
+                                            {{ $t('section5_col5_text') }}
+                                        </p>
+                                    </div>
+                                </SwiperSlide>
+                            </Swiper>
+                        </div>
 
                         <div class="bottom-nav">
                             <a href="javascript:void(0)" title="Esquerda" class="d-inline-block mr-30">
@@ -27,3 +108,17 @@
         </div>
     </section>
 </template>
+
+<!-- <script>
+  import { useSwiper } from 'swiper/vue';
+
+  export default {
+    setup() {
+      const swiper = useSwiper();
+
+      return {
+        swiper,
+      };
+    },
+  };
+</script> -->

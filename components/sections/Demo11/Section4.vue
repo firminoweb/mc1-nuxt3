@@ -1,10 +1,10 @@
 <template> 
-    <div id="statistic-5" class="bg--scroll statis-section border-bottom-dark" ref="statistic5" @wheel="handleScroll">
+    <div id="full_process" class="bg--scroll statis-section border-bottom-dark" ref="statistic5" @wheel="handleScroll">
         <div class="container">
             <div class="row d-flex align-items-center">
                 <div class="col-md-6">
-                    <h1 class="w-700 s-36 mb-4">
-                        The Full <br> Process Behind <br> the Technology
+                    <h1 class="w-700 s-36 mb-4 full-proc-text wow animated" data-animation="fadeInDown">
+                      {{ $t('section3_title') }}
                     </h1>
                 </div>
 
@@ -29,53 +29,37 @@
 
                         <div class="fbox-txt" :class="{'wow animated': isActive === 1, 'fadeInRight': isActive === 1, 'fadeInDown': isActive !== 1}" v-if="isActive === 1">
                             <h1 class="w-700 s-24 mb-4 text-primary">
-                                Data Analysis
+                              {{ $t('section3_slide1_title') }}
                             </h1>
                             <p class="text-gray s-16">
-                                Instead of transmitting every captured image to the
-                                cloud, smartphones send only the processing results.
-                                This not only delivers enhanced performance to the
-                                process but also significantly reduces the lead-time for
-                                near-real-time decision-making.
+                              {{ $t('section3_slide1_text') }}
                             </p>
                         </div>
 
                         <div class="fbox-txt" :class="{'wow animated': isActive === 2, 'fadeInRight': isActive === 2, 'fadeOut': isActive !== 2}"   v-if="isActive === 2">
                             <h1 class="w-700 s-24 mb-4 text-primary">
-                                More Scalability
+                              {{ $t('section3_slide2_title') }}
                             </h1>
                             <p class="text-gray s-16">
-                                Instead of transmitting every captured image to the
-                                cloud, smartphones send only the processing results.
-                                This not only delivers enhanced performance to the
-                                process but also significantly reduces the lead-time for
-                                near-real-time decision-making.
+                              {{ $t('section3_slide2_text') }}
                             </p>
                         </div>
 
                         <div class="fbox-txt" :class="{'wow animated': isActive === 3, 'fadeInRight': isActive === 3, 'fadeOut': isActive !== 3}" v-if="isActive === 3">
                             <h1 class="w-700 s-24 mb-4 text-primary">
-                                Mom & Pop's Operator
+                              {{ $t('section3_slide3_title') }}
                             </h1>
                             <p class="text-gray s-16">
-                                Instead of transmitting every captured image to the
-                                cloud, smartphones send only the processing results.
-                                This not only delivers enhanced performance to the
-                                process but also significantly reduces the lead-time for
-                                near-real-time decision-making.
+                              {{ $t('section3_slide3_text') }}
                             </p>
                         </div>
 
                         <div class="fbox-txt" :class="{'wow animated': isActive === 4, 'fadeInRight': isActive === 4, 'fadeOut': isActive !== 4}"  v-if="isActive === 4">
                             <h1 class="w-700 s-24 mb-4 text-primary">
-                                Store Execution
+                              {{ $t('section3_slide4_title') }}
                             </h1>
                             <p class="text-gray s-16">
-                                Instead of transmitting every captured image to the
-                                cloud, smartphones send only the processing results.
-                                This not only delivers enhanced performance to the
-                                process but also significantly reduces the lead-time for
-                                near-real-time decision-making.
+                              {{ $t('section3_slide4_text') }}
                             </p>
                         </div>
                     </div>

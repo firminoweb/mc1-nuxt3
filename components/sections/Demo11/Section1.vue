@@ -1,5 +1,5 @@
 <template>
-    <section id="hero-26" class="bg--scroll hero-section block-shadow">
+    <section id="home" class="bg--scroll hero-section block-shadow">
         <div class="container">
             <div class="row d-flex align-items-center">
 

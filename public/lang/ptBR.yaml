@@ -1,4 +1,106 @@
-section1_title: Desbloqueie o poder do reconhecimento de imagens
 
-section1_text: Saiba como nossa tecnologia de reconhecimento de imagem pode transformar seus negócios, impulsionar o crescimento da receita e melhorar o ROI. Junte-se a nós para uma exploração aprofundada de IRE, TPM e RGM.
-        
+section1_title: Desbloqueie o Poder do Reconhecimento de Imagens
+
+section1_text: Descubra como nossa tecnologia de reconhecimento de imagens pode transformar o seu negócio, impulsionar o crescimento de receita e melhorar o ROI. Junte-se a nós para uma exploração aprofundada de IRE, TPM e RGM.
+
+section2_title: Mostruário de Aplicativo Móvel
+
+section2_col1_title: Persona de Usuário 1
+
+section2_col1_subtitle: Auditor de Execução de Loja ou Promotor
+
+section2_col1_text: Essa persona desempenha um papel fundamental na captura de fotografias de espaços designados para análise de mercado. O objetivo é obter indicadores de desempenho e insights sobre a execução da loja em tempo real. Por meio do aplicativo móvel, o auditor ou promotor pode capturar, analisar e relatar de forma rápida e eficiente sobre a disposição de produtos da loja, displays promocionais e merchandising visual geral.
+
+section2_col2_title: Persona de Usuário 2
+
+section2_col2_subtitle: Operador de Loja Pequena
+
+section2_col2_text: O Operador de Loja Pequena busca uma experiência de aplicativo que seja direta e sem complicações. Eles desejam um aplicativo que requer interações mínimas — apenas alguns cliques. Em vez de serem sobrecarregados com uma infinidade de informações, esse usuário valoriza principalmente feedback direto sobre seu desempenho. O feedback chave inclui
+
+section2_col2_text2: O feedback chave inclui; Pontos ganhos por capturar uma foto com sucesso. Pontos por organizar o portfólio de produtos sugerido como recomendado. Pontos por garantir que os preços de venda estejam alinhados com as taxas sugeridas. Pontos por seguir as sugestões de reposição de produtos com base em itens não identificados na imagem capturada. Esse sistema de feedback simplificado permite que o Operador de Loja Pequena tome decisões rápidas e ajustes, garantindo que permaneçam alinhados com as recomendações do setor.
+
+section3_title: O Processo Completo Por Trás da Tecnologia
+
+section3_slide1_title: Aprendizado de Máquina e Computação de Borda
+
+section3_slide1_text: Reduzimos o "custo de atendimento" ao eliminar o processamento na nuvem para identificação de produtos em imagens. Em vez disso, esse processamento ocorre diretamente nos smartphones. A limitação no número de objetos e produtos reconhecidos depende exclusivamente das capacidades do smartphone.
+
+section3_slide2_title: Análise de Dados
+
+section3_slide2_text: Em vez de transmitir cada imagem capturada para a nuvem, os smartphones enviam apenas os resultados do processamento. Isso não apenas melhora o desempenho do processo, como também reduz significativamente o tempo de resposta para tomadas de decisão em quase tempo real.
+
+section3_slide3_title: Insights Acionáveis
+
+section3_slide3_text: Os usuários recebem informações e orientações em tempo real diretamente em seus smartphones, sem a necessidade de uma conexão com a internet. Para usuários de back-office, nosso "chatCPG" oferece interação com Processamento de Linguagem Natural (PLN) para buscar insights desejados.
+
+section3_slide4_title: Integração Sem Esforço
+
+section3_slide4_text: Não se limite a usar o IRE isoladamente! Integre perfeitamente nossa solução com outros sistemas — desde links profundos com outros aplicativos Android e iOS até nossa extensa API para troca de dados e análises.
+
+section4_title: A Perspectiva do Operador de Loja Pequena
+
+section4_col1_title: Casos de Uso
+
+section4_col1_text: Nosso produto possui uma funcionalidade de programa de fidelidade, concedendo pontos aos usuários de forma gamificada com base em suas interações e resultados de conformidade. Esses pontos podem ser resgatados por vários benefícios, determinados pela estratégia de cada indústria. Simultaneamente, à medida que os dados de fidelidade são gerados, transmitimos dados de mercado em tempo real para a indústria, diretamente ou por meio de aplicativos de terceiros integrados à nossa plataforma, diretamente do ponto de coleta de dados.
+
+section4_col2_title: Os Benefícios
+
+section4_col2_text: A participação em um programa de fidelidade com incentivos garante engajamento completo, promovendo uma conexão mais forte entre a loja e a indústria. A principal vantagem para o proprietário da loja é a garantia de que a indústria oferecerá os melhores produtos ao consumidor final. Além disso, o proprietário da loja também pode oferecer promoções exclusivas para sua clientela com base nos pontos acumulados, garantindo a atração e retenção de clientes.
+
+section5_title: O Poder do TPM e RGM
+
+section5_col1_title: Tempo-Real
+
+section5_col1_text: Somos os únicos capazes de fornecer dados em tempo real diretamente do ponto de coleta de dados. Nossa tecnologia elimina o tempo entre a coleta de dados e a execução, permitindo que você reaja imediatamente às mudanças nas condições de mercado.
+
+section5_col2_title: Marketing de Performance
+
+section5_col2_text: Nosso sistema é o único que combina dados de execução de loja em tempo real com recursos de Trade Promotion Management (TPM). Juntamente com isso, a gestão da relação com o cliente (CRM) e análise avançada fornecem o suporte completo necessário para marketing de performance bem-sucedido.
+
+section6_title: A Revolução no Varejo Está Aqui
+
+section6_col1_title: PriceOptimizer
+
+section6_col1_subtitle: Um componente crítico na estratégia da empresa
+
+section6_col1_pos1_title: Otimização de Preços
+
+section6_col1_pos1_text: Nosso algoritmo baseado em aprendizado de máquina permite aos varejistas otimizar os preços de seus produtos de acordo com as demandas e tendências do mercado.
+
+section6_col1_pos2_title: Alocação Estratégica
+
+section6_col1_pos2_text: Direcionando dólares promocionais para varejistas, lojas e SKUs que apresentam maior elasticidade.
+
+section6_col1_pos3_title: Abordagem Personalizada
+
+section6_col1_pos3_text: Utilizando um algoritmo único para cada SKU por loja, adaptando a estratégia promocional às necessidades específicas.
+
+section6_col2_title: RGM
+
+section6_col2_subtitle: Utilizando nossa capacidade de extrair preços de produtos diretamente das fotos, e armados com dados históricos sobre a presença e frequência de produtos nas lojas, atualizamos constantemente nossos conjuntos de dados do PriceOptimizer. Isso permite
+
+section7_title: Proposta de Valor
+
+section7_col1_title: ROI
+
+section7_col1_text: Nossa tecnologia tem provado trazer um ROI significativo para empresas em todos os mercados, entregando resultados mensuráveis em questão de semanas.
+
+section7_col2_title: Escalabilidade
+
+section7_col2_text: Nossa plataforma foi projetada para escalar de forma eficiente, permitindo que empresas de todos os tamanhos se beneficiem do nosso poderoso conjunto de ferramentas de análise e reconhecimento de imagem.
+
+section7_col3_title: Segurança de Dados
+
+section7_col3_text: A segurança dos dados é uma de nossas maiores prioridades. Utilizamos criptografia de ponta a ponta e outras medidas de segurança para garantir que suas informações estejam sempre protegidas.
+
+header_menu1: Mostruário
+
+header_menu2: Processo Completo
+
+header_menu3: Perspectiva
+
+header_menu4: Diferenciais
+
+header_menu5: TPM/RGM
+
+header_menu6: Proposta de Valor

@@ -4831,12 +4831,12 @@ span.sm-info {
     margin-bottom: 30px;
 }
 /*------------------------------------------*/
-/*  HERO-26
+/*  home
 /*------------------------------------------*/
-#hero-26 .wave-shape-bottom path {
+#home .wave-shape-bottom path {
     fill: #fff;
 }
-#hero-26 {
+#home {
     position: relative;
     background-image: url(../images/main-bg.jpg);
     padding-top: 180px;
@@ -4863,7 +4863,7 @@ span.sm-info {
 .hero-26-txt h2 {
     padding-right: 2%;
 }
-#hero-26 .quick-form {
+#home .quick-form {
     margin-right: 4%;
 }
 .hero-26-img {
@@ -10521,7 +10521,7 @@ body.theme--dark {
 }
 .theme--dark #hero-14.hero-section .quick-form .form-control,
 .theme--dark #hero-24.hero-section .quick-form .form-control,
-.theme--dark #hero-26.hero-section .quick-form .form-control {
+.theme--dark #home.hero-section .quick-form .form-control {
     color: #666;
     background-color: #fff;
 }
@@ -10552,13 +10552,13 @@ body.theme--dark {
 .theme--dark #hero-24.hero-section .quick-form .form-control::-webkit-input-placeholder {
     color: #999;
 }
-.theme--dark #hero-26.hero-section .quick-form .form-control::-moz-placeholder {
+.theme--dark #home.hero-section .quick-form .form-control::-moz-placeholder {
     color: #999;
 }
-.theme--dark #hero-26.hero-section .quick-form .form-control:-ms-input-placeholder {
+.theme--dark #home.hero-section .quick-form .form-control:-ms-input-placeholder {
     color: #999;
 }
-.theme--dark #hero-26.hero-section .quick-form .form-control::-webkit-input-placeholder {
+.theme--dark #home.hero-section .quick-form .form-control::-webkit-input-placeholder {
     color: #999;
 }
 .theme--dark .hero-section .quick-form .form-control:focus {
@@ -10567,7 +10567,7 @@ body.theme--dark {
 }
 .theme--dark #hero-14.hero-section .quick-form .form-control:focus,
 .theme--dark #hero-24.hero-section .quick-form .form-control:focus,
-.theme--dark #hero-26.hero-section .quick-form .form-control:focus {
+.theme--dark #home.hero-section .quick-form .form-control:focus {
     background-color: #fff;
     border-color: transparent;
 }
@@ -10613,13 +10613,19 @@ body.theme--dark {
 .theme--dark #hero-8-form p {
     color: #b1b7cd;
 }
+
+.full-proc-text {
+    color: #fff;
+    text-shadow: 1px 2px rgba(0,0,0,.5), -1px 1px 8px rgba(0,0,0,.4);
+}
+
 .theme--dark #hero-5 .wave-shape-bottom svg path,
 .theme--dark #hero-8 .wave-shape-bottom svg path,
 .theme--dark #hero-14 .wave-shape-bottom svg path,
 .theme--dark #hero-16 .wave-shape-bottom svg path,
 .theme--dark #hero-22 .wave-shape-bottom svg path,
 .theme--dark #hero-23 .wave-shape-bottom svg path,
-.theme--dark #hero-26 .wave-shape-bottom svg path {
+.theme--dark #home .wave-shape-bottom svg path {
     fill: #232734;
 }
 .theme--dark #hero-10 {

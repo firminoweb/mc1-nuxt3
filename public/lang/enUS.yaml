@@ -1,4 +1,127 @@
 section1_title: Unlock the Power of Image Recognition
 
 section1_text: Learn how our image recognition technology can transform your business, drive revenue growth, and improve ROI. Join us for an in-depth exploration of IRE, TPM, and RGM.
-        
+
+section2_title: Mobile App Showcase
+
+section2_col1_title: User Persona 1
+
+section2_col1_subtitle: Store Execution Auditor or Promoter
+
+section2_col1_text: This persona plays a pivotal role in capturing photographs of designated spaces for market analysis. The objective is to obtain real-time key performance indicators and insights about the store's execution. Through the mobile app, the auditor or promoter can quickly and efficiently capture, analyze, and report on the store's product placement, promotional displays, and overall visual merchandising.
+
+section2_col2_title: User Persona 2
+
+section2_col2_subtitle: Mom & Pop's Operator
+
+section2_col2_text: The Mom & Pop's Operator seeks an app experience that is straightforward and hassle-free. They desire an app that requires minimal interactions — just a few clicks. Rather than being overwhelmed with a plethora of information, this user primarily values direct feedback on their performance.
+
+section2_col2_text2: Key feedback includes; Points earned for successfully capturing a photo. Points for arranging the suggested product portfolio as recommended. Points for ensuring sell-out prices align with the suggested rates. Points for adhering to product restocking suggestions based on items not identified in the captured image. This streamlined feedback system empowers the Mom & Pop's Operator to make quick decisions and adjustments, ensuring they remain aligned with industry recommendations.
+
+section3_title: The Full Process Behind the Technology
+
+section3_slide1_title: Machine Learning and Edge Computing
+
+section3_slide1_text: We've reduced the "cost to serve" by eliminating cloud processing for product identification in images. Instead, this processing happens directly on smartphones. The limitation on the number of objects and products recognized solely depends on the smartphone's capabilities.
+
+section3_slide2_title: Data Analysis
+
+section3_slide2_text: Instead of transmitting every captured image to the cloud, smartphones send only the processing results. This not only delivers enhanced performance to the process but also significantly reduces the lead-time for near-real-time decision-making.
+
+section3_slide3_title: Actionable Insights
+
+section3_slide3_text: Users receive real-time information and guidance directly on their smartphones, without the need for an internet connection. For back-office users, our "chatCPG" offers interaction with Natural Language Processing (NLP) to fetch desired insights.
+
+section3_slide4_title: Effortless Integration
+
+section3_slide4_text: Don't limit yourself to using IRE in isolation! Seamlessly integrate our solution with other systems — from deep-linking with other Android and iOS apps to our extensive API for data exchange and analytics
+
+section4_title: The Mom & Pop's Operator Perspective
+
+section4_col1_title: Use Cases
+
+section4_col1_text: Our product features a loyalty program functionality, awarding points to users in a gamified manner based on their interactions and compliance results. These points can be redeemed for various benefits, determined by each industry's strategy. Simultaneously, as loyalty data is generated, we relay real-time market data to the industry, either directly or via third-party applications integrated with our platform, right from the point of data collection.
+
+section4_col2_title: The Benefits
+
+section4_col2_text: Participation in a loyalty program with incentives ensures complete engagement, fostering a stronger connection between the store and the industry. The primary advantage for the store owner is the assurance that the industry will consistently offer a suitable portfolio at the right price, both for sell-in and sell-out, based on the store's location. Additionally, by using this application and providing up-to-date and accurate information, the store stands to gain discounts or rebates from the CPG industry.
+
+section5_title: IRE Key Differentials
+
+section5_col1_title: Unlimited Categories
+
+section5_col1_text: No restriction on the number of product categories to be planned in planograms for identification from one or multiple photos.
+
+section5_col2_title: 100% Offline
+
+section5_col2_text: Designed for maximum performance, ensuring the quickest response time to users requiring no-internet connection.
+
+section5_col3_title: On-device Machine Learning
+
+section5_col3_text: The machine learning process runs directly on the smartphone. This reduces operational costs and allows for wider retail use, not just limited to large chains or sampling, as seen with other solutions.
+
+section5_col4_title: Native Integration
+
+section5_col4_text: Seamlessly integrated with the one-stop-shop MC1 platform, continuously feeding our AI with assortment suggestions and price recommendations for both sell-in and sell-out.
+
+section5_col5_title: Ease of Integration with Other Apps and Systems
+
+section5_col5_text: Through deep-linking and REST API, our solution can be integrated at the smartphone level for local operations. For cloud-based operations, our REST API facilitates data exchange both in-bound and out-bound.
+
+
+section6_title: Image Recognition's Role in TPM and RGM
+
+section6_col1_title: TPM
+
+section6_col1_subtitle: By supplying data from the highest number of Point of Sales (POS) in near-real time, derived from image recognition, our AI-based solution, PromoOptimizer, ensures
+
+section6_col1_pos1_title: Optimized Promotions
+
+section6_col1_pos1_text: Enhancing the effectiveness and reach of promotional efforts.
+
+section6_col1_pos2_title: Strategic Allocation
+
+section6_col1_pos2_text: Directing promotional dollars towards retailers, stores, and SKUs that exhibit higher elasticity.
+
+section6_col1_pos3_title: Customized Approach
+
+section6_col1_pos3_text: Utilizing a unique algorithm for each SKU per store, tailoring the promotional strategy to specific needs.
+
+section6_col2_title: RGM
+
+section6_col2_subtitle: Leveraging our capability to extract product prices directly from photos, and armed with historical data on product presence and frequency in stores, we consistently update our PriceOptimizer datasets. This allows for
+
+section6_col2_pos1_title: Weekly Price Adjustments
+
+section6_col2_pos1_text: Regularly refining sell-out and sell-in price suggestions based on market dynamics.
+
+section6_col2_pos2_title: Real-Time Price Gap Analysis
+
+section6_col2_pos2_text: Providing instantaneous insights on both your products and the competition's, ensuring competitive positioning.
+
+
+section7_title: Value Proposition
+
+section7_col1_title: ROI
+
+section7_col1_text: Our technology is proven to drive significant ROI for businesses in all markets, delivering measurable results in a matter of weeks.
+
+section7_col2_title: Efficiency
+
+section7_col2_text: Our technology streamlines processes, reduces costs, and improves efficiency for businesses, freeing up resources for more strategic use.
+
+section7_col3_title: More Scalability
+
+section7_col3_text: Our breakthroughs in on-device processing and image recognition have fundamentally transformed the scalability paradigm in the CPG industry. With the power to extract vital market data directly from smartphones, we've dramatically reduced operational costs. This evolution means that businesses can now expand their operations across a volume of stores previously considered untenable due to prohibitive expenses. Our technology not only democratizes access to real-time insights for all scales of retail but also unlocks unprecedented growth potential for industry stakeholders.
+
+header_menu1: App Showcase
+
+header_menu2: Full Process
+
+header_menu3: Operator Perspective
+
+header_menu4: Differentials
+
+header_menu5: TPM/RGM
+
+header_menu6: Value Proposition

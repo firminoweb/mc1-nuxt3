@@ -14,14 +14,18 @@
                 <ul class="wsmenu-list nav-theme">
 
                     <li aria-haspopup="true" class="mg_link">
-                        <NuxtLink to="#hero-26" class="h-link">App Showcase</NuxtLink>
+                        <NuxtLink to="#app_showcase" class="h-link">{{ $t('header_menu1') }}</NuxtLink>
                     </li>
 
-                    <li class="nl-simple" aria-haspopup="true"><NuxtLink to="#features-13" class="h-link">Full Process</NuxtLink></li>
+                    <li class="nl-simple" aria-haspopup="true"><NuxtLink to="#full_process" class="h-link">{{ $t('header_menu2') }}</NuxtLink></li>
 
-                    <li class="nl-simple" aria-haspopup="true"><NuxtLink to="#lnk-1" class="h-link">Operator Perspective</NuxtLink></li>
-                    <li class="nl-simple" aria-haspopup="true"><NuxtLink to="#features-2" class="h-link">Differentials</NuxtLink></li>
-                    <li class="nl-simple" aria-haspopup="true"><NuxtLink to="#features-7" class="h-link">TPM/RGM</NuxtLink></li>
+                    <li class="nl-simple" aria-haspopup="true"><NuxtLink to="#operator_perspective" class="h-link">{{ $t('header_menu3') }}</NuxtLink></li>
+
+                    <li class="nl-simple" aria-haspopup="true"><NuxtLink to="#differentials" class="h-link">{{ $t('header_menu4') }}</NuxtLink></li>
+
+                    <li class="nl-simple" aria-haspopup="true"><NuxtLink to="#tmprgm" class="h-link">{{ $t('header_menu5') }}</NuxtLink></li>
+
+                    <li class="nl-simple" aria-haspopup="true"><NuxtLink to="#value_proposition" class="h-link">{{ $t('header_menu6') }}</NuxtLink></li>
 
                     <li class="nl-simple reg-fst-link mobile-last-link" :class="{ open: isOpen[0] }" aria-haspopup="true">
                         <span class="wsmenu-click 123" @click="toggle(0)"><i class="wsmenu-arrow"></i></span>

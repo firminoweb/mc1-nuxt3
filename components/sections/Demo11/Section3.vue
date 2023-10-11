@@ -1,9 +1,9 @@
 <template>
-    <section id="features-13" class="bg--black-50 pt-100 pb-100 features-section mobile-showcase">
+    <section id="app_showcase" class="bg--black-50 pt-100 pb-100 features-section mobile-showcase">
         <div class="container">
             <div class="row text-center">
                 <h2 class="text-primary w-700 s-46 mb-5 wow animated" data-animation="fadeInDown">
-                    Mobile App Showcase
+                    {{ $t('section2_title') }}
                 </h2>
             </div>
 
@@ -14,14 +14,16 @@
                         <img class="img-fluid image" src="/assets/images/persona_1.png" alt="persona 1">
 
                         <h2 class="text-primary w-700 s-32 mb-2">
-                            User Persona 1:
+                            {{ $t('section2_col1_title') }}
                         </h2>
 
                         <h2 class="w-700 s-24 mb-4 pb-4 bb-primary d-inline-flex">
-                            Store Execution <br> Auditor or Promoter
+                            {{ $t('section2_col1_subtitle') }}
                         </h2>
 
-                        <p class="mb-4">This persona plays a pivotal role in capturing photographs of designated spaces for market analysis. The objective is to obtain real-time key performance indicators and insights about the store's execution...</p>
+                        <p class="mb-4">
+                            {{ limitText($t('section2_col1_text'), 205) }}
+                        </p>
 
                         <div class="text-end">
                             <a href="javascript:void(0)" @click="isOpenPersonaA = true" title="Learn more" class="link-primary link-underline-primary">Learn more</a>
@@ -30,12 +32,12 @@
                         <UModal v-model="isOpenPersonaA">
                             <UCard class="fbox-modal">
                                 <h2 class="w-700 s-24 mb-4 pb-4 bb-primary d-inline-flex">
-                                    Store Execution Auditor or Promoter
+                                    {{ $t('section2_col1_subtitle') }}
                                 </h2>
 
-                                <p class="mb-4">This persona plays a pivotal role in capturing photographs of designated spaces for market analysis. The objective is to obtain real-time key performance indicators and insights about the store's execution...</p>
-
-                                <p>This persona plays a pivotal role in capturing photographs of designated spaces for market analysis. The objective is to obtain real-time key performance indicators and insights about the store's execution...</p>
+                                <p>
+                                    {{ $t('section2_col1_text') }}
+                                </p>
                             </UCard>
                         </UModal>
                     </div>
@@ -47,14 +49,16 @@
                             <img class="img-fluid image" src="/assets/images/persona_2.png" alt="persona 1">
 
                             <h2 class="text-primary w-700 s-32 mb-2">
-                                User Persona 2:
+                                {{ $t('section2_col2_title') }}
                             </h2>
 
                             <h2 class="w-700 s-24 mb-4 pb-4 bb-primary d-inline-flex">
-                                Mom & Pop's Operator
+                                {{ $t('section2_col2_subtitle') }}
                             </h2>
 
-                            <p class="mb-4">The Mom & Pop's Operator seeks an app experience that is straightforward and hassle-free. They desire an app that requires minimal interactions - just a few clicks. Rather than being overwhelmed with a plethora of information, this user primarily...</p>
+                            <p class="mb-4">
+                                {{ limitText($t('section2_col2_text'), 247) }}
+                            </p>
 
                             <div class="text-end">
                                 <a href="javascript:void(0)" @click="isOpenPersonaB = true" title="Learn more" class="link-primary link-underline-primary">Learn more</a>
@@ -63,12 +67,16 @@
                             <UModal v-model="isOpenPersonaB">
                                 <UCard class="fbox-modal">
                                     <h2 class="w-700 s-24 mb-4 pb-4 bb-primary d-inline-flex">
-                                        Mom & Pop's Operator
+                                        {{ $t('section2_col2_subtitle') }}
                                     </h2>
 
-                                    <p class="mb-4">The Mom & Pop's Operator seeks an app experience that is straightforward and hassle-free. They desire an app that requires minimal interactions - just a few clicks. Rather than being overwhelmed with a plethora of information, this user primarily.</p>
+                                    <p class="mb-4">
+                                        {{ $t('section2_col2_text') }}
+                                    </p>
 
-                                    <p>The Mom & Pop's Operator seeks an app experience that is straightforward and hassle-free. They desire an app that requires minimal interactions - just a few clicks. Rather than being overwhelmed with a plethora of information, this user primarily.</p>
+                                    <p>
+                                        {{ $t('section2_col2_text2') }}
+                                    </p>
                                 </UCard>
                             </UModal>
                         </div>
@@ -83,6 +91,12 @@
 </template>
 
 <script setup>
-    const isOpenPersonaA = ref(false);
-    const isOpenPersonaB = ref(false);
+import { ref } from 'vue';
+
+const isOpenPersonaA = ref(false);
+const isOpenPersonaB = ref(false);
+
+function limitText(text, limit = 100) {
+  return text.length > limit ? text.slice(0, limit) + '...' : text;
+}
 </script>
