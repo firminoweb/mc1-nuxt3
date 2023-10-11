@@ -35,17 +35,17 @@
 
                                     <ul class="w-100 link-list">
                                         <li>
-                                            <NuxtLink to="/" @click="changeLang('EN')" class="d-block">
+                                            <NuxtLink to="/" @click="changeLang('en')" class="d-block">
                                                 <img loading="lazy" class="flag-h mr-2 d-inline-block" src="/assets/images/united-states_ico.png" alt="English" />  English
                                             </NuxtLink>
                                         </li>
                                         <li>
-                                            <NuxtLink to="/es" @click="changeLang('ES')" class="d-block">
+                                            <NuxtLink to="/es" @click="changeLang('es')" class="d-block">
                                                 <img loading="lazy" class="flag-h mr-2 d-inline-block" src="/assets/images/spain_ico.png" alt="Spanish" />  Español
                                             </NuxtLink>
                                         </li>
                                         <li>
-                                            <NuxtLink to="/pt" @click="changeLang('PT')" class="d-block">
+                                            <NuxtLink to="/pt" @click="changeLang('pt')" class="d-block">
                                                 <img loading="lazy" class="flag-h mr-2 d-inline-block" src="/assets/images/brasil_ico.png" alt="Portuguese" />  Português
                                             </NuxtLink>
                                         </li>
@@ -98,6 +98,7 @@
 
 <script>
 import { reactive } from 'vue';
+import { reloadNuxtApp } from "nuxt/app";
 
 export default {
     setup() {
@@ -140,6 +141,11 @@ export default {
 
         changeLang(str) {
             this.lang = str;
+
+            reloadNuxtApp({
+                path: `/${this.lang}`,
+                ttl: 1000,
+            });
         }
     }
 };
