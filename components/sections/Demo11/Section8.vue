@@ -42,7 +42,7 @@
                     <img src="/assets/images/scalability-ico.png" class="mb-4 d-block mx-auto" alt="Scalability">
 
                     <h2 class="s-28 w-700 text-center mb-4">
-                        {{ $t('section7_col2_title') }}
+                        {{ $t('section7_col3_title') }}
                     </h2>
 
                     <p class="s-18 text-justify">
@@ -61,7 +61,7 @@
                 <UModal v-model="isOpenValueProposition">
                     <UCard class="fbox-modal">
                         <h2 class="w-700 s-24 mb-4 pb-4 bb-primary d-inline-flex">
-                            {{ $t('section7_col2_title') }}
+                            {{ $t('section7_col3_title') }}
                         </h2>
 
                         <p>

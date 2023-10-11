@@ -69,6 +69,11 @@ export default defineI18nConfig(() => ({
         header_menu4: i18nStore.enData?.header_menu4 || '',
         header_menu5: i18nStore.enData?.header_menu5 || '',
         header_menu6: i18nStore.enData?.header_menu6 || '',
+        login_title: i18nStore.enData?.login_title || '',
+        login_subtitle: i18nStore.enData?.login_subtitle || '',
+        login_button: i18nStore.enData?.login_button || '',
+        login_notcustomer: i18nStore.enData?.login_notcustomer || '',
+        login_contact: i18nStore.enData?.login_contact || '',
       },
       pt: {
         section1_title: i18nStore.ptData?.section1_title || '',
@@ -134,6 +139,11 @@ export default defineI18nConfig(() => ({
         header_menu4: i18nStore.ptData?.header_menu4 || '',
         header_menu5: i18nStore.ptData?.header_menu5 || '',
         header_menu6: i18nStore.ptData?.header_menu6 || '',
+        login_title: i18nStore.ptData?.login_title || '',
+        login_subtitle: i18nStore.ptData?.login_subtitle || '',
+        login_button: i18nStore.ptData?.login_button || '',
+        login_notcustomer: i18nStore.ptData?.login_notcustomer || '',
+        login_contact: i18nStore.ptData?.login_contact || '',
       },
       es: {
         section1_title: i18nStore.esData?.section1_title || '',
@@ -199,6 +209,11 @@ export default defineI18nConfig(() => ({
         header_menu4: i18nStore.esData?.header_menu4 || '',
         header_menu5: i18nStore.esData?.header_menu5 || '',
         header_menu6: i18nStore.esData?.header_menu6 || '',
+        login_title: i18nStore.esData?.login_title || '',
+        login_subtitle: i18nStore.esData?.login_subtitle || '',
+        login_button: i18nStore.esData?.login_button || '',
+        login_notcustomer: i18nStore.esData?.login_notcustomer || '',
+        login_contact: i18nStore.esData?.login_contact || '',
       }
     }
 }));

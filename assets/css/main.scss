@@ -66,25 +66,45 @@ section,
     }
 }
 
+.pagTitle {
+    width: 100%;
+    text-align: center;
+    top: -120px;
+    left: 0;
+    background: #fff;
+    font-size: 54px;
+    font-weight: 500;
+    position: absolute;
+}
+
+.pagCircle {
+    width: 64px;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #00A0C4;
+    position: absolute;
+    border-radius: 50%;
+    top: -32px;
+    left: calc(50% - 32px);
+    background: #fff;
+    font-size: 54px;
+    font-weight: 500;
+    &::after {
+        content: '';
+        width: 2px;
+        height: 48px;
+        position: absolute;
+        border-left: 1px solid #00A0C4;
+        top: 72px;
+        left: 50%;
+    }
+}
+
 .nav-cards {
     padding-bottom: 0 !important;
     position: relative;
-
-    .pagCircle {
-        width: 64px;
-        height: 64px;
-        line-height: 64px;
-        text-align: center;
-        vertical-align: middle;
-        border: 1px solid #00A0C4;
-        position: absolute;
-        border-radius: 50%;
-        top: -295px;
-        left: 50%;
-        background: #fff;
-        font-size: 54px;
-    font-weight: 500;
-    }
 
     .exbox {
         width: 33%;
@@ -578,6 +598,9 @@ section,
 }
 .pb-200 {
     padding-bottom: 200px;
+}
+.pb-250 {
+    padding-bottom: 250px;
 }
 .mt-10 {
     margin-top: 10px;
@@ -5510,6 +5533,11 @@ span.sm-info {
 .cbox-6-wrapper {
     padding: 60px 40px;
 }
+
+.content-section {
+    position: relative;
+}
+
 .content-section .cbox-6-wrapper {
     padding: 80px 70px;
 }

@@ -80,11 +80,11 @@ section6_col1_pos1_text: Mejorando la efectividad y el alcance de los esfuerzos 
 
 section6_col1_pos2_title: Asignación Estratégica
 
-section6_col1_pos2_text: Dirigiendo dólares promocionales hacia minoristas, tiendas y SKUs que exhiben una mayor elasticidad.
+section6_col1_pos2_text: Dirigir el dinero promocional hacia minoristas, tiendas y SKU que exhiben una mayor elasticidad.
 
 section6_col1_pos3_title: Enfoque Personalizado
 
-section6_col1_pos3_text: Utilizando un algoritmo único para cada SKU por tienda, adaptando la estrategia promocional a necesidades específicas.
+section6_col1_pos3_text: Utilizando un algoritmo único para cada SKU por tienda, adaptando la estrategia promocional a necesidades específicas   
 
 section6_col2_title: RGM
 
@@ -115,3 +115,13 @@ header_menu4: Diferenciales
 header_menu5: TPM/RGM
 
 header_menu6: Propuesta de Valor
+
+login_title: Estudio de Reconocimiento de Imagen
+
+login_subtitle: Iniciar sesión con correo electrónico
+
+login_button: SIGUIENTE
+
+login_notcustomer: ¿Aún no eres cliente?
+
+login_contact: Complete este formulario y contáctenos

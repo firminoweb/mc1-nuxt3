@@ -68,27 +68,31 @@
                                 <img loading="lazy" class="img-fluid mx-auto" src="/assets/images/wtmire-logo.png" alt="wtmire" />
 
                                 <h2 class="w-700 s-21 mb-4 text-center mt-2">
-                                    Image Recognition Studio
+                                    {{ $t('login_title') }}
                                 </h2>
 
                                 <form class="p-4 bg--blue-500 login-form mb-4 block-shadow-heavy">
                                     <h3 class="w-600 s-18 mb-3 text-white">
-                                        Sign in with email
+                                        {{ $t('login_subtitle') }}
                                     </h3>
 
                                     <input class="form-control email mb-4" type="email" name="email" placeholder="Email">
 
                                     <div class="d-flex justify-content-md-end">
-                                        <button class="btn btn--white r-0 fix-button ">NEXT</button>
+                                        <button class="btn btn--white r-0 fix-button ">
+                                            {{ $t('login_button') }}
+                                        </button>
                                     </div>
                                 </form>
 
                                 <h4 class="w-700 s-16 text-center mt-5">
-                                    Not a customer yet?
+                                    {{ $t('login_notcustomer') }}
                                 </h4>
 
                                 <p class="s-18 text-center">
-                                    <a href="#" class="link-primary link-offset-2 link-underline-opacity-100 link-underline-opacity-50-hover" title="Learn More"> Fill out this form and contact us</a>
+                                    <a href="#" class="link-primary link-offset-2 link-underline-opacity-100 link-underline-opacity-50-hover" title="Learn More">
+                                        {{ $t('login_contact') }}
+                                    </a>
                                 </p>
                             </div>
                         </div>
