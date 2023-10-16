@@ -11,6 +11,7 @@
 </template>
 
 <script setup>
+import { ref } from 'vue';
     useHead({
         bodyAttrs: {
             class: "navbar-light"

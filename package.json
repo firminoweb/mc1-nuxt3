@@ -1,6 +1,6 @@
 {
-  "name": "martex-nuxtjs-app",
-  "author": "alithemes",
+  "name": "mc1-nuxtjs-app",
+  "author": "firmino.dev",
   "private": true,
   "scripts": {
     "build": "NODE_ENV=production nuxt build",
@@ -18,12 +18,10 @@
     "@vercel/kv": "^0.2.2",
     "autoprefixer": "^10.4.14",
     "axios": "^1.5.1",
-    "gsap": "^3.12.2",
     "js-yaml": "^4.1.0",
     "nuxt": "^3.6.2",
     "pinia": "^2.1.6",
     "postcss": "^8.4.25",
-    "scrollmagic": "^2.0.8",
     "yaml-loader": "^0.8.0"
   },
   "dependencies": {

@@ -190,6 +190,13 @@ section,
     }
 }
 
+.no-scroll {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+  }
+  
+
 .value-proposition {
     position: relative;
     z-index: 3;
@@ -4158,7 +4165,6 @@ span.sm-info {
 }
 
 .statis-section {
-    height: 100vh;
     position: relative;
     z-index: 4;
     padding: 100px 0 60px;
@@ -7084,6 +7090,8 @@ p.rbox-2-txt span {
 /*------------------------------------------*/
 /*  BRANDS LOGO IMAGE
 /*------------------------------------------*/
+
+
 .swiper {
     position: inherit !important;
 }
@@ -7108,6 +7116,12 @@ p.rbox-2-txt span {
         content: "" !important;
     }
 }
+
+.fp-swiper .swiper .swiper-button-prev,
+.fp-swiper .swiper .swiper-button-next {
+    background-color: #333 !important;
+}
+
 
 .nav-process {
     position: absolute;
