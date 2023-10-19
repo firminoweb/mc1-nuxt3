@@ -53,6 +53,20 @@ section,
     text-decoration: none !important;
 }
 
+.numbering {
+    border-radius: 20px;
+    padding: 10px 30px;
+    border: 2px solid #00A0C4;
+    color: #00A0C4;
+    text-align: center;
+    margin-right: 20px;
+    background-color: #434244;
+}
+
+.b-right-2 {
+    border-right: 2px solid #00A0C4;
+}
+
 .big-float-card {
     margin-top: 160px;
     position: relative;
@@ -64,6 +78,13 @@ section,
         top: -150px;
         left: 0;
     }
+}
+
+.cell-hand {
+    position: absolute;
+    bottom: -80px;
+    max-width: 32%;
+    left: -15%;
 }
 
 .pagTitle {
@@ -103,29 +124,20 @@ section,
 }
 
 .nav-cards {
-    padding-bottom: 0 !important;
-    position: relative;
 
     .exbox {
-        width: 33%;
         border-radius: 28px;
         text-align: center;
-        padding: 60px 30px;
+        padding: 20px 30px;
         transition: transform 0.2s;
-        overflow: hidden;
-        display: inline-block;
-        top: -60px;
         position: relative;
-        margin-bottom: -90px;
-        position: relative;
-
-
+        background-color: #0084A2;
+        box-shadow: 15px 15px 10px 0px rgba(0, 0, 0, 0.2);
+        margin: 0 20px;
 
         &:hover,
         &.active {
             transform: scale(1.05);
-            background-color: #0084A2;
-            box-shadow: 15px 15px 10px 0px rgba(0, 0, 0, 0.2);
         }
     }
 }
@@ -281,7 +293,7 @@ section,
 
 .border-thumb {
     border: 1px solid rgba(0, 0, 0, 0.5);
-    box-shadow: 15px 15px 10px 0px rgba(0, 0, 0, 0.2);;
+    box-shadow: 15px 15px 10px 0px rgba(0, 0, 0, 0.2);
 }
 
 .border-bottom-w2 {
@@ -290,6 +302,10 @@ section,
 
 .border-right-w5 {
     border-right: 5px solid #fff;
+}
+
+.fbox-shadow {
+    box-shadow: 15px 15px 10px 0px rgba(0, 0, 0, 0.2);
 }
 /*------------------------------------------*/
 /*  BORDER RADIUS SETTING
@@ -529,11 +545,17 @@ section,
     padding-bottom: 100px;
 }
 
+.pr-20 {
+    padding-right: 20px !important;
+}
 .pr-30 {
-    padding-right: 30px;
+    padding-right: 30px !important;
 }
 .pr-40 {
-    padding-right: 40px;
+    padding-right: 40px !important;
+}
+.pr-50 {
+    padding-right: 50px !important;
 }
 
 .pl-10 {
@@ -543,23 +565,30 @@ section,
     padding-left: 30px;
 }
 .pl-40 {
-    padding-left: 40px;
+    padding-left: 40px !important;
+}
+.pl-50 {
+    padding-left: 50px !important;
+}
+
+.pt-20 {
+    padding-top: 20px !important;
 }
 
 .pt-30 {
-    padding-top: 30px;
+    padding-top: 30px !important;
 }
 .pt-40 {
-    padding-top: 40px;
+    padding-top: 40px !important;
 }
 .pt-50 {
-    padding-top: 50px;
+    padding-top: 50px !important;
 }
 .pt-60 {
     padding-top: 60px;
 }
 .pt-70 {
-    padding-top: 70px;
+    padding-top: 70px !important;
 }
 .pt-80 {
     padding-top: 80px;
@@ -1311,6 +1340,9 @@ p.p-xl {
 .s-13{
     font-size: 0.8rem;
 }
+.s-14 {
+    font-size: 0.875rem;
+} /* 14px */
 .s-15 {
     font-size: 0.9375rem;
 } /* 15px */
@@ -5467,6 +5499,15 @@ span.sm-info {
 .fbox-modal {
     padding: 12px 35px;
     position: relative;
+}
+
+.fbox-12 {
+    &.bg-tpm {
+        &::before {
+            content: "";
+            background: url(../images/line-tmp-bg.png)
+        }
+    }
 }
 
 .fbox-12,

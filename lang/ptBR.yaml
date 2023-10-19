@@ -65,7 +65,7 @@ section6_col1_subtitle: Um componente crítico na estratégia da empresa
 
 section6_col1_pos1_title: Otimização de Preços
 
-section6_col1_pos1_text: Nosso algoritmo baseado em aprendizado de máquina permite aos varejistas otimizar os preços de seus produtos de acordo com as demandas e tendências do mercado.
+section6_col1_pos1_text: Aumentar a eficácia e o alcance dos esforços promocionais.
 
 section6_col1_pos2_title: Alocação Estratégica
 
@@ -73,7 +73,7 @@ section6_col1_pos2_text: Direcionando dólares promocionais para varejistas, loj
 
 section6_col1_pos3_title: Abordagem Personalizada
 
-section6_col1_pos3_text: Utilizando um algoritmo único para cada SKU por loja, adaptando a estratégia promocional às necessidades específicas.
+section6_col1_pos3_text: Utilizando um algoritmo único para cada SKU por loja, adaptando a estratégia promocional.
 
 section6_col2_title: RGM
 
@@ -104,3 +104,13 @@ header_menu4: Diferenciais
 header_menu5: TPM/RGM
 
 header_menu6: Proposta de Valor
+
+login_title: Estúdio de Reconhecimento de Imagem
+
+login_subtitle: Faça login com e-mail
+
+login_button: PRÓXIMO
+
+login_notcustomer: Ainda não é cliente?
+
+login_contact: Preencha este formulário e entre em contato conosco

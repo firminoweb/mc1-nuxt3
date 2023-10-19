@@ -32,15 +32,19 @@ section3_slide3_title: Información Accionable
 
 section3_slide3_text: Los usuarios reciben información y orientación en tiempo real directamente en sus teléfonos inteligentes, sin necesidad de una conexión a Internet.
 
+section3_slide4_title: Integración sin esfuerzo
+
+section3_slide4_text: ¡No se limite a utilizar IRE de forma aislada! Integre perfectamente nuestra solución con otros sistemas, desde enlaces profundos con otras aplicaciones de Android e iOS hasta nuestra amplia API para análisis e intercambio de datos.
+
 section4_title: La Perspectiva del Operador de Mom & Pop
 
 section4_col1_title: Casos de Uso
 
-section4_col1_text: Nuestro producto presenta una funcionalidad de programa de lealtad que otorga puntos a los usuarios de manera gamificada según sus interacciones y resultados de cumplimiento. Estos puntos se pueden canjear por varios beneficios.
+section4_col1_text: Nuestro producto presenta una funcionalidad de programa de fidelización, otorgando puntos a los usuarios de forma gamificada en función de sus interacciones y resultados de cumplimiento. Estos puntos se pueden canjear por diversos beneficios, determinados por la estrategia de cada industria. Al mismo tiempo, a medida que se generan datos de fidelidad, transmitimos datos de mercado en tiempo real a la industria, ya sea directamente o mediante aplicaciones de terceros integradas con nuestra plataforma, directamente desde el punto de recopilación de datos.
 
 section4_col2_title: Los Beneficios
 
-section4_col2_text: La participación en un programa de lealtad con incentivos garantiza un compromiso completo, fomentando una conexión más fuerte entre la tienda y la industria.
+section4_col2_text: La participación en un programa de fidelización con incentivos garantiza un compromiso total, fomentando una conexión más fuerte entre la tienda y la industria. La principal ventaja para el propietario de la tienda es la seguridad de que la industria ofrecerá consistentemente una cartera adecuada al precio correcto, tanto para el sell-in como para el sell-out, según la ubicación de la tienda. Además, al utilizar esta aplicación y proporcionar información actualizada y precisa, la tienda puede obtener descuentos o reembolsos de la industria CPG.
 
 section5_title: Diferenciales Clave de IRE
 
@@ -76,11 +80,11 @@ section6_col1_pos1_text: Mejorando la efectividad y el alcance de los esfuerzos 
 
 section6_col1_pos2_title: Asignación Estratégica
 
-section6_col1_pos2_text: Dirigiendo dólares promocionales hacia minoristas, tiendas y SKUs que exhiben una mayor elasticidad.
+section6_col1_pos2_text: Dirigir el dinero promocional hacia minoristas, tiendas y SKU que exhiben una mayor elasticidad.
 
 section6_col1_pos3_title: Enfoque Personalizado
 
-section6_col1_pos3_text: Utilizando un algoritmo único para cada SKU por tienda, adaptando la estrategia promocional a necesidades específicas.
+section6_col1_pos3_text: Utilizando un algoritmo único para cada SKU por tienda, adaptando la estrategia promocional a necesidades específicas   
 
 section6_col2_title: RGM
 
@@ -111,3 +115,13 @@ header_menu4: Diferenciales
 header_menu5: TPM/RGM
 
 header_menu6: Propuesta de Valor
+
+login_title: Estudio de Reconocimiento de Imagen
+
+login_subtitle: Iniciar sesión con correo electrónico
+
+login_button: SIGUIENTE
+
+login_notcustomer: ¿Aún no eres cliente?
+
+login_contact: Complete este formulario y contáctenos
