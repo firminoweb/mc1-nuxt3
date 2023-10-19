@@ -15,10 +15,7 @@
                           :slides-per-view="1"
                           :pagination="paginationOptions"
                           navigation
-                          :autoplay="{
-                              delay: 6000,
-                              disableOnInteraction: false
-                          }"
+                          :autoplay="autoplayConfig"
                           :loop="true"
                       >
                           <SwiperSlide>
@@ -74,15 +71,22 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
+  import { ref, onMounted, onUnmounted } from 'vue';
 
-const paginationOptions = ref({
-  clickable: true,
-  renderBullet: function (index, className) {
-    return '<span class="' + className + '">' + (index + 1) + '</span>';
-  }
-});
+  const paginationOptions = ref({
+    clickable: true,
+    renderBullet: function (index, className) {
+      return '<span class="' + className + '">' + (index + 1) + '</span>';
+    }
+  });
+
+  const autoplayConfig = ref({
+    delay: 6000,
+    disableOnInteraction: false
+  });
 </script>
+
+
 
 <style scoped>
   :deep(.swiper){
@@ -118,12 +122,12 @@ const paginationOptions = ref({
       bottom: -48px;
       z-index: 990;
       position: absolute;
-      width: auto;
+      left: calc(50% - 100px);
+      width: 200px;
       padding: 5px 8px 2px;
       background: #fff;
       border-radius: 18px;
       border: 1px solid #333;
-      left: 28%;
 
       .swiper-pagination-bullet {
         width: 28px;

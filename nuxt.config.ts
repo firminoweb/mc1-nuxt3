@@ -39,14 +39,8 @@ export default defineNuxtConfig({
             "@nuxtjs/google-fonts",
             {
                 families: {
-                    Rubik: {
+                    Roboto: {
                         wght: [300, 400, 500, 600, 700]
-                    },
-                    "Plus+Jakarta+Sans": {
-                        wght: [400, 500, 600, 700]
-                    },
-                    Inter: {
-                        wght: [400, 500, 600, 700, 800]
                     },
                     download: true,
                     inject: true

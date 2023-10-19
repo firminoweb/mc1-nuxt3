@@ -1,5 +1,5 @@
 <template>
-    <div id="page" class="page font--jakarta">
+    <div id="page" class="page">
         <HeaderLayout1 />
         <slot />
         <FooterLayout1 />

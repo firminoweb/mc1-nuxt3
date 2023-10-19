@@ -109,6 +109,22 @@
     </section>
 </template>
 
+<style scoped>
+  :deep(.swiper){
+    overflow-y: visible;
+
+    .swiper-button-prev {
+        right: 0 !important;
+        width: 40px;
+    }
+
+    .swiper-button-next {
+        right: 45.5% !important;
+        width: 40px;
+    }
+  }
+</style>
+
 <!-- <script>
   import { useSwiper } from 'swiper/vue';
 
