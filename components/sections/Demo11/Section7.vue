@@ -62,7 +62,7 @@
                     <div class="row justify-content-md-end mb-50 wow animated" data-animation="fadeInRight">
                         <div class="col-7 pr-30 text-right b-right-2">
                             <h2 class="s-18 w-700 pl-60 text-white">
-                                {{ $t('section6_col2_subtitle') }} 
+                                {{ $t('section6_col2_subtitle') }}: 
                             </h2>
                         </div>
 

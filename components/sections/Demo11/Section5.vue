@@ -12,15 +12,21 @@
                     <img src="/assets/images/operator-perspective.png"  class="mx-auto d-block img-fluid float-big-image" alt="Operator Perspective">
                 </div>
 
-                <div class="col-6  wow animated" data-animation="fadeInLeft">
+                <div class="col-5 wow animated" data-animation="fadeInLeft">
                     <div class="text-end wow animated" data-animation="fadeInLeft">
                         <h3 class="s-28 w-700 mb-4 text-white text-center">
                             {{ $t('section4_col1_title') }}
                         </h3>
 
-                        <p class="text-white border-right-w5 pr-40 s-16">
+                        <p class="text-white s-16">
                             {{ $t('section4_col1_text') }}   
                         </p>
+                    </div>
+                </div>
+
+                <div class="col-1">
+                    <div class="border-element wow animated" data-animation="fadeInUp">
+                        <!-- O conteúdo da borda aqui, se necessário -->
                     </div>
                 </div>
 
@@ -36,7 +42,17 @@
                     </div>
                 </div>
             </div>
-            <!-- End row -->
         </div>
     </section>
 </template>
+
+<style scoped>
+    .border-element {
+        width: 5px;
+        height: 70%;
+        border-right: 5px solid white;
+        margin: 0 auto;
+        display: block;
+        margin-top: 40px;
+    }
+</style>
