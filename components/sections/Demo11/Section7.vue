@@ -1,5 +1,9 @@
 <template>
     <section id="tmprgm" class="pt-100 pb-150 border-top-blue ct-08 content-section division">
+        <div class="big-title">
+            <h2 class="s-38 w-700 text-center text-primary wow animated" data-animation="fadeInLeft">{{ $t('section6_title') }} </h2>
+        </div>
+
         <div class="container">
             <div class="row">
                 <div class="col-12 fbox-12 bg-tpm pt-70 pl-50 pr-50 fbox-shadow bg--black-300 r-28 wow animated" data-animation="fadeIn">
@@ -57,7 +61,7 @@
 
                     <div class="row justify-content-md-end mb-50 wow animated" data-animation="fadeInRight">
                         <div class="col-7 pr-30 text-right b-right-2">
-                            <h2 class="s-18 w-700 text-white">
+                            <h2 class="s-18 w-700 pl-60 text-white">
                                 {{ $t('section6_col2_subtitle') }} 
                             </h2>
                         </div>
