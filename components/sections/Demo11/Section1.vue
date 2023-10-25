@@ -1,5 +1,9 @@
 <template>
     <section id="home" class="bg--scroll hero-section block-shadow">
+        <video id="background-video" autoplay loop muted>
+            <source src="/assets/videos/intro.mp4" type="video/mp4">
+        </video>
+        
         <div class="container">
             <div class="row d-flex align-items-center">
 
