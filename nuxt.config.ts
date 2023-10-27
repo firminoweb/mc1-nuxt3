@@ -10,7 +10,7 @@ export default defineNuxtConfig({
     app: {
         head: {
             meta: [{ name: "viewport", content: "width=device-width, initial-scale=1" }],
-            title: "MC1 - Lorem Ipsum Dolor",
+            title: "MC1 - Win the Market",
             script: []
         }
     },

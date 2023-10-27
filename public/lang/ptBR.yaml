@@ -15,9 +15,9 @@ section2_col2_title: Persona de Usuário 2
 
 section2_col2_subtitle: Operador de Loja Pequena
 
-section2_col2_text: O Operador de Loja Pequena busca uma experiência de aplicativo que seja direta e sem complicações. Eles desejam um aplicativo que requer interações mínimas — apenas alguns cliques. Em vez de serem sobrecarregados com uma infinidade de informações, esse usuário valoriza principalmente feedback direto sobre seu desempenho. O feedback chave inclui
+section2_col2_text: O Operador de Loja Pequena busca uma experiência de aplicativo que seja direta e sem complicações. Eles desejam um aplicativo que requer interações mínimas — apenas alguns cliques. Em vez de serem sobrecarregados com uma infinidade de informações, esse usuário valoriza principalmente feedback direto sobre seu desempenho. O feedback chave inclui:.
 
-section2_col2_text2: O feedback chave inclui; Pontos ganhos por capturar uma foto com sucesso. Pontos por organizar o portfólio de produtos sugerido como recomendado. Pontos por garantir que os preços de venda estejam alinhados com as taxas sugeridas. Pontos por seguir as sugestões de reposição de produtos com base em itens não identificados na imagem capturada. Esse sistema de feedback simplificado permite que o Operador de Loja Pequena tome decisões rápidas e ajustes, garantindo que permaneçam alinhados com as recomendações do setor.
+section2_col2_text2: Pontos ganhos por capturar uma foto com sucesso. Pontos por organizar o portfólio de produtos sugerido como recomendado. Pontos por garantir que os preços de venda estejam alinhados com as taxas sugeridas. Pontos por seguir as sugestões de reposição de produtos com base em itens não identificados na imagem capturada. Esse sistema de feedback simplificado permite que o Operador de Loja Pequena tome decisões rápidas e ajustes, garantindo que permaneçam alinhados com as recomendações do setor.
 
 section3_title: O Processo Completo Por Trás da Tecnologia
 
@@ -41,7 +41,7 @@ section4_title: A Perspectiva do Operador de Loja Pequena
 
 section4_col1_title: Casos de Uso
 
-section4_col1_text: Nosso produto possui uma funcionalidade de programa de fidelidade, concedendo pontos aos usuários de forma gamificada com base em suas interações e resultados de conformidade. Esses pontos podem ser resgatados por vários benefícios, determinados pela estratégia de cada indústria. Simultaneamente, à medida que os dados de fidelidade são gerados, transmitimos dados de mercado em tempo real para a indústria, diretamente ou por meio de aplicativos de terceiros integrados à nossa plataforma, diretamente do ponto de coleta de dados.
+section4_col1_text: Nosso produto possui um programa de fidelidade, concedendo pontos aos usuários de forma gamificada com base em suas interações e resultados de conformidade. Esses pontos podem ser resgatados por vários benefícios, determinados pela estratégia de cada indústria. Simultaneamente, à medida que os dados de fidelidade são gerados, transmitimos dados de mercado em tempo real para a indústria, diretamente ou por meio de aplicativos de terceiros integrados à nossa plataforma, diretamente do ponto de coleta de dados.
 
 section4_col2_title: Os Benefícios
 
@@ -134,3 +134,5 @@ login_button: PRÓXIMO
 login_notcustomer: Ainda não é cliente?
 
 login_contact: Preencha este formulário e entre em contato conosco
+
+learn_more: Saiba mais

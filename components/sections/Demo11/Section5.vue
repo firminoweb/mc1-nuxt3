@@ -26,11 +26,11 @@
 
                 <div class="col-1">
                     <div class="border-element wow animated" data-animation="fadeInUp">
-                        <!-- O conteúdo da borda aqui, se necessário -->
+
                     </div>
                 </div>
 
-                <div class="col-6 pb-4 mb-5 wow animated" data-animation="fadeInRight">
+                <div class="col-5 pb-4 mb-5 wow animated" data-animation="fadeInRight">
                     <div class="wow animated" data-animation="fadeInRight">
                         <h3 class="s-28 w-700 mb-4 text-white">
                             {{ $t('section4_col2_title') }} 

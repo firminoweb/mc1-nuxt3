@@ -26,7 +26,7 @@
                         </p>
 
                         <div class="text-end">
-                            <a href="javascript:void(0)" @click="isOpenPersonaA = true" title="Learn more" class="link-primary link-underline-primary">Learn more</a>
+                            <a href="javascript:void(0)" @click="isOpenPersonaA = true" title="Learn more" class="link-primary link-underline-primary">{{ $t('learn_more') }}</a>
                         </div>
 
                         <UModal v-model="isOpenPersonaA">
@@ -61,7 +61,7 @@
                             </p>
 
                             <div class="text-end">
-                                <a href="javascript:void(0)" @click="isOpenPersonaB = true" title="Learn more" class="link-primary link-underline-primary">Learn more</a>
+                                <a href="javascript:void(0)" @click="isOpenPersonaB = true" title="Learn more" class="link-primary link-underline-primary">{{ $t('learn_more') }}</a>
                             </div>
 
                             <UModal v-model="isOpenPersonaB">

@@ -74,6 +74,7 @@ export default defineI18nConfig(() => ({
         login_button: i18nStore.enData?.login_button || '',
         login_notcustomer: i18nStore.enData?.login_notcustomer || '',
         login_contact: i18nStore.enData?.login_contact || '',
+        learn_more: i18nStore.enData?.learn_more || '',
       },
       pt: {
         section1_title: i18nStore.ptData?.section1_title || '',
@@ -144,6 +145,7 @@ export default defineI18nConfig(() => ({
         login_button: i18nStore.ptData?.login_button || '',
         login_notcustomer: i18nStore.ptData?.login_notcustomer || '',
         login_contact: i18nStore.ptData?.login_contact || '',
+        learn_more: i18nStore.ptData?.learn_more || '',
       },
       es: {
         section1_title: i18nStore.esData?.section1_title || '',
@@ -214,6 +216,7 @@ export default defineI18nConfig(() => ({
         login_button: i18nStore.esData?.login_button || '',
         login_notcustomer: i18nStore.esData?.login_notcustomer || '',
         login_contact: i18nStore.esData?.login_contact || '',
+        learn_more: i18nStore.esData?.learn_more || '',
       }
     }
 }));

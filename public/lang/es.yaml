@@ -8,13 +8,13 @@ section2_col1_title: Persona de Usuario 1
 
 section2_col1_subtitle: Auditor o Promotor de Ejecución de Tienda
 
-section2_col1_text: Auditor de Ejecución de Tiendas o Promotor Esta persona juega un papel fundamental en la captura de fotografías de espacios designados para el análisis de mercado. El objetivo es obtener indicadores clave de rendimiento e información en tiempo real sobre la ejecución de la tienda. A través de la aplicación móvil, el auditor o promotor puede capturar, analizar e informar manera rápida y eficiente la ubicación de productos en la tienda, las exhibiciones promocionales y la organización general de la mercadotecnia visual.
+section2_col1_text: Auditor de Ejecución de Tiendas o Promotor Esta persona juega un papel fundamental en la captura de fotografías de espacios designados para el análisis de mercado. El objetivo es obtener indicadores clave de rendimiento e información en tiempo real sobre la ejecución de la tienda. A través de la aplicación móvil, el auditor o promotor puede capturar, analizar e informar manera rápida y eficiente la ubicación de productos en la tienda, las exhibiciones promocionales y la organización general de la mercadotecnia visual.
 
 section2_col2_title: Persona de Usuario 2
 
 section2_col2_subtitle: Operador de Tienda Pequeña
 
-section2_col2_text: Operador de Tiendas de Barrio El Operador de Tiendas de Barrio busca una experiencia de aplicación simple y sin complicaciones. Desean una aplicación que requiera interacciones mínimas, solo unos pocos clics. En lugar de verse abrumados con una gran cantidad de información, este usuario valora principalmente la retroalimentación directa sobre su desempeño. La retroalimentación clave incluyes:.
+section2_col2_text: Operador de Tiendas de Barrio El Operador de Tiendas de Barrio busca una experiencia de aplicación simple y sin complicaciones. Desean una aplicación que requiera interacciones mínimas, solo unos pocos clics. En lugar de verse abrumados con una gran cantidad de información, este usuario valora principalmente la retroalimentación directa sobre su desempeño. La retroalimentación clave incluyes:.
 
 
 section3_title: El Proceso Completo Detrás de la Tecnología
@@ -133,3 +133,5 @@ login_button: SIGUIENTE
 login_notcustomer: ¿Aún no eres cliente?
 
 login_contact: Complete este formulario y contáctenos
+
+learn_more: Saber más
