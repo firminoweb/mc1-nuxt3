@@ -1211,21 +1211,7 @@ section,
     background-position: center center;
     background-size: cover;
 }
-.pattern-01 {
-    background-image: url(../images/pattern-01.png);
-}
-.pattern-02 {
-    background-image: url(../images/pattern-02.png);
-}
-.pattern-03 {
-    background-image: url(../images/pattern-03.png);
-}
-.pattern-04 {
-    background-image: url(../images/pattern-04.png);
-}
-.pattern-05 {
-    background-image: url(../images/pattern-05.png);
-}
+
 /*------------------------------------------*/
 /*  BACKGROUND IMAGE
 /*------------------------------------------*/
@@ -1256,15 +1242,7 @@ section,
 .bg--05 {
     background-image: url(../images/bg-05.jpg);
 }
-.bg--06 {
-    background-image: url(../images/bg-06.jpg);
-}
-.bg--07 {
-    background-image: url(../images/bg-07.jpg);
-}
-.bg--08 {
-    background-image: url(../images/bg-08.jpg);
-}
+
 /*------------------------------------------*/
 /*  SECTION DIVIDER
 /*------------------------------------------*/
@@ -4219,9 +4197,7 @@ span.sm-info {
 .hero-square-logo {
     margin-bottom: 20px;
 }
-#hero-22 .hero-logo {
-    margin-bottom: 30px;
-}
+
 .hero-logo img {
     width: auto;
     max-width: inherit;
@@ -4238,17 +4214,13 @@ span.sm-info {
 .hero-app-logo {
     margin-bottom: 35px;
 }
-#hero-25 .hero-app-logo {
-    margin-bottom: 25px;
-}
+
 .hero-app-logo img {
     width: auto;
     max-width: inherit;
     max-height: 100px;
 }
-#hero-25 .hero-app-logo img {
-    max-height: 110px;
-}
+
 /*------------------------------------------*/
 /*  HERO DIGITS
 /*------------------------------------------*/
@@ -4324,22 +4296,14 @@ span.sm-info {
 /*------------------------------------------*/
 /*  HERO-1
 /*------------------------------------------*/
-#hero-1 {
-    background-image: url(../images/hero-1.jpg);
-    padding-top: 130px;
-    padding-bottom: 100px;
-}
+
 .hero-1-txt p {
     padding-right: 2%;
 }
 /*------------------------------------------*/
 /*  HERO-2
 /*------------------------------------------*/
-#hero-2 {
-    background-image: url(../images/hero-2.jpg);
-    padding-top: 150px;
-    padding-bottom: 100px;
-}
+
 .hero-2-txt p {
     padding-right: 3%;
 }
@@ -4350,21 +4314,7 @@ span.sm-info {
 /*------------------------------------------*/
 /*  HERO-3
 /*------------------------------------------*/
-#hero-3 {
-    position: relative;
-    padding-top: 160px;
-    background-image: url(../images/hero-3.jpg);
-}
-#hero-3:after {
-    position: absolute;
-    content: "";
-    z-index: -1;
-    width: 100%;
-    height: 5%;
-    bottom: 0;
-    left: 0;
-    background-color: #fff;
-}
+
 .hero-3-txt {
     margin-top: -70px;
 }
@@ -4379,21 +4329,7 @@ span.sm-info {
 /*------------------------------------------*/
 /*  HERO-4
 /*------------------------------------------*/
-#hero-4 {
-    overflow: hidden;
-    background-image: url(../images/hero-4.jpg);
-    padding-top: 180px;
-}
-#hero-4:after {
-    position: absolute;
-    content: "";
-    z-index: -1;
-    width: 100%;
-    height: 10%;
-    bottom: 0;
-    left: 0;
-    background-color: #fff;
-}
+
 .hero-4-txt h2 {
     padding: 0 3%;
 }
@@ -4409,14 +4345,7 @@ span.sm-info {
 /*------------------------------------------*/
 /*  HERO-5
 /*------------------------------------------*/
-#hero-5 .wave-shape-bottom path {
-    fill: #fff;
-}
-#hero-5 {
-    background-image: url(../images/hero-5.jpg);
-    padding-top: 140px;
-    padding-bottom: 50px;
-}
+
 .hero-5-txt h2 {
     line-height: 1.3;
     margin-bottom: 25px;
@@ -4431,9 +4360,7 @@ span.sm-info {
 /*------------------------------------------*/
 /*  HERO-6
 /*------------------------------------------*/
-#hero-6 {
-    padding-top: 130px;
-}
+
 .hero-6-wrapper {
     overflow: hidden;
     background-image: linear-gradient(90deg, #f6f4fd, #f4f5fd);
@@ -4446,28 +4373,14 @@ span.sm-info {
 /*------------------------------------------*/
 /*  HERO-7
 /*------------------------------------------*/
-#hero-7 {
-    padding-top: 140px;
-    padding-bottom: 100px;
-}
-#hero-7 .quick-form {
-    margin-right: 4%;
-}
+
 .hero-7-img {
     padding-left: 30px;
 }
 /*------------------------------------------*/
 /*  HERO-8
 /*------------------------------------------*/
-#hero-8 .wave-shape-bottom path {
-    fill: #fff;
-}
-#hero-8 {
-    position: relative;
-    background-image: url(../images/hero-8.jpg);
-    padding-top: 170px;
-    padding-bottom: 30px;
-}
+
 .hero-8-txt {
     margin-top: -70px;
 }
@@ -4477,40 +4390,11 @@ span.sm-info {
 .hero-8-txt .hero-digits {
     padding-right: 15%;
 }
-#hero-8-form {
-    position: relative;
-    z-index: 999;
-    background-color: #fff;
-    border: 1px solid #f8f8f8;
-    padding: 45px 35px;
-    -webkit-box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.08);
-    -moz-box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.08);
-    box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.08);
-}
-#hero-8-form h4 {
-    line-height: 1.4;
-    margin-bottom: 20px;
-}
-#hero-8-form p {
-    color: #757575;
-    margin-bottom: 25px;
-}
-#hero-8-form p.p-sm {
-    text-align: center;
-    padding: 0 5% !important;
-    margin-top: 5px;
-    margin-bottom: 0;
-}
-#hero-8-form p a {
-    color: #1e90ff;
-    text-decoration: underline;
-}
+
 /*------------------------------------------*/
 /*  HERO-9
 /*------------------------------------------*/
-#hero-9 {
-    padding-top: 180px;
-}
+
 .hero-9-txt h2 {
     line-height: 1;
 }
@@ -4526,22 +4410,14 @@ span.sm-info {
     padding: 0 5%;
     margin-top: 40px;
 }
-#hero-9 .quick-form {
-    margin-left: 7%;
-    margin-right: 7%;
-}
+
 .hero-9-img {
     margin-top: 60px;
 }
 /*------------------------------------------*/
 /*  HERO-10
 /*------------------------------------------*/
-#hero-10 {
-    position: relative;
-    background-image: url(../images/hero-10.jpg);
-    padding-top: 170px;
-    padding-bottom: 100px;
-}
+
 .hero-10-txt h4 {
     line-height: 1.45;
     font-weight: 300;
@@ -4556,11 +4432,7 @@ span.sm-info {
 /*------------------------------------------*/
 /*  HERO-11
 /*------------------------------------------*/
-#hero-11 {
-    overflow: hidden;
-    background-image: url(../images/hero-11.jpg);
-    padding-top: 50px;
-}
+
 .hero-11-txt {
     margin-top: 40px;
 }
@@ -4574,11 +4446,7 @@ span.sm-info {
 /*------------------------------------------*/
 /*  HERO-12
 /*------------------------------------------*/
-#hero-12 {
-    overflow: hidden;
-    background-image: url(../images/hero-12.jpg);
-    padding-top: 180px;
-}
+
 .hero-12-txt h2 {
     padding: 0 3%;
 }
@@ -4598,24 +4466,7 @@ span.sm-info {
 /*------------------------------------------*/
 /*  HERO-13
 /*------------------------------------------*/
-#hero-13 {
-    background-image: linear-gradient(180deg, #f1edff, #f1edff);
-    padding-top: 130px;
-    padding-bottom: 80px;
-}
-#hero-13:after {
-    position: absolute;
-    content: "";
-    z-index: -1;
-    width: 43%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-color: #fff;
-    -moz-box-shadow: 0 0 55px 35px #fff;
-    -webkit-box-shadow: 0 0 35px 35px #fff;
-    box-shadow: 0 0 35px 35px #fff;
-}
+
 .hero-13-txt .section-id {
     font-weight: 600;
     letter-spacing: 1.5px;
@@ -4629,21 +4480,12 @@ span.sm-info {
 /*------------------------------------------*/
 /*  HERO-14
 /*------------------------------------------*/
-#hero-14 .wave-shape-bottom path {
-    fill: #fff;
-}
-#hero-14 {
-    background-image: url(../images/hero-14.jpg);
-    padding-top: 170px;
-}
+
 .hero-14-txt p.s-21 {
     font-size: 1.3125rem;
     margin-bottom: 40px;
 }
-#hero-14 .quick-form {
-    margin-left: 6%;
-    margin-right: 6%;
-}
+
 .hero-14-txt .btn-txt {
     margin-top: 40px;
 }
@@ -4653,12 +4495,7 @@ span.sm-info {
 /*------------------------------------------*/
 /*  HERO-15
 /*------------------------------------------*/
-#hero-15 {
-    position: relative;
-    z-index: 3;
-    background-image: url(../images/hero-15.jpg);
-    padding-top: 130px;
-}
+
 .hero-15-txt {
     margin-top: -20px;
 }
@@ -4668,110 +4505,33 @@ span.sm-info {
 .hero-15-txt p {
     padding-right: 2%;
 }
-/*------------------------------------------*/
-/*  HERO-16
-/*------------------------------------------*/
-#hero-16 .wave-shape-bottom path {
-    fill: #fff;
-}
-#hero-16 {
-    background-image: url(../images/hero-16.jpg);
-    padding-top: 170px;
-    margin-bottom: 80px;
-}
+
 .hero-16-img {
     margin-top: 60px;
     margin-bottom: -80px;
 }
-/*------------------------------------------*/
-/*  HERO-17
-/*------------------------------------------*/
-#hero-17 {
-    text-align: center;
-    padding-top: 170px;
-    background-image: url(../images/hero-17.jpg);
-    background-position: top center;
-}
-#hero-17 #brands-1 {
-    padding: 80px 6% 0;
-}
-#hero-17 #brands-1 .brands-carousel-5 .brand-logo {
-    padding: 0 20px;
-}
-#hero-17 .quick-form {
-    margin-left: 8%;
-    margin-right: 8%;
-}
-/*------------------------------------------*/
-/*  HERO-18
-/*------------------------------------------*/
-#hero-18 {
-    padding-top: 140px;
-    padding-bottom: 80px;
-}
-#hero-18:after {
-    position: absolute;
-    content: "";
-    z-index: -1;
-    width: 74%;
-    height: 100%;
-    top: 0;
-    left: 26%;
-    background-image: url(../images/hero-18.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    border-radius: 0 0 0 60px;
-}
+
+
 .hero-18-txt p {
     padding-right: 3%;
 }
-#hero-18 .quick-form {
-    margin-right: 4%;
-}
+
 .hero-18-img {
     text-align: center;
     padding-right: 15px;
 }
-/*------------------------------------------*/
-/*  HERO-19
-/*------------------------------------------*/
-#hero-19 {
-    padding-top: 170px;
-}
+
 .hero-19-txt p {
     padding: 0 10%;
 }
-/*------------------------------------------*/
-/*  HERO-20
-/*------------------------------------------*/
-#hero-20 {
-    background-image: url(../images/hero-20.jpg);
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-#hero-20:after {
-    position: absolute;
-    content: "";
-    z-index: -1;
-    width: 51%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-image: linear-gradient(180deg, #f4f4f9, #fbfbfd);
-}
+
 .hero-20-txt {
     padding: 0 8% 0 15px;
 }
 .hero-section .hero-20-txt h2.s-48 {
     margin-bottom: 28px;
 }
-/*------------------------------------------*/
-/*  HERO-21
-/*------------------------------------------*/
-#hero-21 {
-    padding-top: 170px;
-}
+
 .hero-21-txt {
     margin-bottom: 60px;
 }
@@ -4781,10 +4541,7 @@ span.sm-info {
 .hero-21-wrapper {
     overflow: hidden;
 }
-#hero-21 .hero-overlay {
-    background-image: url(../images/hero-21.jpg);
-    padding: 90px 70px 0;
-}
+
 .hero-21-img {
     position: relative;
     margin-bottom: -25%;
@@ -4792,57 +4549,7 @@ span.sm-info {
 .hero-21-img .video-btn {
     top: calc(50% - 80px);
 }
-/*------------------------------------------*/
-/*  HERO-22
-/*------------------------------------------*/
-#hero-22 .wave-shape-bottom path {
-    fill: #fff;
-}
-#hero-22 {
-    position: relative;
-    background-image: url(../images/hero-22.jpg);
-    padding-top: 160px;
-}
-#hero-22-form {
-    position: relative;
-    z-index: 999;
-    background-color: #fff;
-    border: 1px solid #f8f8f8;
-    padding: 45px 35px 35px;
-    -webkit-box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.08);
-    -moz-box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.08);
-    box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.08);
-}
-#hero-22-form h4 {
-    line-height: 1.4;
-    margin-bottom: 20px;
-}
-#hero-22-form p {
-    color: #757575;
-    margin-bottom: 25px;
-}
-#hero-22-form p.p-sm {
-    text-align: center;
-    padding: 0 5% !important;
-    margin-top: 5px;
-    margin-bottom: 0;
-}
-#hero-22-form p a {
-    color: #1e90ff;
-    text-decoration: underline;
-}
-/*------------------------------------------*/
-/*  HERO-23
-/*------------------------------------------*/
-#hero-23 .wave-shape-bottom path {
-    fill: #fff;
-}
-#hero-23 {
-    position: relative;
-    background-image: url(../images/hero-23.jpg);
-    padding-top: 100px;
-    margin-bottom: 25px;
-}
+
 .hero-23-txt p {
     padding: 0 5%;
 }
@@ -4850,26 +4557,11 @@ span.sm-info {
     margin-top: 40px;
     margin-bottom: -25px;
 }
-/*------------------------------------------*/
-/*  HERO-24
-/*------------------------------------------*/
-#hero-24 {
-    background-image: url(../images/hero-24.jpg);
-    padding-top: 200px;
-    padding-bottom: 150px;
-}
-#hero-24 .quick-form {
-    margin-left: 7%;
-    margin-right: 7%;
-}
+
 /*------------------------------------------*/
 /*  HERO-25
 /*------------------------------------------*/
-#hero-25 {
-    background-image: url(../images/hero-25.jpg);
-    padding-top: 120px;
-    padding-bottom: 100px;
-}
+
 .hero-25-txt h2 {
     margin-bottom: 22px;
 }
@@ -4932,11 +4624,7 @@ span.sm-info {
 /*------------------------------------------*/
 /*  HERO-27
 /*------------------------------------------*/
-#hero-27 .hero-overlay {
-    background-image: url(../images/hero-27.png);
-    background-position: top center;
-    padding-top: 170px;
-}
+
 .hero-27-txt h2 {
     margin-bottom: 26px !important;
 }
@@ -5076,15 +4764,7 @@ span.sm-info {
     outline: 0;
     box-shadow: none;
 }
-/*------------------------------------------*/
-/*  Hero Request Form Button
-/*------------------------------------------*/
-#hero-8-form .btn,
-#hero-22-form .btn {
-    width: 100%;
-    height: 58px;
-    padding: 16px;
-}
+
 /*------------------------------------------*/
 /*  Hero Request Form Message
 /*------------------------------------------*/
@@ -10023,10 +9703,7 @@ img.footer-logo-dark {
     -o-border-radius: 10px;
     border-radius: 10px;
 }
-#modal-3.modal .bg-img {
-    background: url(../images/modal-request.jpg);
-    background-position: left center;
-}
+
 #modal-2 .modal-body-content {
     padding: 35px 40px 15px;
 }
@@ -10599,8 +10276,7 @@ body.theme--dark {
     color: #fff;
     background-color: #363f54;
 }
-.theme--dark #hero-14.hero-section .quick-form .form-control,
-.theme--dark #hero-24.hero-section .quick-form .form-control,
+
 .theme--dark #home.hero-section .quick-form .form-control {
     color: #666;
     background-color: #fff;
@@ -10614,24 +10290,7 @@ body.theme--dark {
 .theme--dark .hero-section .quick-form .form-control::-webkit-input-placeholder {
     color: #b1b7cd;
 }
-.theme--dark #hero-14.hero-section .quick-form .form-control::-moz-placeholder {
-    color: #999;
-}
-.theme--dark #hero-14.hero-section .quick-form .form-control:-ms-input-placeholder {
-    color: #999;
-}
-.theme--dark #hero-14.hero-section .quick-form .form-control::-webkit-input-placeholder {
-    color: #999;
-}
-.theme--dark #hero-24.hero-section .quick-form .form-control::-moz-placeholder {
-    color: #999;
-}
-.theme--dark #hero-24.hero-section .quick-form .form-control:-ms-input-placeholder {
-    color: #999;
-}
-.theme--dark #hero-24.hero-section .quick-form .form-control::-webkit-input-placeholder {
-    color: #999;
-}
+
 .theme--dark #home.hero-section .quick-form .form-control::-moz-placeholder {
     color: #999;
 }
@@ -10645,8 +10304,7 @@ body.theme--dark {
     background-color: #505c77;
     border-color: transparent;
 }
-.theme--dark #hero-14.hero-section .quick-form .form-control:focus,
-.theme--dark #hero-24.hero-section .quick-form .form-control:focus,
+
 .theme--dark #home.hero-section .quick-form .form-control:focus {
     background-color: #fff;
     border-color: transparent;
@@ -10668,10 +10326,7 @@ body.theme--dark {
     background-color: #505c77;
     border-color: transparent;
 }
-.theme--dark #hero-3:after,
-.theme--dark #hero-4:after {
-    background-color: #232734;
-}
+
 .theme--dark .hero-4-txt h2 {
     color: #353f4f;
 }
@@ -10680,67 +10335,21 @@ body.theme--dark {
     background-color: transparent !important;
     border-color: #353f4f !important;
 }
-.theme--dark #hero-5 {
-    background-image: url(../images/hero-5-dark.jpg);
-}
+
 .theme--dark .hero-6-wrapper {
     background-image: linear-gradient(90deg, #1d212c, #1d212c);
 }
-.theme--dark #hero-8-form {
-    background-color: #1d222f;
-    border: 1px solid #1d222f;
-}
-.theme--dark #hero-8-form p {
-    color: #b1b7cd;
-}
+
 
 .full-proc-text {
     color: #fff;
     text-shadow: 1px 2px rgba(0,0,0,.5), -1px 1px 8px rgba(0,0,0,.4);
 }
 
-.theme--dark #hero-5 .wave-shape-bottom svg path,
-.theme--dark #hero-8 .wave-shape-bottom svg path,
-.theme--dark #hero-14 .wave-shape-bottom svg path,
-.theme--dark #hero-16 .wave-shape-bottom svg path,
-.theme--dark #hero-22 .wave-shape-bottom svg path,
-.theme--dark #hero-23 .wave-shape-bottom svg path,
-.theme--dark #home .wave-shape-bottom svg path {
-    fill: #232734;
-}
-.theme--dark #hero-10 {
-    background-image: url(../images/hero-10-dark.jpg);
-}
-.theme--dark #hero-15 {
-    background-image: url(../images/hero-15-dark.jpg);
-}
-.theme--dark #hero-16 {
-    background-image: url(../images/hero-16-dark.jpg);
-}
-.theme--dark #hero-17 {
-    background-image: url(../images/hero-17-dark.jpg);
-}
-.theme--dark #hero-18:after {
-    background-image: url(../images/hero-18-dark.jpg);
-}
-.theme--dark #hero-20:after {
-    background-image: linear-gradient(180deg, #1d212c, #232734);
-}
-.theme--dark #hero-21 .hero-overlay {
-    background-image: url(../images/hero-21-dark.jpg);
-}
-.theme--dark #hero-23 {
-    background-image: url(../images/hero-23-dark.jpg);
-}
 .theme--dark .hero-23-txt p span.color--black {
     color: #fff;
 }
-.theme--dark #hero-25 {
-    background-image: url(../images/hero-25-dark.jpg);
-}
-.theme--dark #hero-27 .hero-overlay {
-    background-image: url(../images/hero-27-dark.png);
-}
+
 /*------------------------------------------*/
 /*  FEATURES
 /*------------------------------------------*/
@@ -11026,9 +10635,7 @@ body.theme--dark {
 .theme--dark #signup {
     background: url(../images/login_dark.jpg);
 }
-.theme--dark #reset-password {
-    background: url(../images/reset-password-dark.jpg);
-}
+
 .theme--dark #login .register-page-wrapper:after,
 .theme--dark #signup .register-page-wrapper:after {
     background-color: #1d212c;

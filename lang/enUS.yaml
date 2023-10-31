@@ -4,13 +4,13 @@ section1_text: Learn how our image recognition technology can transform your bus
 
 section2_title: Mobile App Showcase
 
-section2_col1_title: User Persona 1
+section2_col1_title: Mobile User 1
 
 section2_col1_subtitle: Store Execution Auditor or Promoter
 
 section2_col1_text: This persona plays a pivotal role in capturing photographs of designated spaces for market analysis. The objective is to obtain real-time key performance indicators and insights about the store's execution. Through the mobile app, the auditor or promoter can quickly and efficiently capture, analyze, and report on the store's product placement, promotional displays, and overall visual merchandising.
 
-section2_col2_title: User Persona 2
+section2_col2_title: Mobile User 2
 
 section2_col2_subtitle: Mom & Pop's Operator
 
@@ -34,7 +34,7 @@ section3_slide3_text: Users receive real-time information and guidance directly 
 
 section3_slide4_title: Effortless Integration
 
-section3_slide4_text: Don't limit yourself to using IRE in isolation! Seamlessly integrate our solution with other systems — from deep-linking with other Android and iOS apps to our extensive API for data exchange and analytics
+section3_slide4_text: Don't limit yourself to using IRE in isolation! Seamlessly integrate our solution with other systems — from deep-linking with other Android and iOS apps to our extensive API for data exchange and analytics.
 
 section4_title: The Mom & Pop's Operator Perspective
 
@@ -135,3 +135,5 @@ login_button: NEXT
 login_notcustomer: Not a customer yet?
 
 login_contact: Fill out this form and contact us
+
+learn_more: Learn more

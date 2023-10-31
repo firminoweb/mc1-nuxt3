@@ -15,9 +15,9 @@ section2_col2_title: Persona de Usuário 2
 
 section2_col2_subtitle: Operador de Loja Pequena
 
-section2_col2_text: O Operador de Loja Pequena busca uma experiência de aplicativo que seja direta e sem complicações. Eles desejam um aplicativo que requer interações mínimas — apenas alguns cliques. Em vez de serem sobrecarregados com uma infinidade de informações, esse usuário valoriza principalmente feedback direto sobre seu desempenho. O feedback chave inclui
+section2_col2_text: O Operador de Loja Pequena busca uma experiência de aplicativo que seja direta e sem complicações. Eles desejam um aplicativo que requer interações mínimas — apenas alguns cliques. Em vez de serem sobrecarregados com uma infinidade de informações, esse usuário valoriza principalmente feedback direto sobre seu desempenho. O feedback chave inclui:.
 
-section2_col2_text2: O feedback chave inclui; Pontos ganhos por capturar uma foto com sucesso. Pontos por organizar o portfólio de produtos sugerido como recomendado. Pontos por garantir que os preços de venda estejam alinhados com as taxas sugeridas. Pontos por seguir as sugestões de reposição de produtos com base em itens não identificados na imagem capturada. Esse sistema de feedback simplificado permite que o Operador de Loja Pequena tome decisões rápidas e ajustes, garantindo que permaneçam alinhados com as recomendações do setor.
+section2_col2_text2: Pontos ganhos por capturar uma foto com sucesso. Pontos por organizar o portfólio de produtos sugerido como recomendado. Pontos por garantir que os preços de venda estejam alinhados com as taxas sugeridas. Pontos por seguir as sugestões de reposição de produtos com base em itens não identificados na imagem capturada. Esse sistema de feedback simplificado permite que o Operador de Loja Pequena tome decisões rápidas e ajustes, garantindo que permaneçam alinhados com as recomendações do setor.
 
 section3_title: O Processo Completo Por Trás da Tecnologia
 
@@ -41,7 +41,7 @@ section4_title: A Perspectiva do Operador de Loja Pequena
 
 section4_col1_title: Casos de Uso
 
-section4_col1_text: Nosso produto possui uma funcionalidade de programa de fidelidade, concedendo pontos aos usuários de forma gamificada com base em suas interações e resultados de conformidade. Esses pontos podem ser resgatados por vários benefícios, determinados pela estratégia de cada indústria. Simultaneamente, à medida que os dados de fidelidade são gerados, transmitimos dados de mercado em tempo real para a indústria, diretamente ou por meio de aplicativos de terceiros integrados à nossa plataforma, diretamente do ponto de coleta de dados.
+section4_col1_text: Nosso produto possui um programa de fidelidade, concedendo pontos aos usuários de forma gamificada com base em suas interações e resultados de conformidade. Esses pontos podem ser resgatados por vários benefícios, determinados pela estratégia de cada indústria. Simultaneamente, à medida que os dados de fidelidade são gerados, transmitimos dados de mercado em tempo real para a indústria, diretamente ou por meio de aplicativos de terceiros integrados à nossa plataforma, diretamente do ponto de coleta de dados.
 
 section4_col2_title: Os Benefícios
 
@@ -57,11 +57,23 @@ section5_col2_title: Marketing de Performance
 
 section5_col2_text: Nosso sistema é o único que combina dados de execução de loja em tempo real com recursos de Trade Promotion Management (TPM). Juntamente com isso, a gestão da relação com o cliente (CRM) e análise avançada fornecem o suporte completo necessário para marketing de performance bem-sucedido.
 
+section5_col3_title: Aprendizado de máquina no dispositivo
+
+section5_col3_text: O processo de aprendizado de máquina é executado diretamente no smartphone. Isto reduz os custos operacionais e permite uma utilização mais ampla no varejo, não apenas limitada a grandes redes ou amostragem, como visto com outras soluções.
+
+section5_col4_title: Integração Nativa
+
+section5_col4_text: Perfeitamente integrado à plataforma MC1 one-stop-shop, alimentando continuamente nossa IA com sugestões de sortimento e recomendações de preços tanto para sell-in quanto para sell-out.
+
+section5_col5_title: Facilidade de integração com outros aplicativos
+
+section5_col5_text: Através de deep-linking e API REST, nossa solução pode ser integrada no nível do smartphone para operações locais. Para operações baseadas em nuvem, nossa API REST facilita a troca de dados tanto de entrada quanto de saída.
+
 section6_title: A Revolução no Varejo Está Aqui
 
 section6_col1_title: PriceOptimizer
 
-section6_col1_subtitle: Um componente crítico na estratégia da empresa
+section6_col1_subtitle: Ao fornecer dados do maior número de Pontos de Venda (PDV) quase em tempo real, derivados do reconhecimento de imagem, nossa solução baseada em IA, PromoOptimizer, garante
 
 section6_col1_pos1_title: Otimização de Preços
 
@@ -78,6 +90,14 @@ section6_col1_pos3_text: Utilizando um algoritmo único para cada SKU por loja, 
 section6_col2_title: RGM
 
 section6_col2_subtitle: Utilizando nossa capacidade de extrair preços de produtos diretamente das fotos, e armados com dados históricos sobre a presença e frequência de produtos nas lojas, atualizamos constantemente nossos conjuntos de dados do PriceOptimizer. Isso permite
+
+section6_col2_pos1_title: Ajustes semanais de preços
+
+section6_col2_pos1_text: Refinando regularmente sugestões de preços de sell-out e sell-in com base na dinâmica do mercado.
+
+section6_col2_pos2_title: Análise de diferença de preço
+
+section6_col2_pos2_text: Fornecendo insights instantâneos sobre seus produtos e os da concorrência, garantindo posicionamento competitivo.
 
 section7_title: Proposta de Valor
 
@@ -114,3 +134,5 @@ login_button: PRÓXIMO
 login_notcustomer: Ainda não é cliente?
 
 login_contact: Preencha este formulário e entre em contato conosco
+
+learn_more: Saiba mais

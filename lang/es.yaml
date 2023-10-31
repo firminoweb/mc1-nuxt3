@@ -1,78 +1,77 @@
-
 section1_title: Desbloquea el Poder del Reconocimiento de Imágenes
 
-section1_text: Descubre cómo nuestra tecnología de reconocimiento de imágenes puede transformar tu negocio, impulsar el crecimiento de los ingresos y mejorar el ROI. Únete a nosotros para una exploración en profundidad de IRE, TPM y RGM.
+section1_text: Aprende cómo nuestra tecnología de reconocimiento de imágenes puede transformar tu negocio, impulsar el crecimiento de ingresos y mejorar el retorno de inversión. Únete a nosotros para una exploración en profundidad de IRE, TPM y RGM.
 
-section2_title: Escaparate de Aplicación Móvil
+section2_title: Exhibición de Aplicaciones Móviles
 
 section2_col1_title: Persona de Usuario 1
 
 section2_col1_subtitle: Auditor o Promotor de Ejecución de Tienda
 
-section2_col1_text: Esta persona juega un papel crucial en la captura de fotografías de espacios designados para el análisis de mercado. El objetivo es obtener indicadores clave de rendimiento e información sobre la ejecución de la tienda en tiempo real. A través de la aplicación móvil, el auditor o promotor puede capturar, analizar e informar rápidamente y de manera eficiente sobre la ubicación de productos en la tienda, exhibiciones promocionales y merchandising visual en general.
+section2_col1_text: Auditor de Ejecución de Tiendas o Promotor Esta persona juega un papel fundamental en la captura de fotografías de espacios designados para el análisis de mercado. El objetivo es obtener indicadores clave de rendimiento e información en tiempo real sobre la ejecución de la tienda. A través de la aplicación móvil, el auditor o promotor puede capturar, analizar e informar manera rápida y eficiente la ubicación de productos en la tienda, las exhibiciones promocionales y la organización general de la mercadotecnia visual.
 
 section2_col2_title: Persona de Usuario 2
 
 section2_col2_subtitle: Operador de Tienda Pequeña
 
-section2_col2_text: El Operador de Tienda Pequeña busca una experiencia de aplicación que sea sencilla y sin complicaciones. Desean una aplicación que requiera interacciones mínimas - solo unos pocos clics. En lugar de sentirse abrumados con una gran cantidad de información, este usuario valora principalmente la retroalimentación directa sobre su rendimiento.
+section2_col2_text: Operador de Tiendas de Barrio El Operador de Tiendas de Barrio busca una experiencia de aplicación simple y sin complicaciones. Desean una aplicación que requiera interacciones mínimas, solo unos pocos clics. En lugar de verse abrumados con una gran cantidad de información, este usuario valora principalmente la retroalimentación directa sobre su desempeño. La retroalimentación clave incluyes:.
 
 
 section3_title: El Proceso Completo Detrás de la Tecnología
 
 section3_slide1_title: Aprendizaje Automático y Computación en el Borde
 
-section3_slide1_text: Hemos reducido el "costo de servir" al eliminar el procesamiento en la nube para la identificación de productos en imágenes. En su lugar, este procesamiento ocurre directamente en los teléfonos inteligentes.
+section3_slide1_text: Hemos reducido el "costo de servicio" eliminando el procesamiento en la nube para la identificación de productos en imágenes. En su lugar, este procesamiento ocurre directamente en los teléfonos inteligentes. La limitación en el número de objetos y productos reconocidos depende únicamente de las capacidades de los teléfonos inteligentes.
 
 section3_slide2_title: Análisis de Datos
 
-section3_slide2_text: En lugar de transmitir cada imagen capturada a la nube, los teléfonos inteligentes envían solo los resultados del procesamiento. Esto no solo mejora el rendimiento del proceso, sino que también reduce significativamente el tiempo de respuesta para la toma de decisiones en casi tiempo real.
+section3_slide2_text: En lugar de transmitir todas las imágenes capturadas a la nube, los teléfonos inteligentes envían solo los resultados del procesamiento. Esto no solo mejora el rendimiento del proceso, sino que también reduce significativamente el tiempo necesario para la toma de decisiones casi en tiempo real.
 
 section3_slide3_title: Información Accionable
 
-section3_slide3_text: Los usuarios reciben información y orientación en tiempo real directamente en sus teléfonos inteligentes, sin necesidad de una conexión a Internet.
+section3_slide3_text: Los usuarios reciben información en tiempo real y orientación directamente en sus teléfonos inteligentes, sin necesidad de una conexión a Internet. Para los usuarios de la oficina central, nuestro 'chatCPG' ofrece interacción con el Procesamiento de Lenguaje Natural (NLP) para obtener información deseada.
 
 section3_slide4_title: Integración sin esfuerzo
 
-section3_slide4_text: ¡No se limite a utilizar IRE de forma aislada! Integre perfectamente nuestra solución con otros sistemas, desde enlaces profundos con otras aplicaciones de Android e iOS hasta nuestra amplia API para análisis e intercambio de datos.
+section3_slide4_text: ¡No te limites a usar el IRE de manera aislada! Integra nuestra solución sin problemas con otros sistemas, desde la vinculación profunda con otras aplicaciones de Android e iOS hasta nuestra API extensa para el intercambio de datos y análisis.
 
-section4_title: La Perspectiva del Operador de Mom & Pop
+section4_title: La Perspectiva del Operador de Tiendas de Barrio
 
 section4_col1_title: Casos de Uso
 
-section4_col1_text: Nuestro producto presenta una funcionalidad de programa de fidelización, otorgando puntos a los usuarios de forma gamificada en función de sus interacciones y resultados de cumplimiento. Estos puntos se pueden canjear por diversos beneficios, determinados por la estrategia de cada industria. Al mismo tiempo, a medida que se generan datos de fidelidad, transmitimos datos de mercado en tiempo real a la industria, ya sea directamente o mediante aplicaciones de terceros integradas con nuestra plataforma, directamente desde el punto de recopilación de datos.
+section4_col1_text: Nuestro producto presenta una funcionalidad de programa de lealtad, otorgando puntos a los usuarios de manera gamificada según sus interacciones y resultados de cumplimiento. Estos puntos pueden canjearse por diversos beneficios, determinados por la estrategia de cada industria. Al mismo tiempo, a medida que se generan datos de lealtad, transmitimos datos de mercado en tiempo real a la industria, directamente o a través de aplicaciones de terceros integradas en nuestra plataforma, desde el punto de recopilación de datos.
 
 section4_col2_title: Los Beneficios
 
-section4_col2_text: La participación en un programa de fidelización con incentivos garantiza un compromiso total, fomentando una conexión más fuerte entre la tienda y la industria. La principal ventaja para el propietario de la tienda es la seguridad de que la industria ofrecerá consistentemente una cartera adecuada al precio correcto, tanto para el sell-in como para el sell-out, según la ubicación de la tienda. Además, al utilizar esta aplicación y proporcionar información actualizada y precisa, la tienda puede obtener descuentos o reembolsos de la industria CPG.
+section4_col2_text: La participación en un programa de lealtad con incentivos asegura un compromiso completo, fomentando una conexión más sólida entre la tienda y la industria. La principal ventaja para el dueño de la tienda es la garantía de que la industria ofrecerá constantemente un portafolio adecuado al precio correcto, tanto para la entrada como para la salida, según la ubicación de la tienda. Además, al utilizar esta aplicación y proporcionar información actualizada y precisa, la tienda puede obtener descuentos o reembolsos de la industria de bienes de consumo.
 
-section5_title: Diferenciales Clave de IRE
+section5_title: Diferenciales Clave del IRE
 
 section5_col1_title: Categorías Ilimitadas
 
-section5_col1_text: Sin restricciones en el número de categorías de productos a ser planeadas en planogramas para identificación.
+section5_col1_text: Sin restricción en el número de categorías de productos a ser planificadas en planogramas para su identificación a partir de una o varias fotos.
 
 section5_col2_title: 100% Sin Conexión
 
-section5_col2_text: Diseñado para un rendimiento máximo, garantizando el tiempo de respuesta más rápido para los usuarios que no requieren conexión a Internet.
+section5_col2_text: Diseñado para un rendimiento máximo, garantizando el tiempo de respuesta más rápido para los usuarios sin necesidad de conexión a Internet.
 
 section5_col3_title: Aprendizaje Automático en el Dispositivo
 
-section5_col3_text: El proceso de aprendizaje automático se ejecuta directamente en el teléfono inteligente. Esto reduce los costos operativos y permite un uso minorista más amplio.
+section5_col3_text: El proceso de aprendizaje automático se ejecuta directamente en el teléfono inteligente. Esto reduce los costos operativos y permite un uso más amplio en el comercio minorista, a diferencia de otras soluciones.
 
 section5_col4_title: Integración Nativa
 
-section5_col4_text: Integración perfecta con la plataforma MC1 de ventanilla única, alimentando continuamente nuestra IA con sugerencias de surtido y recomendaciones de precio.
+section5_col4_text: Integrado de manera continua con la plataforma MC1, alimentando constantemente nuestra IA con sugerencias de surtido y recomendaciones de precios tanto para la entrada como para la salida.
 
 section5_col5_title: Facilidad de Integración con Otras Aplicaciones y Sistemas
 
-section5_col5_text: A través de deep-linking y REST API, nuestra solución se puede integrar a nivel de smartphone para operaciones locales. Para operaciones basadas en la nube, nuestra API REST facilita el intercambio de datos tanto entrante como saliente.
+section5_col5_text: A través de la vinculación profunda y la API REST, nuestra solución se puede integrar a nivel de teléfono inteligente para operaciones locales. Para operaciones basadas en la nube, nuestra API REST facilita el intercambio de datos tanto de entrada como de salida.
 
-section6_title: El papel del reconocimiento de imágenes en TPM y RGM
+section6_title: Papel del Reconocimiento de Imágenes en TPM y RGM
 
 section6_col1_title: TPM
 
-section6_col1_subtitle: Al proporcionar datos del mayor número de Puntos de Venta (PDV) en tiempo cercano al real, nuestra solución basada en IA, PromoOptimizer, asegura
+section6_col1_subtitle: Al suministrar datos de la mayor cantidad de Puntos de Venta (POS) en tiempo casi real, derivados del reconocimiento de imágenes, nuestra solución basada en IA, PromoOptimizer, asegura
 
 section6_col1_pos1_title: Promociones Optimizadas
 
@@ -80,15 +79,24 @@ section6_col1_pos1_text: Mejorando la efectividad y el alcance de los esfuerzos 
 
 section6_col1_pos2_title: Asignación Estratégica
 
-section6_col1_pos2_text: Dirigir el dinero promocional hacia minoristas, tiendas y SKU que exhiben una mayor elasticidad.
+section6_col1_pos2_text: Dirigiendo los dólares promocionales hacia minoristas, tiendas y SKU que muestran una mayor elasticidad.
 
 section6_col1_pos3_title: Enfoque Personalizado
 
-section6_col1_pos3_text: Utilizando un algoritmo único para cada SKU por tienda, adaptando la estrategia promocional a necesidades específicas   
+section6_col1_pos3_text: Utilizando un algoritmo único para cada SKU por tienda, adaptando la estrategia promocional a necesidades específicas.  
 
 section6_col2_title: RGM
 
-section6_col2_subtitle: Aprovechando nuestra capacidad para extraer precios de productos directamente de las fotos, y armados con datos históricos sobre la presencia y frecuencia de productos en tiendas, actualizamos constantemente nuestros conjuntos de datos de PriceOptimizer.
+section6_col2_subtitle: Aprovechando nuestra capacidad para extraer precios a partir de fotos de productos en el punto de venta, nuestro producto, PriceOptimizer, asegura
+
+section6_col2_pos1_title: Ajustes de precios semanales
+
+section6_col2_pos1_text: Refinar periódicamente las sugerencias de precios de venta y venta en función de la dinámica del mercado.
+
+section6_col2_pos2_title: Análisis de brecha de precios en tiempo real
+
+section6_col2_pos2_text: Proporcionando insights instantáneos tanto sobre sus productos como sobre los de la competencia, asegurando un posicionamiento competitivo.
+
 
 section7_title: Propuesta de Valor
 
@@ -125,3 +133,5 @@ login_button: SIGUIENTE
 login_notcustomer: ¿Aún no eres cliente?
 
 login_contact: Complete este formulario y contáctenos
+
+learn_more: Saber más
