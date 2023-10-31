@@ -3,7 +3,6 @@
         <div class="header-wrapper">
             <HeaderLogo />
             <HeaderMenu />
-            <!-- <HeaderDarkLightToggle /> -->
         </div>
     </header>
 </template>

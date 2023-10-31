@@ -1,7 +1,7 @@
 <template>
     <div id="page" class="page">
         <HeaderLayout1 />
-        <slot />
+            <slot />
         <FooterLayout1 />
     </div>
 </template>

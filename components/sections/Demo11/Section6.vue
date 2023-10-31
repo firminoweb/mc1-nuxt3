@@ -124,17 +124,3 @@
     }
   }
 </style>
-
-<!-- <script>
-  import { useSwiper } from 'swiper/vue';
-
-  export default {
-    setup() {
-      const swiper = useSwiper();
-
-      return {
-        swiper,
-      };
-    },
-  };
-</script> -->

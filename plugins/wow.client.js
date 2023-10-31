@@ -18,21 +18,21 @@ export default defineNuxtPlugin(nuxtApp => {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          // Reset only if at least 30% of the element is in the viewport
+
           if (entry.intersectionRatio >= 0.2) {
             resetAnimations(entry.target);
           }
         } else {
-          // Hide the element when it is not in the viewport
+
           resetAnimations(entry.target, false);
         }
       });
     }, {
-      threshold: [0, 0.2, 1] // Capture both entering and leaving the viewport at different visibility levels
+      threshold: [0, 0.2, 1]
     });
 
     document.querySelectorAll('.wow').forEach((el) => {
-      el.style.visibility = 'hidden'; // Initially set to hidden
+      el.style.visibility = 'hidden';
       observer.observe(el);
     });
   }

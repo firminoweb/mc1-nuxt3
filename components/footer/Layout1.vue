@@ -3,7 +3,6 @@
         <div class="pt-60 pb-60 bg--blue-800 footer ft-3-ntr">
             <div class="container">
                 <div class="row">
-
                     <div class="col-sm-4 col-lg-2">
                         <div class="footer-links fl-1">
                             <h6 class="s-17 w-700 text-white">MC1</h6>

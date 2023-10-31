@@ -10,7 +10,6 @@
 export default {
     methods: {
         toggleDarkMode() {
-            // toggle body class "dark-mode"
             document.body.classList.toggle("theme--dark");
         }
     }
